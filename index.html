@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página HTML</title>
+    <title>Práctica de Verbos en Francés</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>¡Hola Mundo!</h1>
+    <div class="flashcard-container">
+        <div class="flashcard">
+            <div class="front">
+                <h1 id="infinitive-verb">Parler</h1>
+                <h3>Present Simple</h3>
+                <div class="subject">Je</div>
+                <input type="text" id="user-input" placeholder="Conjugación...">
+                <button onclick="checkAnswer()">Enviar</button>
+            </div>
+            <div class="back">
+                <p id="correct-answer"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
