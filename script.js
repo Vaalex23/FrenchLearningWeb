@@ -1,39 +1,65 @@
-async function cargarVerbos() {
-    const response = await fetch('verbos_frances_present_simple.json');
-    const verbos = await response.json();
-    
-    // Seleccionar un verbo al azar de la lista
-    const verboAleatorio = verbos[Math.floor(Math.random() * verbos.length)];
-    mostrarVerbo(verboAleatorio);
+let verbos = [];
+
+// Cargar el archivo JSON de forma asincrónica
+fetch('verbos_frances_present_simple.json')
+    .then(response => response.json())
+    .then(data => {
+        verbos = data; // Guardar los datos del JSON en la variable verbos
+        mostrarNuevoVerbo(); // Mostrar un verbo al cargar la página
+    })
+    .catch(error => console.error("Error cargando el archivo JSON:", error));
+
+let verboActual;
+let sujetoActual;
+
+function obtenerVerboAleatorio() {
+    // Selecciona un verbo aleatorio de la lista cargada desde el JSON
+    const verbo = verbos[Math.floor(Math.random() * verbos.length)];
+    return verbo;
 }
 
-function mostrarVerbo(verbo) {
-    // Sujeto aleatorio
-    const sujetos = Object.keys(verbo.conjugaciones);
-    const sujetoAleatorio = sujetos[Math.floor(Math.random() * sujetos.length)];
-    
-    document.getElementById('verbo').innerText = verbo.infinitivo;
-    document.getElementById('sujeto').innerText = sujetoAleatorio;
-    document.getElementById('respuesta').dataset.correcto = verbo.conjugaciones[sujetoAleatorio];
+function mostrarNuevoVerbo() {
+    if (verbos.length === 0) {
+        alert("No se pudieron cargar los verbos.");
+        return;
+    }
+
+    // Obtén un verbo aleatorio y un sujeto aleatorio
+    verboActual = obtenerVerboAleatorio();
+    const sujetos = Object.keys(verboActual.conjugaciones);
+    sujetoActual = sujetos[Math.floor(Math.random() * sujetos.length)];
+
+    // Muestra el verbo y el sujeto en la tarjeta
+    document.getElementById("verbo").textContent = verboActual.infinitivo;
+    document.getElementById("sujeto").textContent = sujetoActual;
+
+    // Limpiar la respuesta y el resultado
+    document.getElementById("respuesta").value = "";
+    document.getElementById("resultado").textContent = "";
+    document.getElementById("flipCard").classList.remove("flip", "correct", "incorrect");
 }
 
 function verificar() {
-    const respuesta = document.getElementById('respuesta').value;
-    const correcto = document.getElementById('respuesta').dataset.correcto;
-    const resultado = document.getElementById('resultado');
-    const flipCard = document.getElementById('flipCard');
+    const respuesta = document.getElementById("respuesta").value.toLowerCase();
+    const respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
 
-    if (respuesta === correcto) {
-        resultado.innerText = 'Correcto!';
-        resultado.style.backgroundColor = 'green';
+    // Gira la tarjeta
+    document.getElementById("flipCard").classList.add("flip");
+
+    // Verifica si la respuesta es correcta
+    if (respuesta === respuestaCorrecta) {
+        document.getElementById("flipCard").classList.add("correct");
+        document.getElementById("resultado").textContent = "¡Correcto!";
     } else {
-        resultado.innerText = `Incorrecto, la respuesta es: ${correcto}`;
-        resultado.style.backgroundColor = 'red';
+        document.getElementById("flipCard").classList.add("incorrect");
+        document.getElementById("resultado").textContent = "Incorrecto. La respuesta correcta es: " + respuestaCorrecta;
     }
-
-    // Girar la tarjeta para mostrar el resultado
-    flipCard.classList.add('flip');
 }
 
-// Cargar un verbo al azar al inicio
-cargarVerbos();
+function nextVerb() {
+    // Muestra un nuevo verbo aleatorio
+    mostrarNuevoVerbo();
+}
+
+// Al cargar la página, muestra el primer verbo
+mostrarNuevoVerbo();
