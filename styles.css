@@ -1,67 +1,140 @@
+/* Estilos generales del body */
 body {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #1471a3; /* Color de fondo de la página */
-    margin: 0;
+   /* min-height: 100vh;*/
+    background-color: #1471a3;
+   /* margin: 0;*/
     font-family: Arial, sans-serif;
     color: white;
+   /* text-align: center;*/
+    position:relative; /* Para posicionar la línea con respecto al body */
 }
 
-#tarjeta {
-    width: 300px;
-    height: 200px;
-    perspective: 1000px; /* Necesario para el efecto de 3D */
-    margin: 0 auto; /* Centra la tarjeta */
-}
-
-.flip-card {
+/* Contenedor que incluye tarjeta y botón */
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centra verticalmente */
+    align-items: center;      /* Centra horizontalmente */
     position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.6s;
+    height: 600px;
+    width: 900px;  /* Asegura que el contenedor ocupe el 100% del ancho disponible */
 }
 
-.flip-card .front,
-.flip-card .back {
+
+/* Estilos de la tarjeta con flip */
+.flip-card {
+    width: 320px;  /* La tarjeta ocupa todo el ancho disponible */
+    /*max-width: 300px;  /* Establece el ancho máximo de la tarjeta */
+    height: 250px;
+    /*perspective: 1000px;*/
     position: absolute;
-    width: 100%;
-    height: 100%;
+    /*margin: 0;  /* Elimina cualquier margen para evitar desplazamiento */
+}
+
+/* Frontal de la tarjeta */
+.flip-card .front{
+    position: absolute;
+    width: 320px;
+    height: 250px;
+    /*margin-right: 200%;*/
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /*padding: 20px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #056ba2; /* Color de la tarjeta */
-    color: white; /* Color del texto en la tarjeta */
+    transition: transform 0.6s;
+    background-color: #056ba2;
+    color: white;
+}
+.flip-card .back {
+    position: relative;
+    width: 280px;
+    height: 230px;
+    /*margin-right: 200%;*/
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding: 20px;*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: transform 0.6s;
+    background-color: #056ba2;
+    color: white;
 }
 
+/* Reverso de la tarjeta */
 .flip-card .back {
     transform: rotateY(180deg);
 }
 
-.flip-card.flip .front {
+/* Animación de giro */
+.flip-card.flipped .front {
     transform: rotateY(180deg);
 }
 
-.flip-card.flip .back {
+.flip-card.flipped .back {
     transform: rotateY(0);
 }
 
+/* Colores para respuestas correctas e incorrectas */
 .flip-card.correct .back {
-    background-color: #4caf50; /* Verde cuando la respuesta es correcta */
+    background-color: #4caf50;
+    color: white;
 }
 
 .flip-card.incorrect .back {
-    background-color: #f44336; /* Rojo cuando la respuesta es incorrecta */
+    background-color: #f44336;
+    color: white;
 }
 
+/* Estilo del verbo, sujeto y respuesta */
+#verbo {
+    font-size: 32px;
+}
+
+#tiempo {
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+#sujeto {
+    font-size: 16px;
+}
+
+/* Estilo para el input de respuesta */
+#respuesta {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Estilos del botón de verificar */
 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0298e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo del botón "verificar" cuando el cursor está sobre él */
+button:hover {
+    background-color: #027bb8;
+}
+
+/* Estilos del botón "Next" */
+#nextButton {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #0298e8;
@@ -69,8 +142,24 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 350px; /* Espacio entre la tarjeta y el botón */
 }
 
-button:hover {
-    background-color: #0277bb;
+#nextButton:hover {
+    background-color: #027bb8;
+}
+
+#resultado {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Línea vertical central */
+#verticalLine {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100vh;
+    width: 2px; /* Ancho de la línea */
+    background-color: black; /* Color de la línea */
 }

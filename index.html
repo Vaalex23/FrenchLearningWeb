@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <div id="tarjeta">
-        <div class="flip-card" id="flipCard">
-            <div class="front">
-                <h1 id="verbo"></h1>
-                <p id="tiempo">Presente del Indicativo</p>
-                <p><span id="sujeto"></span> <input type="text" id="respuesta"></p>
-                <button onclick="verificar()">Verificar</button>
+    <div id="contenedor">
+            <div class="flip-card">
+                <div class="front">
+                    <h1 id="verbo"></h1>
+                    <p id="tiempo">present simple</p>
+                    <p><span id="sujeto"></span> <input type="text" id="respuesta"></p>
+                    <button onclick="verificar()">Verificar</button>
+                </div>
+                <div class="back" id="resultado"></div>
             </div>
-            <div class="back" id="resultado"></div>
-        </div>
+        <button id="nextButton" onclick="nextVerb()">Next</button>
     </div>
-
-    <button id="nextButton" onclick="nextVerb()">Next</button>
+    
+    <div id="verticalLine"></div>
 
     <script src="script.js"></script>
 </body>

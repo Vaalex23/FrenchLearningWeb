@@ -36,7 +36,7 @@ function mostrarNuevoVerbo() {
     // Limpiar la respuesta y el resultado
     document.getElementById("respuesta").value = "";
     document.getElementById("resultado").textContent = "";
-    document.getElementById("flipCard").classList.remove("flip", "correct", "incorrect");
+    document.getElementById("flipCard").classList.remove("flipped", "correct", "incorrect");
 }
 
 function verificar() {
@@ -44,7 +44,7 @@ function verificar() {
     const respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
 
     // Gira la tarjeta
-    document.getElementById("flipCard").classList.add("flip");
+    document.getElementById("flipCard").classList.add("flipped");
 
     // Verifica si la respuesta es correcta
     if (respuesta === respuestaCorrecta) {
@@ -52,7 +52,8 @@ function verificar() {
         document.getElementById("resultado").textContent = "¡Correcto!";
     } else {
         document.getElementById("flipCard").classList.add("incorrect");
-        document.getElementById("resultado").textContent = "Incorrecto. La respuesta correcta es: " + respuestaCorrecta;
+        document.getElementById("resultado").innerHTML = "Incorrecto.<br><br>La respuesta correcta es:<br><br>" + respuestaCorrecta;
+
     }
 }
 
@@ -60,6 +61,3 @@ function nextVerb() {
     // Muestra un nuevo verbo aleatorio
     mostrarNuevoVerbo();
 }
-
-// Al cargar la página, muestra el primer verbo
-mostrarNuevoVerbo();
