@@ -3,28 +3,29 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f4f4f9;
+    background-color: #1471a3; /* Color de fondo de la página */
     margin: 0;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
-.flashcard-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -10%;
-}
-
-.flashcard {
+#tarjeta {
     width: 300px;
     height: 200px;
-    perspective: 1000px;
-    position: relative;
+    perspective: 1000px; /* Necesario para el efecto de 3D */
+    margin: 0 auto; /* Centra la tarjeta */
 }
 
-.flashcard .front,
-.flashcard .back {
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.flip-card .front,
+.flip-card .back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -36,34 +37,40 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    transition: transform 0.6s;
+    background-color: #056ba2; /* Color de la tarjeta */
+    color: white; /* Color del texto en la tarjeta */
 }
 
-.flashcard .front {
-    background-color: #ffffff;
-    color: #333;
-}
-
-.flashcard .back {
-    background-color: #ffffff;
-    color: #333;
+.flip-card .back {
     transform: rotateY(180deg);
 }
 
-.flashcard.flipped .front {
+.flip-card.flip .front {
     transform: rotateY(180deg);
 }
 
-.flashcard.flipped .back {
+.flip-card.flip .back {
     transform: rotateY(0);
 }
 
-.flashcard.correct .back {
-    background-color: #4caf50; /* Verde */
-    color: white;
+.flip-card.correct .back {
+    background-color: #4caf50; /* Verde cuando la respuesta es correcta */
 }
 
-.flashcard.incorrect .back {
-    background-color: #f44336; /* Rojo */
+.flip-card.incorrect .back {
+    background-color: #f44336; /* Rojo cuando la respuesta es incorrecta */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0298e8;
+    border: none;
     color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0277bb;
 }

@@ -1,0 +1,112 @@
+[
+    {
+        "infinitivo": "être",
+        "conjugaciones": {
+            "je": "suis",
+            "tu": "es",
+            "il/elle/on": "est",
+            "nous": "sommes",
+            "vous": "êtes",
+            "ils/elles": "sont"
+        }
+    },
+    {
+        "infinitivo": "avoir",
+        "conjugaciones": {
+            "je": "ai",
+            "tu": "as",
+            "il/elle/on": "a",
+            "nous": "avons",
+            "vous": "avez",
+            "ils/elles": "ont"
+        }
+    },
+    {
+        "infinitivo": "aller",
+        "conjugaciones": {
+            "je": "vais",
+            "tu": "vas",
+            "il/elle/on": "va",
+            "nous": "allons",
+            "vous": "allez",
+            "ils/elles": "vont"
+        }
+    },
+    {
+        "infinitivo": "faire",
+        "conjugaciones": {
+            "je": "fais",
+            "tu": "fais",
+            "il/elle/on": "fait",
+            "nous": "faisons",
+            "vous": "faites",
+            "ils/elles": "font"
+        }
+    },
+    {
+        "infinitivo": "dire",
+        "conjugaciones": {
+            "je": "dis",
+            "tu": "dis",
+            "il/elle/on": "dit",
+            "nous": "disons",
+            "vous": "dites",
+            "ils/elles": "disent"
+        }
+    },
+    {
+        "infinitivo": "pouvoir",
+        "conjugaciones": {
+            "je": "peux",
+            "tu": "peux",
+            "il/elle/on": "peut",
+            "nous": "pouvons",
+            "vous": "pouvez",
+            "ils/elles": "peuvent"
+        }
+    },
+    {
+        "infinitivo": "vouloir",
+        "conjugaciones": {
+            "je": "veux",
+            "tu": "veux",
+            "il/elle/on": "veut",
+            "nous": "voulons",
+            "vous": "voulez",
+            "ils/elles": "veulent"
+        }
+    },
+    {
+        "infinitivo": "savoir",
+        "conjugaciones": {
+            "je": "sais",
+            "tu": "sais",
+            "il/elle/on": "sait",
+            "nous": "savons",
+            "vous": "savez",
+            "ils/elles": "savent"
+        }
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "viens",
+            "tu": "viens",
+            "il/elle/on": "vient",
+            "nous": "venons",
+            "vous": "venez",
+            "ils/elles": "viennent"
+        }
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "prends",
+            "tu": "prends",
+            "il/elle/on": "prend",
+            "nous": "prenons",
+            "vous": "prenez",
+            "ils/elles": "prennent"
+        }
+    }
+]

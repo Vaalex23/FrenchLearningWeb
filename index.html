@@ -7,20 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="flashcard-container">
-        <div class="flashcard">
+    
+    <div id="tarjeta">
+        <div class="flip-card" id="flipCard">
             <div class="front">
-                <h1 id="infinitive-verb">Parler</h1>
-                <h3>Present Simple</h3>
-                <div class="subject">Je</div>
-                <input type="text" id="user-input" placeholder="Conjugación...">
-                <button onclick="checkAnswer()">Enviar</button>
+                <h1 id="verbo"></h1>
+                <p id="tiempo">Presente del Indicativo</p>
+                <p><span id="sujeto"></span> <input type="text" id="respuesta"></p>
+                <button onclick="verificar()">Verificar</button>
             </div>
-            <div class="back">
-                <p id="correct-answer"></p>
-            </div>
+            <div class="back" id="resultado"></div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
