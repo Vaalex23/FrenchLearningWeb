@@ -40,6 +40,7 @@ function mostrarNuevoVerbo() {
 }
 
 function verificar() {
+    console.log("hola");
     const respuesta = document.getElementById("respuesta").value.toLowerCase();
     const respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
 
@@ -61,3 +62,14 @@ function nextVerb() {
     // Muestra un nuevo verbo aleatorio
     mostrarNuevoVerbo();
 }
+// Configurar el evento de teclado para activar "verificar" o "nextVerb" con "Enter"
+document.getElementById("respuesta").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        const flipCard = document.getElementById("flipCard");
+        if (flipCard.classList.contains("flipped")) {
+            nextVerb();  // Ejecuta "nextVerb" si la tarjeta está volteada
+        } else {
+            verificar(); // Ejecuta "verificar" si la tarjeta aún no está volteada
+        }
+    }
+});

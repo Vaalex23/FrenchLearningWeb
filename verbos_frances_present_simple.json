@@ -108,5 +108,225 @@
             "vous": "prenez",
             "ils/elles": "prennent"
         }
+    },
+    {
+        "infinitivo": "mettre",
+        "conjugaciones": {
+            "je": "mets",
+            "tu": "mets",
+            "il/elle/on": "met",
+            "nous": "mettons",
+            "vous": "mettez",
+            "ils/elles": "mettent"
+        }
+    },
+    {
+        "infinitivo": "donner",
+        "conjugaciones": {
+            "je": "donne",
+            "tu": "donnes",
+            "il/elle/on": "donne",
+            "nous": "donnons",
+            "vous": "donnez",
+            "ils/elles": "donnent"
+        }
+    },
+    {
+        "infinitivo": "devoir",
+        "conjugaciones": {
+            "je": "dois",
+            "tu": "dois",
+            "il/elle/on": "doit",
+            "nous": "devons",
+            "vous": "devez",
+            "ils/elles": "doivent"
+        }
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "prends",
+            "tu": "prends",
+            "il/elle/on": "prend",
+            "nous": "prenons",
+            "vous": "prenez",
+            "ils/elles": "prennent"
+        }
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "parle",
+            "tu": "parles",
+            "il/elle/on": "parle",
+            "nous": "parlons",
+            "vous": "parlez",
+            "ils/elles": "parlent"
+        }
+    },
+    {
+        "infinitivo": "aimer",
+        "conjugaciones": {
+            "je": "aime",
+            "tu": "aimes",
+            "il/elle/on": "aime",
+            "nous": "aimons",
+            "vous": "aimez",
+            "ils/elles": "aiment"
+        }
+    },
+    {
+        "infinitivo": "trouver",
+        "conjugaciones": {
+            "je": "trouve",
+            "tu": "trouves",
+            "il/elle/on": "trouve",
+            "nous": "trouvons",
+            "vous": "trouvez",
+            "ils/elles": "trouvent"
+        }
+    },
+    {
+        "infinitivo": "donner",
+        "conjugaciones": {
+            "je": "donne",
+            "tu": "donnes",
+            "il/elle/on": "donne",
+            "nous": "donnons",
+            "vous": "donnez",
+            "ils/elles": "donnent"
+        }
+    },
+    {
+        "infinitivo": "vivre",
+        "conjugaciones": {
+            "je": "vis",
+            "tu": "vis",
+            "il/elle/on": "vit",
+            "nous": "vivons",
+            "vous": "vivez",
+            "ils/elles": "vivent"
+        }
+    },
+    {
+        "infinitivo": "demander",
+        "conjugaciones": {
+            "je": "demande",
+            "tu": "demandes",
+            "il/elle/on": "demande",
+            "nous": "demandons",
+            "vous": "demandez",
+            "ils/elles": "demandent"
+        }
+    },
+    {
+        "infinitivo": "rendre",
+        "conjugaciones": {
+            "je": "rends",
+            "tu": "rends",
+            "il/elle/on": "rend",
+            "nous": "rendons",
+            "vous": "rendez",
+            "ils/elles": "rendent"
+        }
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "viens",
+            "tu": "viens",
+            "il/elle/on": "vient",
+            "nous": "venons",
+            "vous": "venez",
+            "ils/elles": "viennent"
+        }
+    },
+    {
+        "infinitivo": "chercher",
+        "conjugaciones": {
+            "je": "cherche",
+            "tu": "cherches",
+            "il/elle/on": "cherche",
+            "nous": "cherchons",
+            "vous": "cherchez",
+            "ils/elles": "cherchent"
+        }
+    },
+    {
+        "infinitivo": "passer",
+        "conjugaciones": {
+            "je": "passe",
+            "tu": "passes",
+            "il/elle/on": "passe",
+            "nous": "passons",
+            "vous": "passez",
+            "ils/elles": "passent"
+        }
+    },
+    {
+        "infinitivo": "comprendre",
+        "conjugaciones": {
+            "je": "comprends",
+            "tu": "comprends",
+            "il/elle/on": "comprend",
+            "nous": "comprenons",
+            "vous": "comprenez",
+            "ils/elles": "comprennent"
+        }
+    },
+    {
+        "infinitivo": "rester",
+        "conjugaciones": {
+            "je": "reste",
+            "tu": "restes",
+            "il/elle/on": "reste",
+            "nous": "restons",
+            "vous": "restez",
+            "ils/elles": "restent"
+        }
+    },
+    {
+        "infinitivo": "tenir",
+        "conjugaciones": {
+            "je": "tiens",
+            "tu": "tiens",
+            "il/elle/on": "tient",
+            "nous": "tenons",
+            "vous": "tenez",
+            "ils/elles": "tiennent"
+        }
+    },
+    {
+        "infinitivo": "porter",
+        "conjugaciones": {
+            "je": "porte",
+            "tu": "portes",
+            "il/elle/on": "porte",
+            "nous": "portons",
+            "vous": "portez",
+            "ils/elles": "portent"
+        }
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "parle",
+            "tu": "parles",
+            "il/elle/on": "parle",
+            "nous": "parlons",
+            "vous": "parlez",
+            "ils/elles": "parlent"
+        }
+    },
+    {
+        "infinitivo": "montrer",
+        "conjugaciones": {
+            "je": "montre",
+            "tu": "montres",
+            "il/elle/on": "montre",
+            "nous": "montrons",
+            "vous": "montrez",
+            "ils/elles": "montrent"
+        }
     }
 ]
