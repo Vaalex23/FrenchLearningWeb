@@ -3,25 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica de Verbos en Francés</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Selección de Tiempo Verbal</title>
+    <link rel="stylesheet" href="styles_main.css">
 </head>
 <body>
-    <div id="contenedor">
-            <div class="flip-card" id="flipCard">
-                <div class="front">
-                    <h1 id="verbo"></h1>
-                    <p id="tiempo">present simple</p>
-                    <p><span id="sujeto"></span> <input type="text" id="respuesta"></p>
-                    <button onclick="verificar()">Verificar</button>
-                </div>
-                <div class="back" id="resultado"></div>
-            </div>
-        <button id="nextButton" onclick="nextVerb()">Next</button>
+    <div id="main-container">
+        <h1>Práctica de Verbos en Francés</h1>
+        <p>Elige un tiempo verbal para practicar:</p>
+        <div class="verbal-options">
+            <button onclick="window.location.href='present_simple.html'">Present Simple</button>
+            <button onclick="window.location.href='passe_compose.html'">Passé Composé</button>
+            <button onclick="window.location.href='imparfait.html'">L'Imparfait</button>
+            <button onclick="window.location.href='futur_proche.html'">Futur Proche</button>
+        </div>
     </div>
-    
-    
-
-    <script src="script.js"></script>
 </body>
 </html>
