@@ -167,3 +167,19 @@ button:hover {
     width: 2px; /* Ancho de la línea */
     background-color: black; /* Color de la línea */
 }
+/* Botón de regreso en forma de flecha */
+#backButton {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 40px;
+    color: white;
+    text-decoration:solid;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#backButton:hover {
+    color: #dddddd; /* Color más claro al pasar el cursor */
+}
