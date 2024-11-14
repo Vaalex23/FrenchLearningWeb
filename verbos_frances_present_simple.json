@@ -187,17 +187,6 @@
         }
     },
     {
-        "infinitivo": "donner",
-        "conjugaciones": {
-            "je": "donne",
-            "tu": "donnes",
-            "il/elle/on": "donne",
-            "nous": "donnons",
-            "vous": "donnez",
-            "ils/elles": "donnent"
-        }
-    },
-    {
         "infinitivo": "vivre",
         "conjugaciones": {
             "je": "vis",
@@ -1001,17 +990,6 @@
         }
     },
     {
-        "infinitivo": "mettre",
-        "conjugaciones": {
-            "je": "mets",
-            "tu": "mets",
-            "il/elle/on": "met",
-            "nous": "mettons",
-            "vous": "mettez",
-            "ils/elles": "mettent"
-        }
-    },
-    {
         "infinitivo": "permettre",
         "conjugaciones": {
             "je": "permets",
@@ -1086,6 +1064,17 @@
             "nous": "entrevoyons",
             "vous": "entrevoyez",
             "ils/elles": "entrevoient"
+        }
+    },
+    {
+        "infinitivo": "partir",
+        "conjugaciones": {
+            "je": "pars",
+            "tu": "pars",
+            "il/elle/on": "part",
+            "nous": "partons",
+            "vous": "partez",
+            "ils/elles": "partent"
         }
     }
 ]

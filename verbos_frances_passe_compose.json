@@ -1,0 +1,1091 @@
+[
+    {
+    "infinitivo": "être",
+    "conjugaciones": {
+        "je": "ai été",
+        "tu": "as été",
+        "il/elle/on": "a été",
+        "nous": "avons été",
+        "vous": "avez été",
+        "ils/elles": "ont été"
+        }
+    },
+    {
+    "infinitivo": "avoir",
+    "conjugaciones": {
+        "je": "ai eu",
+        "tu": "as eu",
+        "il/elle/on": "a eu",
+        "nous": "avons eu",
+        "vous": "avez eu",
+        "ils/elles": "ont eu"
+        }
+    },
+    {
+    "infinitivo": "aller",
+    "conjugaciones": {
+        "je": "suis allé",
+        "tu": "es allé",
+        "il/elle/on": "est allé",
+        "nous": "sommes allés",
+        "vous": "êtes allés",
+        "ils/elles": "sont allés"
+        }
+    },
+    {
+    "infinitivo": "faire",
+    "conjugaciones": {
+        "je": "ai fait",
+        "tu": "as fait",
+        "il/elle/on": "a fait",
+        "nous": "avons fait",
+        "vous": "avez fait",
+        "ils/elles": "ont fait"
+        }
+    },
+    {
+    "infinitivo": "dire",
+    "conjugaciones": {
+        "je": "ai dit",
+        "tu": "as dit",
+        "il/elle/on": "a dit",
+        "nous": "avons dit",
+        "vous": "avez dit",
+        "ils/elles": "ont dit"
+        }
+    },
+    {
+    "infinitivo": "pouvoir",
+    "conjugaciones": {
+        "je": "ai pu",
+        "tu": "as pu",
+        "il/elle/on": "a pu",
+        "nous": "avons pu",
+        "vous": "avez pu",
+        "ils/elles": "ont pu"
+        }
+    },
+    {
+    "infinitivo": "vouloir",
+    "conjugaciones": {
+        "je": "ai voulu",
+        "tu": "as voulu",
+        "il/elle/on": "a voulu",
+        "nous": "avons voulu",
+        "vous": "avez voulu",
+        "ils/elles": "ont voulu"
+        }
+    },
+    {
+    "infinitivo": "savoir",
+    "conjugaciones": {
+        "je": "ai su",
+        "tu": "as su",
+        "il/elle/on": "a su",
+        "nous": "avons su",
+        "vous": "avez su",
+        "ils/elles": "ont su"
+        }
+    },
+    {
+    "infinitivo": "venir",
+    "conjugaciones": {
+        "je": "suis venu",
+        "tu": "es venu",
+        "il/elle/on": "est venu",
+        "nous": "sommes venus",
+        "vous": "êtes venus",
+        "ils/elles": "sont venus"
+        }
+    },
+    {
+    "infinitivo": "prendre",
+    "conjugaciones": {
+        "je": "ai pris",
+        "tu": "as pris",
+        "il/elle/on": "a pris",
+        "nous": "avons pris",
+        "vous": "avez pris",
+        "ils/elles": "ont pris"
+        }
+    },
+    {
+        "infinitivo": "mettre",
+        "conjugaciones": {
+            "je": "ai mis",
+            "tu": "as mis",
+            "il/elle/on": "a mis",
+            "nous": "avons mis",
+            "vous": "avez mis",
+            "ils/elles": "ont mis"
+        }
+    },
+    {
+        "infinitivo": "donner",
+        "conjugaciones": {
+            "je": "ai donné",
+            "tu": "as donné",
+            "il/elle/on": "a donné",
+            "nous": "avons donné",
+            "vous": "avez donné",
+            "ils/elles": "ont donné"
+        }
+    },
+    {
+        "infinitivo": "devoir",
+        "conjugaciones": {
+            "je": "ai dû",
+            "tu": "as dû",
+            "il/elle/on": "a dû",
+            "nous": "avons dû",
+            "vous": "avez dû",
+            "ils/elles": "ont dû"
+        }
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "ai pris",
+            "tu": "as pris",
+            "il/elle/on": "a pris",
+            "nous": "avons pris",
+            "vous": "avez pris",
+            "ils/elles": "ont pris"
+        }
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "ai parlé",
+            "tu": "as parlé",
+            "il/elle/on": "a parlé",
+            "nous": "avons parlé",
+            "vous": "avez parlé",
+            "ils/elles": "ont parlé"
+        }
+    },
+    {
+        "infinitivo": "aimer",
+        "conjugaciones": {
+            "je": "ai aimé",
+            "tu": "as aimé",
+            "il/elle/on": "a aimé",
+            "nous": "avons aimé",
+            "vous": "avez aimé",
+            "ils/elles": "ont aimé"
+        }
+    },
+    {
+        "infinitivo": "trouver",
+        "conjugaciones": {
+            "je": "ai trouvé",
+            "tu": "as trouvé",
+            "il/elle/on": "a trouvé",
+            "nous": "avons trouvé",
+            "vous": "avez trouvé",
+            "ils/elles": "ont trouvé"
+        }
+    },
+    {
+        "infinitivo": "donner",
+        "conjugaciones": {
+            "je": "ai donné",
+            "tu": "as donné",
+            "il/elle/on": "a donné",
+            "nous": "avons donné",
+            "vous": "avez donné",
+            "ils/elles": "ont donné"
+        }
+    },
+    {
+        "infinitivo": "vivre",
+        "conjugaciones": {
+            "je": "ai vécu",
+            "tu": "as vécu",
+            "il/elle/on": "a vécu",
+            "nous": "avons vécu",
+            "vous": "avez vécu",
+            "ils/elles": "ont vécu"
+        }
+    },
+    {
+        "infinitivo": "demander",
+        "conjugaciones": {
+            "je": "ai demandé",
+            "tu": "as demandé",
+            "il/elle/on": "a demandé",
+            "nous": "avons demandé",
+            "vous": "avez demandé",
+            "ils/elles": "ont demandé"
+        }
+    },
+    {
+        "infinitivo": "rendre",
+        "conjugaciones": {
+            "je": "ai rendu",
+            "tu": "as rendu",
+            "il/elle/on": "a rendu",
+            "nous": "avons rendu",
+            "vous": "avez rendu",
+            "ils/elles": "ont rendu"
+        }
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "suis venu",
+            "tu": "es venu",
+            "il/elle/on": "est venu",
+            "nous": "sommes venus",
+            "vous": "êtes venus",
+            "ils/elles": "sont venus"
+        }
+    },
+    {
+        "infinitivo": "chercher",
+        "conjugaciones": {
+            "je": "ai cherché",
+            "tu": "as cherché",
+            "il/elle/on": "a cherché",
+            "nous": "avons cherché",
+            "vous": "avez cherché",
+            "ils/elles": "ont cherché"
+        }
+    },
+    {
+        "infinitivo": "passer",
+        "conjugaciones": {
+            "je": "ai passé",
+            "tu": "as passé",
+            "il/elle/on": "a passé",
+            "nous": "avons passé",
+            "vous": "avez passé",
+            "ils/elles": "ont passé"
+        }
+    },
+    {
+        "infinitivo": "comprendre",
+        "conjugaciones": {
+            "je": "ai compris",
+            "tu": "as compris",
+            "il/elle/on": "a compris",
+            "nous": "avons compris",
+            "vous": "avez compris",
+            "ils/elles": "ont compris"
+        }
+    },
+    {
+        "infinitivo": "rester",
+        "conjugaciones": {
+            "je": "suis resté",
+            "tu": "es resté",
+            "il/elle/on": "est resté",
+            "nous": "sommes restés",
+            "vous": "êtes restés",
+            "ils/elles": "sont restés"
+        }
+    },
+    {
+        "infinitivo": "tenir",
+        "conjugaciones": {
+            "je": "ai tenu",
+            "tu": "as tenu",
+            "il/elle/on": "a tenu",
+            "nous": "avons tenu",
+            "vous": "avez tenu",
+            "ils/elles": "ont tenu"
+        }
+    },
+    {
+        "infinitivo": "porter",
+        "conjugaciones": {
+            "je": "ai porté",
+            "tu": "as porté",
+            "il/elle/on": "a porté",
+            "nous": "avons porté",
+            "vous": "avez porté",
+            "ils/elles": "ont porté"
+        }
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "ai parlé",
+            "tu": "as parlé",
+            "il/elle/on": "a parlé",
+            "nous": "avons parlé",
+            "vous": "avez parlé",
+            "ils/elles": "ont parlé"
+        }
+    },
+    {
+        "infinitivo": "montrer",
+        "conjugaciones": {
+            "je": "ai montré",
+            "tu": "as montré",
+            "il/elle/on": "a montré",
+            "nous": "avons montré",
+            "vous": "avez montré",
+            "ils/elles": "ont montré"
+        }
+    },
+    {
+        "infinitivo": "acheter",
+        "conjugaciones": {
+            "je": "ai acheté",
+            "tu": "as acheté",
+            "il/elle/on": "a acheté",
+            "nous": "avons acheté",
+            "vous": "avez acheté",
+            "ils/elles": "ont acheté"
+        }
+    },
+    {
+        "infinitivo": "attendre",
+        "conjugaciones": {
+            "je": "ai attendu",
+            "tu": "as attendu",
+            "il/elle/on": "a attendu",
+            "nous": "avons attendu",
+            "vous": "avez attendu",
+            "ils/elles": "ont attendu"
+        }
+    },
+    {
+        "infinitivo": "manger",
+        "conjugaciones": {
+            "je": "ai mangé",
+            "tu": "as mangé",
+            "il/elle/on": "a mangé",
+            "nous": "avons mangé",
+            "vous": "avez mangé",
+            "ils/elles": "ont mangé"
+        }
+    },
+    {
+        "infinitivo": "boire",
+        "conjugaciones": {
+            "je": "ai bu",
+            "tu": "as bu",
+            "il/elle/on": "a bu",
+            "nous": "avons bu",
+            "vous": "avez bu",
+            "ils/elles": "ont bu"
+        }
+    },
+    {
+        "infinitivo": "finir",
+        "conjugaciones": {
+            "je": "ai fini",
+            "tu": "as fini",
+            "il/elle/on": "a fini",
+            "nous": "avons fini",
+            "vous": "avez fini",
+            "ils/elles": "ont fini"
+        }
+    },
+    {
+        "infinitivo": "ouvrir",
+        "conjugaciones": {
+            "je": "ai ouvert",
+            "tu": "as ouvert",
+            "il/elle/on": "a ouvert",
+            "nous": "avons ouvert",
+            "vous": "avez ouvert",
+            "ils/elles": "ont ouvert"
+        }
+    },
+    {
+        "infinitivo": "courir",
+        "conjugaciones": {
+            "je": "ai couru",
+            "tu": "as couru",
+            "il/elle/on": "a couru",
+            "nous": "avons couru",
+            "vous": "avez couru",
+            "ils/elles": "ont couru"
+        }
+    },
+    {
+        "infinitivo": "sortir",
+        "conjugaciones": {
+            "je": "suis sorti",
+            "tu": "es sorti",
+            "il/elle/on": "est sorti",
+            "nous": "sommes sortis",
+            "vous": "êtes sortis",
+            "ils/elles": "sont sortis"
+        }
+    },
+    {
+        "infinitivo": "écrire",
+        "conjugaciones": {
+            "je": "ai écrit",
+            "tu": "as écrit",
+            "il/elle/on": "a écrit",
+            "nous": "avons écrit",
+            "vous": "avez écrit",
+            "ils/elles": "ont écrit"
+        }
+    },
+    {
+        "infinitivo": "lire",
+        "conjugaciones": {
+            "je": "ai lu",
+            "tu": "as lu",
+            "il/elle/on": "a lu",
+            "nous": "avons lu",
+            "vous": "avez lu",
+            "ils/elles": "ont lu"
+        }
+    },
+    {
+        "infinitivo": "étudier",
+        "conjugaciones": {
+            "je": "ai étudié",
+            "tu": "as étudié",
+            "il/elle/on": "a étudié",
+            "nous": "avons étudié",
+            "vous": "avez étudié",
+            "ils/elles": "ont étudié"
+        }
+    },
+    {
+        "infinitivo": "travailler",
+        "conjugaciones": {
+            "je": "ai travaillé",
+            "tu": "as travaillé",
+            "il/elle/on": "a travaillé",
+            "nous": "avons travaillé",
+            "vous": "avez travaillé",
+            "ils/elles": "ont travaillé"
+        }
+    },
+    {
+        "infinitivo": "jouer",
+        "conjugaciones": {
+            "je": "ai joué",
+            "tu": "as joué",
+            "il/elle/on": "a joué",
+            "nous": "avons joué",
+            "vous": "avez joué",
+            "ils/elles": "ont joué"
+        }
+    },
+    {
+        "infinitivo": "regarder",
+        "conjugaciones": {
+            "je": "ai regardé",
+            "tu": "as regardé",
+            "il/elle/on": "a regardé",
+            "nous": "avons regardé",
+            "vous": "avez regardé",
+            "ils/elles": "ont regardé"
+        }
+    },
+    {
+        "infinitivo": "écouter",
+        "conjugaciones": {
+            "je": "ai écouté",
+            "tu": "as écouté",
+            "il/elle/on": "a écouté",
+            "nous": "avons écouté",
+            "vous": "avez écouté",
+            "ils/elles": "ont écouté"
+        }
+    },
+    {
+        "infinitivo": "raconter",
+        "conjugaciones": {
+            "je": "ai raconté",
+            "tu": "as raconté",
+            "il/elle/on": "a raconté",
+            "nous": "avons raconté",
+            "vous": "avez raconté",
+            "ils/elles": "ont raconté"
+        }
+    },
+    {
+        "infinitivo": "oublier",
+        "conjugaciones": {
+            "je": "ai oublié",
+            "tu": "as oublié",
+            "il/elle/on": "a oublié",
+            "nous": "avons oublié",
+            "vous": "avez oublié",
+            "ils/elles": "ont oublié"
+        }
+    },
+    {
+        "infinitivo": "revenir",
+        "conjugaciones": {
+            "je": "suis revenu",
+            "tu": "es revenu",
+            "il/elle/on": "est revenu",
+            "nous": "sommes revenus",
+            "vous": "êtes revenus",
+            "ils/elles": "sont revenus"
+        }
+    },
+    {
+        "infinitivo": "connaître",
+        "conjugaciones": {
+            "je": "ai connu",
+            "tu": "as connu",
+            "il/elle/on": "a connu",
+            "nous": "avons connu",
+            "vous": "avez connu",
+            "ils/elles": "ont connu"
+        }
+    },
+    {
+        "infinitivo": "perdre",
+        "conjugaciones": {
+            "je": "ai perdu",
+            "tu": "as perdu",
+            "il/elle/on": "a perdu",
+            "nous": "avons perdu",
+            "vous": "avez perdu",
+            "ils/elles": "ont perdu"
+        }
+    },
+    {
+        "infinitivo": "cueillir",
+        "conjugaciones": {
+            "je": "ai cueilli",
+            "tu": "as cueilli",
+            "il/elle/on": "a cueilli",
+            "nous": "avons cueilli",
+            "vous": "avez cueilli",
+            "ils/elles": "ont cueilli"
+        }
+    },
+    {
+        "infinitivo": "souffrir",
+        "conjugaciones": {
+            "je": "ai souffert",
+            "tu": "as souffert",
+            "il/elle/on": "a souffert",
+            "nous": "avons souffert",
+            "vous": "avez souffert",
+            "ils/elles": "ont souffert"
+        }
+    },
+    {
+        "infinitivo": "accueillir",
+        "conjugaciones": {
+            "je": "ai accueilli",
+            "tu": "as accueilli",
+            "il/elle/on": "a accueilli",
+            "nous": "avons accueilli",
+            "vous": "avez accueilli",
+            "ils/elles": "ont accueilli"
+        }
+    },
+    {
+        "infinitivo": "découvrir",
+        "conjugaciones": {
+            "je": "ai découvert",
+            "tu": "as découvert",
+            "il/elle/on": "a découvert",
+            "nous": "avons découvert",
+            "vous": "avez découvert",
+            "ils/elles": "ont découvert"
+        }
+    },
+    {
+        "infinitivo": "recouvrir",
+        "conjugaciones": {
+            "je": "ai recouvert",
+            "tu": "as recouvert",
+            "il/elle/on": "a recouvert",
+            "nous": "avons recouvert",
+            "vous": "avez recouvert",
+            "ils/elles": "ont recouvert"
+        }
+    },
+    {
+        "infinitivo": "recueillir",
+        "conjugaciones": {
+            "je": "ai recueilli",
+            "tu": "as recueilli",
+            "il/elle/on": "a recueilli",
+            "nous": "avons recueilli",
+            "vous": "avez recueilli",
+            "ils/elles": "ont recueilli"
+        }
+    },
+    {
+        "infinitivo": "agir",
+        "conjugaciones": {
+            "je": "ai agi",
+            "tu": "as agi",
+            "il/elle/on": "a agi",
+            "nous": "avons agi",
+            "vous": "avez agi",
+            "ils/elles": "ont agi"
+        }
+    },
+    {
+        "infinitivo": "grandir",
+        "conjugaciones": {
+            "je": "ai grandi",
+            "tu": "as grandi",
+            "il/elle/on": "a grandi",
+            "nous": "avons grandi",
+            "vous": "avez grandi",
+            "ils/elles": "ont grandi"
+        }
+    },
+    {
+        "infinitivo": "subir",
+        "conjugaciones": {
+            "je": "ai subi",
+            "tu": "as subi",
+            "il/elle/on": "a subi",
+            "nous": "avons subi",
+            "vous": "avez subi",
+            "ils/elles": "ont subi"
+        }
+    },
+    {
+        "infinitivo": "accomplir",
+        "conjugaciones": {
+            "je": "ai accompli",
+            "tu": "as accompli",
+            "il/elle/on": "a accompli",
+            "nous": "avons accompli",
+            "vous": "avez accompli",
+            "ils/elles": "ont accompli"
+        }
+    },
+    {
+        "infinitivo": "saisir",
+        "conjugaciones": {
+            "je": "ai saisi",
+            "tu": "as saisi",
+            "il/elle/on": "a saisi",
+            "nous": "avons saisi",
+            "vous": "avez saisi",
+            "ils/elles": "ont saisi"
+        }
+    },
+    {
+        "infinitivo": "approfondir",
+        "conjugaciones": {
+            "je": "ai approfondi",
+            "tu": "as approfondi",
+            "il/elle/on": "a approfondi",
+            "nous": "avons approfondi",
+            "vous": "avez approfondi",
+            "ils/elles": "ont approfondi"
+        }
+    },
+    {
+        "infinitivo": "mincir",
+        "conjugaciones": {
+            "je": "ai minci",
+            "tu": "as minci",
+            "il/elle/on": "a minci",
+            "nous": "avons minci",
+            "vous": "avez minci",
+            "ils/elles": "ont minci"
+        }
+    },
+    {
+        "infinitivo": "apprendre",
+        "conjugaciones": {
+            "je": "ai appris",
+            "tu": "as appris",
+            "il/elle/on": "a appris",
+            "nous": "avons appris",
+            "vous": "avez appris",
+            "ils/elles": "ont appris"
+        }
+    },
+    {
+        "infinitivo": "entreprendre",
+        "conjugaciones": {
+            "je": "ai entrepris",
+            "tu": "as entrepris",
+            "il/elle/on": "a entrepris",
+            "nous": "avons entrepris",
+            "vous": "avez entrepris",
+            "ils/elles": "ont entrepris"
+        }
+    },
+    {
+        "infinitivo": "reprendre",
+        "conjugaciones": {
+            "je": "ai repris",
+            "tu": "as repris",
+            "il/elle/on": "a repris",
+            "nous": "avons repris",
+            "vous": "avez repris",
+            "ils/elles": "ont repris"
+        }
+    },
+    {
+        "infinitivo": "surprendre",
+        "conjugaciones": {
+            "je": "ai surpris",
+            "tu": "as surpris",
+            "il/elle/on": "a surpris",
+            "nous": "avons surpris",
+            "vous": "avez surpris",
+            "ils/elles": "ont surpris"
+        }
+    },
+    {
+        "infinitivo": "se méprendre",
+        "conjugaciones": {
+            "je": "me suis mépris",
+            "tu": "t'es mépris",
+            "il/elle/on": "s'est mépris",
+            "nous": "nous sommes mépris",
+            "vous": "vous êtes mépris",
+            "ils/elles": "se sont mépris"
+        }
+    },
+    {
+        "infinitivo": "descendre",
+        "conjugaciones": {
+            "je": "suis descendu",
+            "tu": "es descendu",
+            "il/elle/on": "est descendu",
+            "nous": "sommes descendus",
+            "vous": "êtes descendus",
+            "ils/elles": "sont descendus"
+        }
+    },
+    {
+        "infinitivo": "mordre",
+        "conjugaciones": {
+            "je": "ai mordu",
+            "tu": "as mordu",
+            "il/elle/on": "a mordu",
+            "nous": "avons mordu",
+            "vous": "avez mordu",
+            "ils/elles": "ont mordu"
+        }
+    },
+    {
+        "infinitivo": "répondre",
+        "conjugaciones": {
+            "je": "ai répondu",
+            "tu": "as répondu",
+            "il/elle/on": "a répondu",
+            "nous": "avons répondu",
+            "vous": "avez répondu",
+            "ils/elles": "ont répondu"
+        }
+    },
+    {
+        "infinitivo": "atteindre",
+        "conjugaciones": {
+            "je": "ai atteint",
+            "tu": "as atteint",
+            "il/elle/on": "a atteint",
+            "nous": "avons atteint",
+            "vous": "avez atteint",
+            "ils/elles": "ont atteint"
+        }
+    },
+    {
+        "infinitivo": "éteindre",
+        "conjugaciones": {
+            "je": "ai éteint",
+            "tu": "as éteint",
+            "il/elle/on": "a éteint",
+            "nous": "avons éteint",
+            "vous": "avez éteint",
+            "ils/elles": "ont éteint"
+        }
+    },
+    {
+        "infinitivo": "peindre",
+        "conjugaciones": {
+            "je": "ai peint",
+            "tu": "as peint",
+            "il/elle/on": "a peint",
+            "nous": "avons peint",
+            "vous": "avez peint",
+            "ils/elles": "ont peint"
+        }
+    },
+    {
+        "infinitivo": "restreindre",
+        "conjugaciones": {
+            "je": "ai restreint",
+            "tu": "as restreint",
+            "il/elle/on": "a restreint",
+            "nous": "avons restreint",
+            "vous": "avez restreint",
+            "ils/elles": "ont restreint"
+        }
+    },
+    {
+        "infinitivo": "teindre",
+        "conjugaciones": {
+            "je": "ai teint",
+            "tu": "as teint",
+            "il/elle/on": "a teint",
+            "nous": "avons teint",
+            "vous": "avez teint",
+            "ils/elles": "ont teint"
+        }
+    },
+    {
+        "infinitivo": "cuire",
+        "conjugaciones": {
+            "je": "ai cuit",
+            "tu": "as cuit",
+            "il/elle/on": "a cuit",
+            "nous": "avons cuit",
+            "vous": "avez cuit",
+            "ils/elles": "ont cuit"
+        }
+    },
+    {
+        "infinitivo": "conduire",
+        "conjugaciones": {
+            "je": "ai conduit",
+            "tu": "as conduit",
+            "il/elle/on": "a conduit",
+            "nous": "avons conduit",
+            "vous": "avez conduit",
+            "ils/elles": "ont conduit"
+        }
+    },
+    {
+        "infinitivo": "produire",
+        "conjugaciones": {
+            "je": "ai produit",
+            "tu": "as produit",
+            "il/elle/on": "a produit",
+            "nous": "avons produit",
+            "vous": "avez produit",
+            "ils/elles": "ont produit"
+        }
+    },
+    {
+        "infinitivo": "construire",
+        "conjugaciones": {
+            "je": "ai construit",
+            "tu": "as construit",
+            "il/elle/on": "a construit",
+            "nous": "avons construit",
+            "vous": "avez construit",
+            "ils/elles": "ont construit"
+        }
+    },
+    {
+        "infinitivo": "traduire",
+        "conjugaciones": {
+            "je": "ai traduit",
+            "tu": "as traduit",
+            "il/elle/on": "a traduit",
+            "nous": "avons traduit",
+            "vous": "avez traduit",
+            "ils/elles": "ont traduit"
+        }
+    },
+    {
+        "infinitivo": "réduire",
+        "conjugaciones": {
+            "je": "ai réduit",
+            "tu": "as réduit",
+            "il/elle/on": "a réduit",
+            "nous": "avons réduit",
+            "vous": "avez réduit",
+            "ils/elles": "ont réduit"
+        }
+    },
+    {
+        "infinitivo": "détruire",
+        "conjugaciones": {
+            "je": "ai détruit",
+            "tu": "as détruit",
+            "il/elle/on": "a détruit",
+            "nous": "avons détruit",
+            "vous": "avez détruit",
+            "ils/elles": "ont détruit"
+        }
+    },
+    {
+        "infinitivo": "voir",
+        "conjugaciones": {
+            "je": "ai vu",
+            "tu": "as vu",
+            "il/elle/on": "a vu",
+            "nous": "avons vu",
+            "vous": "avez vu",
+            "ils/elles": "ont vu"
+        }
+    },
+    {
+        "infinitivo": "revoir",
+        "conjugaciones": {
+            "je": "ai revu",
+            "tu": "as revu",
+            "il/elle/on": "a revu",
+            "nous": "avons revu",
+            "vous": "avez revu",
+            "ils/elles": "ont revu"
+        }
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "ai entrevu",
+            "tu": "as entrevu",
+            "il/elle/on": "a entrevu",
+            "nous": "avons entrevu",
+            "vous": "avez entrevu",
+            "ils/elles": "ont entrevu"
+        }
+    },
+    {
+        "infinitivo": "croire",
+        "conjugaciones": {
+            "je": "ai cru",
+            "tu": "as cru",
+            "il/elle/on": "a cru",
+            "nous": "avons cru",
+            "vous": "avez cru",
+            "ils/elles": "ont cru"
+        }
+    },
+    {
+        "infinitivo": "apercevoir",
+        "conjugaciones": {
+            "je": "ai aperçu",
+            "tu": "as aperçu",
+            "il/elle/on": "a aperçu",
+            "nous": "avons aperçu",
+            "vous": "avez aperçu",
+            "ils/elles": "ont aperçu"
+        }
+    },
+    {
+        "infinitivo": "commettre",
+        "conjugaciones": {
+            "je": "ai commis",
+            "tu": "as commis",
+            "il/elle/on": "a commis",
+            "nous": "avons commis",
+            "vous": "avez commis",
+            "ils/elles": "ont commis"
+        }
+    },
+    {
+        "infinitivo": "promettre",
+        "conjugaciones": {
+            "je": "ai promis",
+            "tu": "as promis",
+            "il/elle/on": "a promis",
+            "nous": "avons promis",
+            "vous": "avez promis",
+            "ils/elles": "ont promis"
+        }
+    },
+    {
+        "infinitivo": "transmettre",
+        "conjugaciones": {
+            "je": "ai transmis",
+            "tu": "as transmis",
+            "il/elle/on": "a transmis",
+            "nous": "avons transmis",
+            "vous": "avez transmis",
+            "ils/elles": "ont transmis"
+        }
+    },
+    {
+        "infinitivo": "permettre",
+        "conjugaciones": {
+            "je": "ai permis",
+            "tu": "as permis",
+            "il/elle/on": "a permis",
+            "nous": "avons permis",
+            "vous": "avez permis",
+            "ils/elles": "ont permis"
+        }
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "ai admis",
+            "tu": "as admis",
+            "il/elle/on": "a admis",
+            "nous": "avons admis",
+            "vous": "avez admis",
+            "ils/elles": "ont admis"
+        }
+    },
+    {
+        "infinitivo": "omettre",
+        "conjugaciones": {
+            "je": "ai omis",
+            "tu": "as omis",
+            "il/elle/on": "a omis",
+            "nous": "avons omis",
+            "vous": "avez omis",
+            "ils/elles": "ont omis"
+        }
+    },
+    {
+        "infinitivo": "soumettre",
+        "conjugaciones": {
+            "je": "ai soumis",
+            "tu": "as soumis",
+            "il/elle/on": "a soumis",
+            "nous": "avons soumis",
+            "vous": "avez soumis",
+            "ils/elles": "ont soumis"
+        }
+    },
+    {
+        "infinitivo": "compromettre",
+        "conjugaciones": {
+            "je": "ai compromis",
+            "tu": "as compromis",
+            "il/elle/on": "a compromis",
+            "nous": "avons compromis",
+            "vous": "avez compromis",
+            "ils/elles": "ont compromis"
+        }
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "ai admis",
+            "tu": "as admis",
+            "il/elle/on": "a admis",
+            "nous": "avons admis",
+            "vous": "avez admis",
+            "ils/elles": "ont admis"
+        }
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "ai entrevu",
+            "tu": "as entrevu",
+            "il/elle/on": "a entrevu",
+            "nous": "avons entrevu",
+            "vous": "avez entrevu",
+            "ils/elles": "ont entrevu"
+        }
+    },
+    {
+        "infinitivo": "partir",
+        "conjugaciones": {
+            "je": "suis parti",
+            "tu": "es parti",
+            "il/elle/on": "est parti",
+            "nous": "sommes partis",
+            "vous": "êtes partis",
+            "ils/elles": "sont partis"
+        }
+    }
+]

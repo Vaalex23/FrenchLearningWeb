@@ -1,7 +1,21 @@
 let verbos = [];
 
+// Detectar el nombre del archivo HTML actual
+const archivoActual = window.location.pathname.split("/").pop();
+
+let archivoJSON;
+
+// Determinar el archivo JSON a cargar según la página
+if (archivoActual === "present_simple.html") {
+    archivoJSON = 'verbos_frances_present_simple.json';  // Cargar los verbos en presente
+} else if (archivoActual === "passe_compose.html") {
+    archivoJSON = 'verbos_frances_passe_compose.json';  // Cargar los verbos en passé composé
+} else {
+    console.error("No se pudo identificar el archivo HTML.");
+}
+
 // Cargar el archivo JSON de forma asincrónica
-fetch('verbos_frances_present_simple.json')
+fetch(archivoJSON)
     .then(response => response.json())
     .then(data => {
         verbos = data; // Guardar los datos del JSON en la variable verbos
@@ -54,7 +68,6 @@ function verificar() {
     } else {
         document.getElementById("flipCard").classList.add("incorrect");
         document.getElementById("resultado").innerHTML = "Incorrecto.<br><br>La respuesta correcta es:<br><br>" + respuestaCorrecta;
-
     }
 }
 
@@ -62,6 +75,7 @@ function nextVerb() {
     // Muestra un nuevo verbo aleatorio
     mostrarNuevoVerbo();
 }
+
 // Configurar el evento de teclado para activar "verificar" o "nextVerb" con "Enter"
 document.getElementById("respuesta").addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
