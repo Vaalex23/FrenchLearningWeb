@@ -328,5 +328,226 @@
             "vous": "montrez",
             "ils/elles": "montrent"
         }
+    },
+    {
+        "infinitivo": "acheter",
+        "conjugaciones": {
+            "je": "achète",
+            "tu": "achètes",
+            "il/elle/on": "achète",
+            "nous": "achetons",
+            "vous": "achetez",
+            "ils/elles": "achètent"
+        }
+    },
+    {
+        "infinitivo": "attendre",
+        "conjugaciones": {
+            "je": "attends",
+            "tu": "attends",
+            "il/elle/on": "attend",
+            "nous": "attendons",
+            "vous": "attendez",
+            "ils/elles": "attendent"
+        }
+    },
+    {
+        "infinitivo": "manger",
+        "conjugaciones": {
+            "je": "mange",
+            "tu": "manges",
+            "il/elle/on": "mange",
+            "nous": "mangeons",
+            "vous": "mangez",
+            "ils/elles": "mangent"
+        }
+    },
+    {
+        "infinitivo": "boire",
+        "conjugaciones": {
+            "je": "bois",
+            "tu": "bois",
+            "il/elle/on": "boit",
+            "nous": "buvons",
+            "vous": "buvez",
+            "ils/elles": "boivent"
+        }
+    },
+    {
+        "infinitivo": "finir",
+        "conjugaciones": {
+            "je": "finis",
+            "tu": "finis",
+            "il/elle/on": "finit",
+            "nous": "finissons",
+            "vous": "finissez",
+            "ils/elles": "finissent"
+        }
+    },
+    {
+        "infinitivo": "ouvrir",
+        "conjugaciones": {
+            "je": "ouvre",
+            "tu": "ouvres",
+            "il/elle/on": "ouvre",
+            "nous": "ouvrons",
+            "vous": "ouvrez",
+            "ils/elles": "ouvrent"
+        }
+    },
+    {
+        "infinitivo": "courir",
+        "conjugaciones": {
+            "je": "cours",
+            "tu": "cours",
+            "il/elle/on": "court",
+            "nous": "courons",
+            "vous": "courez",
+            "ils/elles": "courent"
+        }
+    },
+    {
+        "infinitivo": "sortir",
+        "conjugaciones": {
+            "je": "sors",
+            "tu": "sors",
+            "il/elle/on": "sort",
+            "nous": "sortons",
+            "vous": "sortez",
+            "ils/elles": "sortent"
+        }
+    },
+    {
+        "infinitivo": "écrire",
+        "conjugaciones": {
+            "je": "écris",
+            "tu": "écris",
+            "il/elle/on": "écrit",
+            "nous": "écrivons",
+            "vous": "écrivez",
+            "ils/elles": "écrivent"
+        }
+    },
+    {
+        "infinitivo": "lire",
+        "conjugaciones": {
+            "je": "lis",
+            "tu": "lis",
+            "il/elle/on": "lit",
+            "nous": "lisons",
+            "vous": "lisez",
+            "ils/elles": "lisent"
+        }
+    },
+    {
+        "infinitivo": "étudier",
+        "conjugaciones": {
+            "je": "étudie",
+            "tu": "étudies",
+            "il/elle/on": "étudie",
+            "nous": "étudions",
+            "vous": "étudiez",
+            "ils/elles": "étudient"
+        }
+    },
+    {
+        "infinitivo": "travailler",
+        "conjugaciones": {
+            "je": "travaille",
+            "tu": "travailles",
+            "il/elle/on": "travaille",
+            "nous": "travaillons",
+            "vous": "travaillez",
+            "ils/elles": "travaillent"
+        }
+    },
+    {
+        "infinitivo": "jouer",
+        "conjugaciones": {
+            "je": "joue",
+            "tu": "joues",
+            "il/elle/on": "joue",
+            "nous": "jouons",
+            "vous": "jouez",
+            "ils/elles": "jouent"
+        }
+    },
+    {
+        "infinitivo": "regarder",
+        "conjugaciones": {
+            "je": "regarde",
+            "tu": "regardes",
+            "il/elle/on": "regarde",
+            "nous": "regardons",
+            "vous": "regardez",
+            "ils/elles": "regardent"
+        }
+    },
+    {
+        "infinitivo": "écouter",
+        "conjugaciones": {
+            "je": "écoute",
+            "tu": "écoutes",
+            "il/elle/on": "écoute",
+            "nous": "écoutons",
+            "vous": "écoutez",
+            "ils/elles": "écoutent"
+        }
+    },
+    {
+        "infinitivo": "raconter",
+        "conjugaciones": {
+            "je": "raconte",
+            "tu": "racontes",
+            "il/elle/on": "raconte",
+            "nous": "racontons",
+            "vous": "racontez",
+            "ils/elles": "racontent"
+        }
+    },
+    {
+        "infinitivo": "oublier",
+        "conjugaciones": {
+            "je": "oublie",
+            "tu": "oublies",
+            "il/elle/on": "oublie",
+            "nous": "oublions",
+            "vous": "oubliez",
+            "ils/elles": "oublient"
+        }
+    },
+    {
+        "infinitivo": "revenir",
+        "conjugaciones": {
+            "je": "reviens",
+            "tu": "reviens",
+            "il/elle/on": "revient",
+            "nous": "revenons",
+            "vous": "revenez",
+            "ils/elles": "reviennent"
+        }
+    },
+    {
+        "infinitivo": "connaître",
+        "conjugaciones": {
+            "je": "connais",
+            "tu": "connais",
+            "il/elle/on": "connaît",
+            "nous": "connaissons",
+            "vous": "connaissez",
+            "ils/elles": "connaissent"
+        }
+    },
+    {
+        "infinitivo": "perdre",
+        "conjugaciones": {
+            "je": "perds",
+            "tu": "perds",
+            "il/elle/on": "perd",
+            "nous": "perdons",
+            "vous": "perdez",
+            "ils/elles": "perdent"
+        }
     }
+
 ]
