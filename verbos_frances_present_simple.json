@@ -548,6 +548,544 @@
             "vous": "perdez",
             "ils/elles": "perdent"
         }
+    },
+    {
+        "infinitivo": "cueillir",
+        "conjugaciones": {
+            "je": "cueille",
+            "tu": "cueilles",
+            "il/elle/on": "cueille",
+            "nous": "cueillons",
+            "vous": "cueillez",
+            "ils/elles": "cueillent"
+        }
+    },
+    {
+        "infinitivo": "souffrir",
+        "conjugaciones": {
+            "je": "souffre",
+            "tu": "souffres",
+            "il/elle/on": "souffre",
+            "nous": "souffrons",
+            "vous": "souffrez",
+            "ils/elles": "souffrent"
+        }
+    },
+    {
+        "infinitivo": "accueillir",
+        "conjugaciones": {
+            "je": "accueille",
+            "tu": "accueilles",
+            "il/elle/on": "accueille",
+            "nous": "accueillons",
+            "vous": "accueillez",
+            "ils/elles": "accueillent"
+        }
+    },
+    {
+        "infinitivo": "découvrir",
+        "conjugaciones": {
+            "je": "découvre",
+            "tu": "découvres",
+            "il/elle/on": "découvre",
+            "nous": "découvrons",
+            "vous": "découvrez",
+            "ils/elles": "découvrent"
+        }
+    },
+    {
+        "infinitivo": "recouvrir",
+        "conjugaciones": {
+            "je": "recouvre",
+            "tu": "recouvres",
+            "il/elle/on": "recouvre",
+            "nous": "recouvrons",
+            "vous": "recouvrez",
+            "ils/elles": "recouvrent"
+        }
+    },
+    {
+        "infinitivo": "recueillir",
+        "conjugaciones": {
+            "je": "recueille",
+            "tu": "recueilles",
+            "il/elle/on": "recueille",
+            "nous": "recueillons",
+            "vous": "recueillez",
+            "ils/elles": "recueillent"
+        }
+    },
+    {
+        "infinitivo": "agir",
+        "conjugaciones": {
+            "je": "agis",
+            "tu": "agis",
+            "il/elle/on": "agit",
+            "nous": "agissons",
+            "vous": "agissez",
+            "ils/elles": "agissent"
+        }
+    },
+    {
+        "infinitivo": "grandir",
+        "conjugaciones": {
+            "je": "grandis",
+            "tu": "grandis",
+            "il/elle/on": "grandit",
+            "nous": "grandissons",
+            "vous": "grandissez",
+            "ils/elles": "grandissent"
+        }
+    },
+    {
+        "infinitivo": "subir",
+        "conjugaciones": {
+            "je": "subis",
+            "tu": "subis",
+            "il/elle/on": "subit",
+            "nous": "subissons",
+            "vous": "subissez",
+            "ils/elles": "subissent"
+        }
+    },
+    {
+        "infinitivo": "accomplir",
+        "conjugaciones": {
+            "je": "accomplis",
+            "tu": "accomplis",
+            "il/elle/on": "accomplit",
+            "nous": "accomplissons",
+            "vous": "accomplissez",
+            "ils/elles": "accomplissent"
+        }
+    },
+    {
+        "infinitivo": "saisir",
+        "conjugaciones": {
+            "je": "saisis",
+            "tu": "saisis",
+            "il/elle/on": "saisit",
+            "nous": "saisissons",
+            "vous": "saisissez",
+            "ils/elles": "saisissent"
+        }
+    },
+    {
+        "infinitivo": "approfondir",
+        "conjugaciones": {
+            "je": "approfondis",
+            "tu": "approfondis",
+            "il/elle/on": "approfondit",
+            "nous": "approfondissons",
+            "vous": "approfondissez",
+            "ils/elles": "approfondissent"
+        }
+    },
+    {
+        "infinitivo": "mincir",
+        "conjugaciones": {
+            "je": "mincis",
+            "tu": "mincis",
+            "il/elle/on": "mincit",
+            "nous": "mincissons",
+            "vous": "mincissez",
+            "ils/elles": "mincissent"
+        }
+    },
+    {
+        "infinitivo": "apprendre",
+        "conjugaciones": {
+            "je": "apprends",
+            "tu": "apprends",
+            "il/elle/on": "apprend",
+            "nous": "apprenons",
+            "vous": "apprenez",
+            "ils/elles": "apprennent"
+        }
+    },
+    {
+        "infinitivo": "entreprendre",
+        "conjugaciones": {
+            "je": "entreprends",
+            "tu": "entreprends",
+            "il/elle/on": "entreprend",
+            "nous": "entreprenons",
+            "vous": "entreprenez",
+            "ils/elles": "entreprennent"
+        }
+    },
+    {
+        "infinitivo": "reprendre",
+        "conjugaciones": {
+            "je": "reprends",
+            "tu": "reprends",
+            "il/elle/on": "reprend",
+            "nous": "reprenons",
+            "vous": "reprenez",
+            "ils/elles": "reprennent"
+        }
+    },
+    {
+        "infinitivo": "surprendre",
+        "conjugaciones": {
+            "je": "surprends",
+            "tu": "surprends",
+            "il/elle/on": "surprend",
+            "nous": "surprenons",
+            "vous": "surprenez",
+            "ils/elles": "surprennent"
+        }
+    },
+    {
+        "infinitivo": "se méprendre",
+        "conjugaciones": {
+            "je": "me méprends",
+            "tu": "te méprends",
+            "il/elle/on": "se méprend",
+            "nous": "nous méprenons",
+            "vous": "vous méprenez",
+            "ils/elles": "se méprennent"
+        }
+    },
+    {
+        "infinitivo": "descendre",
+        "conjugaciones": {
+            "je": "descends",
+            "tu": "descends",
+            "il/elle/on": "descend",
+            "nous": "descendons",
+            "vous": "descendez",
+            "ils/elles": "descendent"
+        }
+    },
+    {
+        "infinitivo": "mordre",
+        "conjugaciones": {
+            "je": "mords",
+            "tu": "mords",
+            "il/elle/on": "mord",
+            "nous": "mordons",
+            "vous": "mordez",
+            "ils/elles": "mordent"
+        }
+    },
+    {
+        "infinitivo": "répondre",
+        "conjugaciones": {
+            "je": "réponds",
+            "tu": "réponds",
+            "il/elle/on": "répond",
+            "nous": "répondons",
+            "vous": "répondez",
+            "ils/elles": "répondent"
+        }
+    },
+    {
+        "infinitivo": "atteindre",
+        "conjugaciones": {
+            "je": "atteins",
+            "tu": "atteins",
+            "il/elle/on": "atteint",
+            "nous": "atteignons",
+            "vous": "atteignez",
+            "ils/elles": "atteignent"
+        }
+    },
+    {
+        "infinitivo": "éteindre",
+        "conjugaciones": {
+            "je": "éteins",
+            "tu": "éteins",
+            "il/elle/on": "éteint",
+            "nous": "éteignons",
+            "vous": "éteignez",
+            "ils/elles": "éteignent"
+        }
+    },
+    {
+        "infinitivo": "peindre",
+        "conjugaciones": {
+            "je": "peins",
+            "tu": "peins",
+            "il/elle/on": "peint",
+            "nous": "peignons",
+            "vous": "peignez",
+            "ils/elles": "peignent"
+        }
+    },
+    {
+        "infinitivo": "restreindre",
+        "conjugaciones": {
+            "je": "restreins",
+            "tu": "restreins",
+            "il/elle/on": "restreint",
+            "nous": "restreignons",
+            "vous": "restreignez",
+            "ils/elles": "restreignent"
+        }
+    },
+    {
+        "infinitivo": "teindre",
+        "conjugaciones": {
+            "je": "teins",
+            "tu": "teins",
+            "il/elle/on": "teint",
+            "nous": "teignons",
+            "vous": "teignez",
+            "ils/elles": "teignent"
+        }
+    },
+    {
+        "infinitivo": "cuire",
+        "conjugaciones": {
+            "je": "cuis",
+            "tu": "cuis",
+            "il/elle/on": "cuit",
+            "nous": "cuisons",
+            "vous": "cuisez",
+            "ils/elles": "cuisent"
+        }
+    },
+    {
+        "infinitivo": "conduire",
+        "conjugaciones": {
+            "je": "conduis",
+            "tu": "conduis",
+            "il/elle/on": "conduit",
+            "nous": "conduisons",
+            "vous": "conduisez",
+            "ils/elles": "conduisent"
+        }
+    },
+    {
+        "infinitivo": "produire",
+        "conjugaciones": {
+            "je": "produis",
+            "tu": "produis",
+            "il/elle/on": "produit",
+            "nous": "produisons",
+            "vous": "produisez",
+            "ils/elles": "produisent"
+        }
+    },
+    {
+        "infinitivo": "construire",
+        "conjugaciones": {
+            "je": "construis",
+            "tu": "construis",
+            "il/elle/on": "construit",
+            "nous": "construisons",
+            "vous": "construisez",
+            "ils/elles": "construisent"
+        }
+    },
+    {
+        "infinitivo": "traduire",
+        "conjugaciones": {
+            "je": "traduis",
+            "tu": "traduis",
+            "il/elle/on": "traduit",
+            "nous": "traduisons",
+            "vous": "traduisez",
+            "ils/elles": "traduisent"
+        }
+    },
+    {
+        "infinitivo": "réduire",
+        "conjugaciones": {
+            "je": "réduis",
+            "tu": "réduis",
+            "il/elle/on": "réduit",
+            "nous": "réduisons",
+            "vous": "réduisez",
+            "ils/elles": "réduisent"
+        }
+    },
+    {
+        "infinitivo": "détruire",
+        "conjugaciones": {
+            "je": "détruis",
+            "tu": "détruis",
+            "il/elle/on": "détruit",
+            "nous": "détruisons",
+            "vous": "détruisez",
+            "ils/elles": "détruisent"
+        }
+    },
+    {
+        "infinitivo": "voir",
+        "conjugaciones": {
+            "je": "vois",
+            "tu": "vois",
+            "il/elle/on": "voit",
+            "nous": "voyons",
+            "vous": "voyez",
+            "ils/elles": "voient"
+        }
+    },
+    {
+        "infinitivo": "revoir",
+        "conjugaciones": {
+            "je": "revois",
+            "tu": "revois",
+            "il/elle/on": "revoit",
+            "nous": "revoyons",
+            "vous": "revoyez",
+            "ils/elles": "revoient"
+        }
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "entrevois",
+            "tu": "entrevois",
+            "il/elle/on": "entrevoit",
+            "nous": "entrevoyons",
+            "vous": "entrevoyez",
+            "ils/elles": "entrevoient"
+        }
+    },
+    {
+        "infinitivo": "croire",
+        "conjugaciones": {
+            "je": "crois",
+            "tu": "crois",
+            "il/elle/on": "croit",
+            "nous": "croyons",
+            "vous": "croyez",
+            "ils/elles": "croient"
+        }
+    },
+    {
+        "infinitivo": "apercevoir",
+        "conjugaciones": {
+            "je": "aperçois",
+            "tu": "aperçois",
+            "il/elle/on": "aperçoit",
+            "nous": "apercevons",
+            "vous": "apercevez",
+            "ils/elles": "aperçoivent"
+        }
+    },
+    {
+        "infinitivo": "commettre",
+        "conjugaciones": {
+            "je": "commets",
+            "tu": "commets",
+            "il/elle/on": "commet",
+            "nous": "commettons",
+            "vous": "commettez",
+            "ils/elles": "commettent"
+        }
+    },
+    {
+        "infinitivo": "promettre",
+        "conjugaciones": {
+            "je": "promets",
+            "tu": "promets",
+            "il/elle/on": "promet",
+            "nous": "promettons",
+            "vous": "promettez",
+            "ils/elles": "promettent"
+        }
+    },
+    {
+        "infinitivo": "transmettre",
+        "conjugaciones": {
+            "je": "transmets",
+            "tu": "transmets",
+            "il/elle/on": "transmet",
+            "nous": "transmettons",
+            "vous": "transmettez",
+            "ils/elles": "transmettent"
+        }
+    },
+    {
+        "infinitivo": "mettre",
+        "conjugaciones": {
+            "je": "mets",
+            "tu": "mets",
+            "il/elle/on": "met",
+            "nous": "mettons",
+            "vous": "mettez",
+            "ils/elles": "mettent"
+        }
+    },
+    {
+        "infinitivo": "permettre",
+        "conjugaciones": {
+            "je": "permets",
+            "tu": "permets",
+            "il/elle/on": "permet",
+            "nous": "permettons",
+            "vous": "permettez",
+            "ils/elles": "permettent"
+        }
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "admets",
+            "tu": "admets",
+            "il/elle/on": "admet",
+            "nous": "admettons",
+            "vous": "admettez",
+            "ils/elles": "admettent"
+        }
+    },
+    {
+        "infinitivo": "omettre",
+        "conjugaciones": {
+            "je": "omets",
+            "tu": "omets",
+            "il/elle/on": "omet",
+            "nous": "omettons",
+            "vous": "omettez",
+            "ils/elles": "omettent"
+        }
+    },
+    {
+        "infinitivo": "soumettre",
+        "conjugaciones": {
+            "je": "soumets",
+            "tu": "soumets",
+            "il/elle/on": "soumet",
+            "nous": "soumettons",
+            "vous": "soumets",
+            "ils/elles": "soumettent"
+        }
+    },
+    {
+        "infinitivo": "compromettre",
+        "conjugaciones": {
+            "je": "compromets",
+            "tu": "compromets",
+            "il/elle/on": "compromet",
+            "nous": "compromettons",
+            "vous": "compromettez",
+            "ils/elles": "compromettent"
+        }
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "admets",
+            "tu": "admets",
+            "il/elle/on": "admet",
+            "nous": "admettons",
+            "vous": "admettez",
+            "ils/elles": "admettent"
+        }
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "entrevois",
+            "tu": "entrevois",
+            "il/elle/on": "entrevoit",
+            "nous": "entrevoyons",
+            "vous": "entrevoyez",
+            "ils/elles": "entrevoient"
+        }
     }
-
 ]
