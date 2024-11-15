@@ -1,0 +1,1080 @@
+[
+    {
+        "infinitivo": "être",
+        "conjugaciones": {
+            "je": "serai",
+            "tu": "seras",
+            "il/elle/on": "sera",
+            "nous": "serons",
+            "vous": "serez",
+            "ils/elles": "seront"
+        }
+    },
+    {
+        "infinitivo": "avoir",
+        "conjugaciones": {
+            "je": "aurai",
+            "tu": "auras",
+            "il/elle/on": "aura",
+            "nous": "aurons",
+            "vous": "aurez",
+            "ils/elles": "auront"
+        }
+    },
+    {
+        "infinitivo": "aller",
+        "conjugaciones": {
+            "je": "irai",
+            "tu": "iras",
+            "il/elle/on": "ira",
+            "nous": "irons",
+            "vous": "irez",
+            "ils/elles": "iront"
+        }
+    },
+    {
+        "infinitivo": "faire",
+        "conjugaciones": {
+            "je": "ferai",
+            "tu": "feras",
+            "il/elle/on": "fera",
+            "nous": "ferons",
+            "vous": "ferez",
+            "ils/elles": "feront"
+        }
+    },
+    {
+        "infinitivo": "dire",
+        "conjugaciones": {
+            "je": "dirai",
+            "tu": "diras",
+            "il/elle/on": "dira",
+            "nous": "dirons",
+            "vous": "direz",
+            "ils/elles": "diront"
+        }
+    },
+    {
+        "infinitivo": "pouvoir",
+        "conjugaciones": {
+            "je": "pourrai",
+            "tu": "pourras",
+            "il/elle/on": "pourra",
+            "nous": "pourrons",
+            "vous": "pourrez",
+            "ils/elles": "pourront"
+        }
+    },
+    {
+        "infinitivo": "vouloir",
+        "conjugaciones": {
+            "je": "voudrai",
+            "tu": "voudras",
+            "il/elle/on": "voudra",
+            "nous": "voudrons",
+            "vous": "voudrez",
+            "ils/elles": "voudront"
+        }
+    },
+    {
+        "infinitivo": "savoir",
+        "conjugaciones": {
+            "je": "saurai",
+            "tu": "sauras",
+            "il/elle/on": "saura",
+            "nous": "saurons",
+            "vous": "saurez",
+            "ils/elles": "sauront"
+        }
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "viendrai",
+            "tu": "viendras",
+            "il/elle/on": "viendra",
+            "nous": "viendrons",
+            "vous": "viendrez",
+            "ils/elles": "viendront"
+        }
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "prendrai",
+            "tu": "prendras",
+            "il/elle/on": "prendra",
+            "nous": "prendrons",
+            "vous": "prendrez",
+            "ils/elles": "prendront"
+        }
+    },
+    {
+        "infinitivo": "mettre",
+        "conjugaciones": {
+            "je": "mettrai",
+            "tu": "mettras",
+            "il/elle/on": "mettra",
+            "nous": "mettrons",
+            "vous": "mettrez",
+            "ils/elles": "mettront"
+        }
+    },
+    {
+        "infinitivo": "donner",
+        "conjugaciones": {
+            "je": "donnerai",
+            "tu": "donneras",
+            "il/elle/on": "donnera",
+            "nous": "donnerons",
+            "vous": "donnerez",
+            "ils/elles": "donneront"
+        }
+    },
+    {
+        "infinitivo": "devoir",
+        "conjugaciones": {
+            "je": "devrai",
+            "tu": "devras",
+            "il/elle/on": "devra",
+            "nous": "devrons",
+            "vous": "devrez",
+            "ils/elles": "devront"
+        }
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "prendrai",
+            "tu": "prendras",
+            "il/elle/on": "prendra",
+            "nous": "prendrons",
+            "vous": "prendrez",
+            "ils/elles": "prendront"
+        }
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "parlerai",
+            "tu": "parleras",
+            "il/elle/on": "parlera",
+            "nous": "parlerons",
+            "vous": "parlerez",
+            "ils/elles": "parleront"
+        }
+    },
+    {
+        "infinitivo": "aimer",
+        "conjugaciones": {
+            "je": "aimerai",
+            "tu": "aimeras",
+            "il/elle/on": "aimera",
+            "nous": "aimerons",
+            "vous": "aimerez",
+            "ils/elles": "aimeront"
+        }
+    },
+    {
+        "infinitivo": "trouver",
+        "conjugaciones": {
+            "je": "trouverai",
+            "tu": "trouveras",
+            "il/elle/on": "trouvera",
+            "nous": "trouverons",
+            "vous": "trouverez",
+            "ils/elles": "trouveront"
+        }
+    },
+    {
+        "infinitivo": "vivre",
+        "conjugaciones": {
+            "je": "vivrai",
+            "tu": "vivras",
+            "il/elle/on": "vivra",
+            "nous": "vivrons",
+            "vous": "vivrez",
+            "ils/elles": "vivront"
+        }
+    },
+    {
+        "infinitivo": "demander",
+        "conjugaciones": {
+            "je": "demanderai",
+            "tu": "demanderas",
+            "il/elle/on": "demandera",
+            "nous": "demanderons",
+            "vous": "demanderez",
+            "ils/elles": "demanderont"
+        }
+    },
+    {
+        "infinitivo": "rendre",
+        "conjugaciones": {
+            "je": "rendrai",
+            "tu": "rendras",
+            "il/elle/on": "rendra",
+            "nous": "rendrons",
+            "vous": "rendrez",
+            "ils/elles": "rendront"
+        }
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "viendrai",
+            "tu": "viendras",
+            "il/elle/on": "viendra",
+            "nous": "viendrons",
+            "vous": "viendrez",
+            "ils/elles": "viendront"
+        }
+    },
+    {
+        "infinitivo": "chercher",
+        "conjugaciones": {
+            "je": "chercherai",
+            "tu": "chercheras",
+            "il/elle/on": "cherchera",
+            "nous": "chercherons",
+            "vous": "chercherez",
+            "ils/elles": "chercheront"
+        }
+    },
+    {
+        "infinitivo": "passer",
+        "conjugaciones": {
+            "je": "passerai",
+            "tu": "passeras",
+            "il/elle/on": "passera",
+            "nous": "passerons",
+            "vous": "passerez",
+            "ils/elles": "passeront"
+        }
+    },
+    {
+        "infinitivo": "comprendre",
+        "conjugaciones": {
+            "je": "comprendrai",
+            "tu": "comprendras",
+            "il/elle/on": "comprendra",
+            "nous": "comprendrons",
+            "vous": "comprendrez",
+            "ils/elles": "comprendront"
+        }
+    },
+    {
+        "infinitivo": "rester",
+        "conjugaciones": {
+            "je": "resterai",
+            "tu": "resteras",
+            "il/elle/on": "restera",
+            "nous": "resterons",
+            "vous": "resterez",
+            "ils/elles": "resteront"
+        }
+    },
+    {
+        "infinitivo": "tenir",
+        "conjugaciones": {
+            "je": "tiendrai",
+            "tu": "tiendras",
+            "il/elle/on": "tiendra",
+            "nous": "tiendrons",
+            "vous": "tiendrez",
+            "ils/elles": "tiendront"
+        }
+    },
+    {
+        "infinitivo": "porter",
+        "conjugaciones": {
+            "je": "porterai",
+            "tu": "porteras",
+            "il/elle/on": "portera",
+            "nous": "porterons",
+            "vous": "porterez",
+            "ils/elles": "porteront"
+        }
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "parlerai",
+            "tu": "parleras",
+            "il/elle/on": "parlera",
+            "nous": "parlerons",
+            "vous": "parlerez",
+            "ils/elles": "parleront"
+        }
+    },
+    {
+        "infinitivo": "montrer",
+        "conjugaciones": {
+            "je": "montrerai",
+            "tu": "montreras",
+            "il/elle/on": "montrera",
+            "nous": "montrerons",
+            "vous": "montrerez",
+            "ils/elles": "montreront"
+        }
+    },
+    {
+        "infinitivo": "acheter",
+        "conjugaciones": {
+            "je": "achèterai",
+            "tu": "achèteras",
+            "il/elle/on": "achètera",
+            "nous": "achèterons",
+            "vous": "achèterez",
+            "ils/elles": "achèteront"
+        }
+    },
+    {
+        "infinitivo": "attendre",
+        "conjugaciones": {
+            "je": "attendrai",
+            "tu": "attendras",
+            "il/elle/on": "attendra",
+            "nous": "attendrons",
+            "vous": "attendrez",
+            "ils/elles": "attendront"
+        }
+    },
+    {
+        "infinitivo": "manger",
+        "conjugaciones": {
+            "je": "mangerai",
+            "tu": "mangeras",
+            "il/elle/on": "mangera",
+            "nous": "mangerons",
+            "vous": "mangerez",
+            "ils/elles": "mangeront"
+        }
+    },
+    {
+        "infinitivo": "boire",
+        "conjugaciones": {
+            "je": "boirai",
+            "tu": "boiras",
+            "il/elle/on": "boira",
+            "nous": "boirons",
+            "vous": "boirez",
+            "ils/elles": "boiront"
+        }
+    },
+    {
+        "infinitivo": "finir",
+        "conjugaciones": {
+            "je": "finirai",
+            "tu": "finiras",
+            "il/elle/on": "finira",
+            "nous": "finirons",
+            "vous": "finirez",
+            "ils/elles": "finiront"
+        }
+    },
+    {
+        "infinitivo": "ouvrir",
+        "conjugaciones": {
+            "je": "ouvrirai",
+            "tu": "ouvriras",
+            "il/elle/on": "ouvrira",
+            "nous": "ouvrirons",
+            "vous": "ouvrirez",
+            "ils/elles": "ouvriront"
+        }
+    },
+    {
+        "infinitivo": "courir",
+        "conjugaciones": {
+            "je": "courrai",
+            "tu": "courras",
+            "il/elle/on": "courra",
+            "nous": "courrons",
+            "vous": "courrez",
+            "ils/elles": "courront"
+        }
+    },
+    {
+        "infinitivo": "sortir",
+        "conjugaciones": {
+            "je": "sortirai",
+            "tu": "sortiras",
+            "il/elle/on": "sortira",
+            "nous": "sortirons",
+            "vous": "sortirez",
+            "ils/elles": "sortiront"
+        }
+    },
+    {
+        "infinitivo": "écrire",
+        "conjugaciones": {
+            "je": "écrirai",
+            "tu": "écriras",
+            "il/elle/on": "écrira",
+            "nous": "écrirons",
+            "vous": "écrirez",
+            "ils/elles": "écriront"
+        }
+    },
+    {
+        "infinitivo": "lire",
+        "conjugaciones": {
+            "je": "lirai",
+            "tu": "liras",
+            "il/elle/on": "lira",
+            "nous": "lirons",
+            "vous": "lirez",
+            "ils/elles": "liront"
+        }
+    },
+    {
+        "infinitivo": "étudier",
+        "conjugaciones": {
+            "je": "étudierai",
+            "tu": "étudieras",
+            "il/elle/on": "étudiera",
+            "nous": "étudierons",
+            "vous": "étudierez",
+            "ils/elles": "étudieront"
+        }
+    },
+    {
+        "infinitivo": "travailler",
+        "conjugaciones": {
+            "je": "travaillerai",
+            "tu": "travailleras",
+            "il/elle/on": "travaillera",
+            "nous": "travaillerons",
+            "vous": "travaillerez",
+            "ils/elles": "travailleront"
+        }
+    },
+    {
+        "infinitivo": "jouer",
+        "conjugaciones": {
+            "je": "jouerai",
+            "tu": "joueras",
+            "il/elle/on": "jouera",
+            "nous": "jouerons",
+            "vous": "jouerez",
+            "ils/elles": "joueront"
+        }
+    },
+    {
+        "infinitivo": "regarder",
+        "conjugaciones": {
+            "je": "regarderai",
+            "tu": "regarderas",
+            "il/elle/on": "regardera",
+            "nous": "regarderons",
+            "vous": "regarderez",
+            "ils/elles": "regarderont"
+        }
+    },
+    {
+        "infinitivo": "écouter",
+        "conjugaciones": {
+            "je": "écouterai",
+            "tu": "écouteras",
+            "il/elle/on": "écoutera",
+            "nous": "écouterons",
+            "vous": "écouterez",
+            "ils/elles": "écouteront"
+        }
+    },
+    {
+        "infinitivo": "raconter",
+        "conjugaciones": {
+            "je": "raconterai",
+            "tu": "raconteras",
+            "il/elle/on": "racontera",
+            "nous": "raconterons",
+            "vous": "raconterez",
+            "ils/elles": "raconteront"
+        }
+    },
+    {
+        "infinitivo": "oublier",
+        "conjugaciones": {
+            "je": "oublierai",
+            "tu": "oublieras",
+            "il/elle/on": "oubliera",
+            "nous": "oublierons",
+            "vous": "oublierez",
+            "ils/elles": "oublieront"
+        }
+    },
+    {
+        "infinitivo": "revenir",
+        "conjugaciones": {
+            "je": "reviendrai",
+            "tu": "reviendras",
+            "il/elle/on": "reviendra",
+            "nous": "reviendrons",
+            "vous": "reviendrez",
+            "ils/elles": "reviendront"
+        }
+    },
+    {
+        "infinitivo": "connaître",
+        "conjugaciones": {
+            "je": "connaîtrai",
+            "tu": "connaîtras",
+            "il/elle/on": "connaîtra",
+            "nous": "connaîtrons",
+            "vous": "connaîtrez",
+            "ils/elles": "connaîtront"
+        }
+    },
+    {
+        "infinitivo": "perdre",
+        "conjugaciones": {
+            "je": "perdrai",
+            "tu": "perdras",
+            "il/elle/on": "perdra",
+            "nous": "perdrons",
+            "vous": "perdrez",
+            "ils/elles": "perdront"
+        }
+    },
+    {
+        "infinitivo": "cueillir",
+        "conjugaciones": {
+            "je": "cueillerai",
+            "tu": "cueilleras",
+            "il/elle/on": "cueillera",
+            "nous": "cueillerons",
+            "vous": "cueillerez",
+            "ils/elles": "cueilleront"
+        }
+    },
+    {
+        "infinitivo": "souffrir",
+        "conjugaciones": {
+            "je": "souffrirai",
+            "tu": "souffriras",
+            "il/elle/on": "souffrira",
+            "nous": "souffrirons",
+            "vous": "souffrirez",
+            "ils/elles": "souffriront"
+        }
+    },
+    {
+        "infinitivo": "accueillir",
+        "conjugaciones": {
+            "je": "accueillerai",
+            "tu": "accueilleras",
+            "il/elle/on": "accueillera",
+            "nous": "accueillerons",
+            "vous": "accueillerez",
+            "ils/elles": "accueilleront"
+        }
+    },
+    {
+        "infinitivo": "découvrir",
+        "conjugaciones": {
+            "je": "découvrirai",
+            "tu": "découvriras",
+            "il/elle/on": "découvrira",
+            "nous": "découvrirons",
+            "vous": "découvrirez",
+            "ils/elles": "découvriront"
+        }
+    },
+    {
+        "infinitivo": "recouvrir",
+        "conjugaciones": {
+            "je": "recouvrirai",
+            "tu": "recouvriras",
+            "il/elle/on": "recouvrira",
+            "nous": "recouvrirons",
+            "vous": "recouvrirez",
+            "ils/elles": "recouvriront"
+        }
+    },
+    {
+        "infinitivo": "recueillir",
+        "conjugaciones": {
+            "je": "recueillerai",
+            "tu": "recueilleras",
+            "il/elle/on": "recueillera",
+            "nous": "recueillerons",
+            "vous": "recueillerez",
+            "ils/elles": "recueilleront"
+        }
+    },
+    {
+        "infinitivo": "agir",
+        "conjugaciones": {
+            "je": "agirai",
+            "tu": "agiras",
+            "il/elle/on": "agira",
+            "nous": "agirons",
+            "vous": "agirez",
+            "ils/elles": "agiront"
+        }
+    },
+    {
+        "infinitivo": "grandir",
+        "conjugaciones": {
+            "je": "grandirai",
+            "tu": "grandiras",
+            "il/elle/on": "grandira",
+            "nous": "grandirons",
+            "vous": "grandirez",
+            "ils/elles": "grandiront"
+        }
+    },
+    {
+        "infinitivo": "subir",
+        "conjugaciones": {
+            "je": "subirai",
+            "tu": "subiras",
+            "il/elle/on": "subira",
+            "nous": "subirons",
+            "vous": "subirez",
+            "ils/elles": "subiront"
+        }
+    },
+    {
+        "infinitivo": "accomplir",
+        "conjugaciones": {
+            "je": "accomplirai",
+            "tu": "accompliras",
+            "il/elle/on": "accomplira",
+            "nous": "accomplirons",
+            "vous": "accomplirez",
+            "ils/elles": "accompliront"
+        }
+    },
+    {
+        "infinitivo": "saisir",
+        "conjugaciones": {
+            "je": "saisirai",
+            "tu": "saisiras",
+            "il/elle/on": "saisira",
+            "nous": "saisirons",
+            "vous": "saisirez",
+            "ils/elles": "saisiront"
+        }
+    },
+    {
+        "infinitivo": "approfondir",
+        "conjugaciones": {
+            "je": "approfondirai",
+            "tu": "approfondiras",
+            "il/elle/on": "approfondira",
+            "nous": "approfondirons",
+            "vous": "approfondirez",
+            "ils/elles": "approfondiront"
+        }
+    },
+    {
+        "infinitivo": "mincir",
+        "conjugaciones": {
+            "je": "mincirai",
+            "tu": "minciras",
+            "il/elle/on": "mincira",
+            "nous": "mincirons",
+            "vous": "mincirez",
+            "ils/elles": "minciront"
+        }
+    },
+    {
+        "infinitivo": "apprendre",
+        "conjugaciones": {
+            "je": "apprendrai",
+            "tu": "apprendras",
+            "il/elle/on": "apprendra",
+            "nous": "apprendrons",
+            "vous": "apprendrez",
+            "ils/elles": "apprendront"
+        }
+    },
+    {
+        "infinitivo": "entreprendre",
+        "conjugaciones": {
+            "je": "entreprendrai",
+            "tu": "entreprendras",
+            "il/elle/on": "entreprendra",
+            "nous": "entreprendrons",
+            "vous": "entreprendrez",
+            "ils/elles": "entreprendront"
+        }
+    },
+    {
+        "infinitivo": "reprendre",
+        "conjugaciones": {
+            "je": "reprendrai",
+            "tu": "reprendras",
+            "il/elle/on": "reprendra",
+            "nous": "reprendrons",
+            "vous": "reprendrez",
+            "ils/elles": "reprendront"
+        }
+    },
+    {
+        "infinitivo": "surprendre",
+        "conjugaciones": {
+            "je": "surprendrai",
+            "tu": "surprendras",
+            "il/elle/on": "surprendra",
+            "nous": "surprendrons",
+            "vous": "surprendrez",
+            "ils/elles": "surprendront"
+        }
+    },
+    {
+        "infinitivo": "se méprendre",
+        "conjugaciones": {
+            "je": "se méprendrai",
+            "tu": "se méprendras",
+            "il/elle/on": "se méprendra",
+            "nous": "se méprendrons",
+            "vous": "se méprendrez",
+            "ils/elles": "se méprendront"
+        }
+    },
+    {
+        "infinitivo": "descendre",
+        "conjugaciones": {
+            "je": "descendrai",
+            "tu": "descendras",
+            "il/elle/on": "descendra",
+            "nous": "descendrons",
+            "vous": "descendrez",
+            "ils/elles": "descendront"
+        }
+    },
+    {
+        "infinitivo": "mordre",
+        "conjugaciones": {
+            "je": "mordrai",
+            "tu": "mordras",
+            "il/elle/on": "mordra",
+            "nous": "mordrons",
+            "vous": "mordrez",
+            "ils/elles": "mordront"
+        }
+    },
+    {
+        "infinitivo": "répondre",
+        "conjugaciones": {
+            "je": "répondrai",
+            "tu": "répondras",
+            "il/elle/on": "répondra",
+            "nous": "répondrons",
+            "vous": "répondrez",
+            "ils/elles": "répondront"
+        }
+    },
+    {
+        "infinitivo": "atteindre",
+        "conjugaciones": {
+            "je": "atteindrai",
+            "tu": "atteindras",
+            "il/elle/on": "atteindra",
+            "nous": "atteindrons",
+            "vous": "atteindrez",
+            "ils/elles": "atteindront"
+        }
+    },
+    {
+        "infinitivo": "éteindre",
+        "conjugaciones": {
+            "je": "éteindrai",
+            "tu": "éteindras",
+            "il/elle/on": "éteindra",
+            "nous": "éteindrons",
+            "vous": "éteindrez",
+            "ils/elles": "éteindront"
+        }
+    },
+    {
+        "infinitivo": "peindre",
+        "conjugaciones": {
+            "je": "peindrai",
+            "tu": "peindras",
+            "il/elle/on": "peindra",
+            "nous": "peindrons",
+            "vous": "peindrez",
+            "ils/elles": "peindront"
+        }
+    },
+    {
+        "infinitivo": "restreindre",
+        "conjugaciones": {
+            "je": "restreindrai",
+            "tu": "restreindras",
+            "il/elle/on": "restreindra",
+            "nous": "restreindrons",
+            "vous": "restreindrez",
+            "ils/elles": "restreindront"
+        }
+    },
+    {
+        "infinitivo": "teindre",
+        "conjugaciones": {
+            "je": "teindrai",
+            "tu": "teindras",
+            "il/elle/on": "teindra",
+            "nous": "teindrons",
+            "vous": "teindrez",
+            "ils/elles": "teindront"
+        }
+    },
+    {
+        "infinitivo": "cuire",
+        "conjugaciones": {
+            "je": "cuirai",
+            "tu": "cuiras",
+            "il/elle/on": "cuira",
+            "nous": "cuirons",
+            "vous": "cuirez",
+            "ils/elles": "cuiront"
+        }
+    },
+    {
+        "infinitivo": "conduire",
+        "conjugaciones": {
+            "je": "conduirai",
+            "tu": "conduiras",
+            "il/elle/on": "conduira",
+            "nous": "conduirons",
+            "vous": "conduirez",
+            "ils/elles": "conduiront"
+        }
+    },
+    {
+        "infinitivo": "produire",
+        "conjugaciones": {
+            "je": "produirai",
+            "tu": "produiras",
+            "il/elle/on": "produira",
+            "nous": "produirons",
+            "vous": "produirez",
+            "ils/elles": "produiront"
+        }
+    },
+    {
+        "infinitivo": "construire",
+        "conjugaciones": {
+            "je": "construirai",
+            "tu": "construiras",
+            "il/elle/on": "construira",
+            "nous": "construirons",
+            "vous": "construirez",
+            "ils/elles": "construiront"
+        }
+    },
+    {
+        "infinitivo": "traduire",
+        "conjugaciones": {
+            "je": "traduisirai",
+            "tu": "traduisiras",
+            "il/elle/on": "traduisira",
+            "nous": "traduisirons",
+            "vous": "traduisirez",
+            "ils/elles": "traduisiront"
+        }
+    },
+    {
+        "infinitivo": "réduire",
+        "conjugaciones": {
+            "je": "réduirai",
+            "tu": "réduiras",
+            "il/elle/on": "réduira",
+            "nous": "réduirons",
+            "vous": "réduirez",
+            "ils/elles": "réduiront"
+        }
+    },
+    {
+        "infinitivo": "détruire",
+        "conjugaciones": {
+            "je": "détruirai",
+            "tu": "détruiras",
+            "il/elle/on": "détruira",
+            "nous": "détruirons",
+            "vous": "détruirez",
+            "ils/elles": "détruiront"
+        }
+    },
+    {
+        "infinitivo": "voir",
+        "conjugaciones": {
+            "je": "verrai",
+            "tu": "verras",
+            "il/elle/on": "verra",
+            "nous": "verrons",
+            "vous": "verrez",
+            "ils/elles": "verront"
+        }
+    },
+    {
+        "infinitivo": "revoir",
+        "conjugaciones": {
+            "je": "reverrai",
+            "tu": "reverras",
+            "il/elle/on": "reverra",
+            "nous": "reverrons",
+            "vous": "reverrez",
+            "ils/elles": "reverront"
+        }
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "entreverrai",
+            "tu": "entreverras",
+            "il/elle/on": "entreverra",
+            "nous": "entreverrons",
+            "vous": "entreverrez",
+            "ils/elles": "entreverront"
+        }
+    },
+    {
+        "infinitivo": "croire",
+        "conjugaciones": {
+            "je": "croirai",
+            "tu": "croiras",
+            "il/elle/on": "croira",
+            "nous": "croirons",
+            "vous": "croirez",
+            "ils/elles": "croiront"
+        }
+    },
+    {
+        "infinitivo": "apercevoir",
+        "conjugaciones": {
+            "je": "apercevrai",
+            "tu": "apercevras",
+            "il/elle/on": "apercevra",
+            "nous": "apercevrons",
+            "vous": "apercevrez",
+            "ils/elles": "apercevront"
+        }
+    },
+    {
+        "infinitivo": "commettre",
+        "conjugaciones": {
+            "je": "commettrai",
+            "tu": "commettras",
+            "il/elle/on": "commettra",
+            "nous": "commettrons",
+            "vous": "commettrez",
+            "ils/elles": "commettront"
+        }
+    },
+    {
+        "infinitivo": "promettre",
+        "conjugaciones": {
+            "je": "promettrai",
+            "tu": "promettras",
+            "il/elle/on": "promettra",
+            "nous": "promettrons",
+            "vous": "promettrez",
+            "ils/elles": "promettront"
+        }
+    },
+    {
+        "infinitivo": "transmettre",
+        "conjugaciones": {
+            "je": "transmettrai",
+            "tu": "transmettras",
+            "il/elle/on": "transmettra",
+            "nous": "transmettrons",
+            "vous": "transmettrez",
+            "ils/elles": "transmettront"
+        }
+    },
+    {
+        "infinitivo": "permettre",
+        "conjugaciones": {
+            "je": "permettrai",
+            "tu": "permettras",
+            "il/elle/on": "permettra",
+            "nous": "permettrons",
+            "vous": "permettrez",
+            "ils/elles": "permettront"
+        }
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "admettrai",
+            "tu": "admettras",
+            "il/elle/on": "admettra",
+            "nous": "admettrons",
+            "vous": "admettrez",
+            "ils/elles": "admettront"
+        }
+    },
+    {
+        "infinitivo": "omettre",
+        "conjugaciones": {
+            "je": "omettrai",
+            "tu": "omettras",
+            "il/elle/on": "omettra",
+            "nous": "omettrons",
+            "vous": "omettrez",
+            "ils/elles": "omettront"
+        }
+    },
+    {
+        "infinitivo": "soumettre",
+        "conjugaciones": {
+            "je": "soumettrai",
+            "tu": "soumettras",
+            "il/elle/on": "soumettra",
+            "nous": "soumettrons",
+            "vous": "soumettrez",
+            "ils/elles": "soumettront"
+        }
+    },
+    {
+        "infinitivo": "compromettre",
+        "conjugaciones": {
+            "je": "compromettrai",
+            "tu": "compromettras",
+            "il/elle/on": "compromettra",
+            "nous": "compromettrons",
+            "vous": "compromettrez",
+            "ils/elles": "compromettront"
+        }
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "admettrai",
+            "tu": "admettras",
+            "il/elle/on": "admettra",
+            "nous": "admettrons",
+            "vous": "admettrez",
+            "ils/elles": "admettront"
+        }
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "entreverrai",
+            "tu": "entreverras",
+            "il/elle/on": "entreverra",
+            "nous": "entreverrons",
+            "vous": "entreverrez",
+            "ils/elles": "entreverront"
+        }
+    },
+    {
+        "infinitivo": "partir",
+        "conjugaciones": {
+            "je": "partirai",
+            "tu": "partiras",
+            "il/elle/on": "partira",
+            "nous": "partirons",
+            "vous": "partirez",
+            "ils/elles": "partiront"
+        }
+    }
+]

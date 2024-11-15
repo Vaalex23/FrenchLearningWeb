@@ -187,17 +187,6 @@
         }
     },
     {
-        "infinitivo": "donner",
-        "conjugaciones": {
-            "je": "ai donné",
-            "tu": "as donné",
-            "il/elle/on": "a donné",
-            "nous": "avons donné",
-            "vous": "avez donné",
-            "ils/elles": "ont donné"
-        }
-    },
-    {
         "infinitivo": "vivre",
         "conjugaciones": {
             "je": "ai vécu",

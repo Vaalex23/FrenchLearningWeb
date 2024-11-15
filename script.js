@@ -10,8 +10,11 @@ if (archivoActual === "present_simple.html") {
     archivoJSON = 'verbos_frances_present_simple.json';  // Cargar los verbos en presente
 } else if (archivoActual === "passe_compose.html") {
     archivoJSON = 'verbos_frances_passe_compose.json';  // Cargar los verbos en passé composé
-} else {
-    console.error("No se pudo identificar el archivo HTML.");
+
+} else if (archivoActual === "futur_simple.html"){
+    archivoJSON = 'verbos_frances_futur_simple.json';  // Cargar los verbos en futur simple
+} else {   
+     console.error("No se pudo identificar el archivo HTML.");
 }
 
 // Cargar el archivo JSON de forma asincrónica
