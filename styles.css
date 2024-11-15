@@ -16,7 +16,7 @@ body {
 #contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;  /* Centra verticalmente */
+    justify-content: center;  /* Centra verticalmente */
     align-items: center;      /* Centra horizontalmente */
     position: relative;
     perspective: 1000px;
@@ -52,7 +52,7 @@ body {
 .flip-card .back {
     position: absolute;
     width: 300px;
-    height: 250px;
+    height: 230px;
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ body {
 }
 
 #tiempo {
-    font-size: 10px;
+    font-size: 11px;
     margin-top: -20px;
 }
 
@@ -184,4 +184,10 @@ button:hover {
 
 #contador span {
     font-weight: bold;
+}
+
+#traduccion {
+    font-size: 11px; /* Igual que el #tiempo */
+    margin-block: -25px;
+    color: white;
 }

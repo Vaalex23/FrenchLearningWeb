@@ -49,9 +49,10 @@ function mostrarNuevoVerbo() {
     const sujetos = Object.keys(verboActual.conjugaciones);
     sujetoActual = sujetos[Math.floor(Math.random() * sujetos.length)];
 
-    // Muestra el verbo y el sujeto en la tarjeta
-    document.getElementById("verbo").textContent = verboActual.infinitivo;
-    document.getElementById("sujeto").textContent = sujetoActual;
+    // Muestra la traducción, verbo y el sujeto en la tarjeta
+    document.getElementById("traduccion").textContent = verboActual.traduccion; // Traducción del verbo
+    document.getElementById("verbo").textContent = verboActual.infinitivo; // Verbo en infinitivo
+    document.getElementById("sujeto").textContent = sujetoActual; // Sujeto correspondiente
 
     // Limpiar la respuesta y el resultado
     document.getElementById("respuesta").value = "";
