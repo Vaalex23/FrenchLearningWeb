@@ -3,12 +3,12 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-   /* min-height: 100vh;*/
+    min-height: 100vh;
     background-color: #1471a3;
    /* margin: 0;*/
     font-family: Arial, sans-serif;
     color: white;
-   /* text-align: center;*/
+    text-align: center; 
     position:relative; /* Para posicionar la línea con respecto al body */
 }
 
@@ -16,7 +16,7 @@ body {
 #contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* Centra verticalmente */
+    justify-content: flex-start;  /* Centra verticalmente */
     align-items: center;      /* Centra horizontalmente */
     position: relative;
     perspective: 1000px;
@@ -27,15 +27,9 @@ body {
 
 /* Estilos de la tarjeta con flip */
 .flip-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  /* Centra verticalmente */
-    align-items: center;      /* Centra horizontalmente */
-    width: 320px;  /* La tarjeta ocupa todo el ancho disponible */
-    /*max-width: 300px;  /* Establece el ancho máximo de la tarjeta */
+    width: 320px;  
     height: 400px;
     position: relative;
-    /*margin: 0;  /* Elimina cualquier margen para evitar desplazamiento */
 }
 
 /* Frontal de la tarjeta */
@@ -43,7 +37,6 @@ body {
     position: absolute;
     width: 320px;
     height: 250px;
-    /*margin-right: 200%;*/
     /*backface-visibility: hidden;*/
     display: flex;
     flex-direction: column;
@@ -60,13 +53,11 @@ body {
     position: absolute;
     width: 300px;
     height: 250px;
-    /*margin-right: 200%;*/
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*padding: 20px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     transition: transform 0.6s;
@@ -146,7 +137,7 @@ button:hover {
     color: white;
     cursor: pointer;
     border-radius: 5px;
-    /*margin-bottom: 200px; /* Espacio entre la tarjeta y el botón */
+    margin-bottom: 120px; /* Espacio entre la tarjeta y el botón */
 }
 
 #nextButton:hover {
@@ -182,4 +173,15 @@ button:hover {
 
 #backButton:hover {
     color: #dddddd; /* Color más claro al pasar el cursor */
+}
+/* Estilos para el contador */
+#contador {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.2em;
+    color: white;
+}
+
+#contador span {
+    font-weight: bold;
 }

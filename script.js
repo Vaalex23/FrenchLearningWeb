@@ -1,4 +1,6 @@
 let verbos = [];
+let aciertos = 0; // Contador de aciertos
+let intentos = 0; // Contador de intentos
 
 // Detectar el nombre del archivo HTML actual
 const archivoActual = window.location.pathname.split("/").pop();
@@ -10,9 +12,10 @@ if (archivoActual === "present_simple.html") {
     archivoJSON = 'verbos_frances_present_simple.json';  // Cargar los verbos en presente
 } else if (archivoActual === "passe_compose.html") {
     archivoJSON = 'verbos_frances_passe_compose.json';  // Cargar los verbos en passé composé
-
 } else if (archivoActual === "futur_simple.html"){
     archivoJSON = 'verbos_frances_futur_simple.json';  // Cargar los verbos en futur simple
+} else if (archivoActual === "imparfait.html"){
+    archivoJSON = 'verbos_frances_imparfait.json';  // Cargar los verbos en l'imparfait
 } else {   
      console.error("No se pudo identificar el archivo HTML.");
 }
@@ -57,26 +60,40 @@ function mostrarNuevoVerbo() {
 }
 
 function verificar() {
-    console.log("hola");
     const respuesta = document.getElementById("respuesta").value.toLowerCase();
     const respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
+
+    // Incrementar el contador de intentos
+    intentos++;
 
     // Gira la tarjeta
     document.getElementById("flipCard").classList.add("flipped");
 
     // Verifica si la respuesta es correcta
     if (respuesta === respuestaCorrecta) {
+        aciertos++;  // Incrementar el contador de aciertos
         document.getElementById("flipCard").classList.add("correct");
         document.getElementById("resultado").textContent = "¡Correcto!";
     } else {
         document.getElementById("flipCard").classList.add("incorrect");
         document.getElementById("resultado").innerHTML = "Incorrecto.<br><br>La respuesta correcta es:<br><br>" + respuestaCorrecta;
     }
+
+    // Actualizar el contador de aciertos y el porcentaje
+    actualizarContador();
 }
 
 function nextVerb() {
     // Muestra un nuevo verbo aleatorio
     mostrarNuevoVerbo();
+}
+
+// Función para actualizar el contador de aciertos y porcentaje
+function actualizarContador() {
+    const porcentaje = (intentos === 0) ? 0 : Math.round((aciertos / intentos) * 100);
+    document.getElementById("aciertos").textContent = aciertos;
+    document.getElementById("intentos").textContent = intentos;
+    document.getElementById("porcentaje").textContent = `${porcentaje}%`;
 }
 
 // Configurar el evento de teclado para activar "verificar" o "nextVerb" con "Enter"
