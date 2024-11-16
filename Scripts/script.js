@@ -58,6 +58,9 @@ function mostrarNuevoVerbo() {
     document.getElementById("respuesta").value = "";
     document.getElementById("resultado").textContent = "";
     document.getElementById("flipCard").classList.remove("flipped", "correct", "incorrect");
+
+     // Enfocar el input automáticamente
+     document.getElementById("respuesta").focus();
 }
 
 function verificar() {
