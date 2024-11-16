@@ -3,19 +3,21 @@ let aciertos = 0; // Contador de aciertos
 let intentos = 0; // Contador de intentos
 
 // Detectar el nombre del archivo HTML actual
-const archivoActual = window.location.pathname.split("/").pop();
+const url = new URL(window.location.href); // Obtener la URL completa
+const archivoActual = url.pathname.split("/").pop(); // Dividir la ruta y obtener el último segmento
+console.log(archivoActual); // Esto debería mostrar "present_simple.html"
 
 let archivoJSON;
 
 // Determinar el archivo JSON a cargar según la página
 if (archivoActual === "present_simple.html") {
-    archivoJSON = 'verbos_frances_present_simple.json';  // Cargar los verbos en presente
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_present_simple.json';  // Cargar los verbos en presente
 } else if (archivoActual === "passe_compose.html") {
-    archivoJSON = 'verbos_frances_passe_compose.json';  // Cargar los verbos en passé composé
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_passe_compose.json';  // Cargar los verbos en passé composé
 } else if (archivoActual === "futur_simple.html"){
-    archivoJSON = 'verbos_frances_futur_simple.json';  // Cargar los verbos en futur simple
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_futur_simple.json';  // Cargar los verbos en futur simple
 } else if (archivoActual === "imparfait.html"){
-    archivoJSON = 'verbos_frances_imparfait.json';  // Cargar los verbos en l'imparfait
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_imparfait.json';  // Cargar los verbos en l'imparfait
 } else {   
      console.error("No se pudo identificar el archivo HTML.");
 }

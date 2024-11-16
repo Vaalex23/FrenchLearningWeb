@@ -3,29 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica de Verbos en Francés - Present Simple</title>
-    <link rel="stylesheet" href="../styles.css">
+    <title>Práctica de Vocabulario en Francés</title>
+    <link rel="stylesheet" href="../styles_vocabulary.css">
 </head>
 <body>
-    <a href="../index.html" id="backButton">&#8592;</a> <!-- Flecha de regreso -->
+    <a href="../index.html" id="backButton">&#8592;</a> <!-- Botón de regreso -->
     <div id="contenedor">
         <div id="contador">
             <p>Puntuación: <span id="aciertos">0</span>/<span id="intentos">0</span> | <span id="porcentaje">0%</span></p>
         </div>
-
-        <!-- Tarjeta con verbo -->
+        <!-- Tarjeta de palabra -->
         <div class="flip-card" id="flipCard">
             <div class="front">
-                <p id="traduccion"></p> <!-- Traducción del verbo -->
-                <h1 id="verbo"></h1>
-                <p id="tiempo">present simple</p>
-                <p><span id="sujeto"></span> <input type="text" id="respuesta"></p>
+                <h1 id="palabra"></h1> <!-- Palabra en francés -->
+                <input type="text" id="respuesta" placeholder="Traducción">
                 <button onclick="verificar()">Verificar</button>
             </div>
             <div class="back" id="resultado"></div>
         </div>
         <button id="nextButton" onclick="nextVerb()">Next</button>
     </div>
-    <script src="script.js"></script>
+    <script src="../Scripts/vocabulary_check.js"></script>
 </body>
 </html>
