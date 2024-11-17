@@ -14,8 +14,8 @@ if (archivoActual === "calendar_vocabulary.html") {
     archivoJSON = '../JsonFiles/Vocabulary/calendar.json';  // Cargar los verbos en presente
 } else if (archivoActual === "family_vocabulary.html") {
     archivoJSON = '../JsonFiles/Vocabulary/family.json';  // Cargar los verbos en passé composé
-} else if (archivoActual === "futur_simple.html"){
-    archivoJSON = '../JsonFiles/Verbs/verbos_frances_futur_simple.json';  // Cargar los verbos en futur simple
+} else if (archivoActual === "food_vocabulary.html"){
+    archivoJSON = '../JsonFiles/Vocabulary/food.json';  // Cargar los verbos en futur simple
 } else if (archivoActual === "imparfait.html"){
     archivoJSON = '../JsonFiles/Verbs/verbos_frances_imparfait.json';  // Cargar los verbos en l'imparfait
 } else {   
@@ -53,16 +53,27 @@ function mostrarNuevaPalabra() {
 // Verificar la respuesta
 function verificar() {
     const respuesta = document.getElementById("respuesta").value.toLowerCase().trim();
-    const respuestaCorrecta = palabraActual.traduccionESP.toLowerCase();
+
+    let esCorrecto = false;
+
+    // Verificar si traduccionESP es un arreglo o una cadena
+    if (Array.isArray(palabraActual.traduccionESP)) {
+        esCorrecto = palabraActual.traduccionESP.some(opcion => opcion.toLowerCase() === respuesta);
+    } else {
+        esCorrecto = palabraActual.traduccionESP.toLowerCase() === respuesta;
+    }
 
     intentos++;
     document.getElementById("flipCard").classList.add("flipped");
 
-    if (respuesta === respuestaCorrecta) {
+    if (esCorrecto) {
         aciertos++;
         document.getElementById("flipCard").classList.add("correct");
         document.getElementById("resultado").textContent = "¡Correcto!";
     } else {
+        const respuestaCorrecta = Array.isArray(palabraActual.traduccionESP)
+            ? palabraActual.traduccionESP.join(" / ")  // Combina las opciones con " / "
+            : palabraActual.traduccionESP;
         document.getElementById("flipCard").classList.add("incorrect");
         document.getElementById("resultado").innerHTML =
             `Incorrecto. La respuesta correcta es: ${respuestaCorrecta}`;
