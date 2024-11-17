@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Práctica de Francés</title>
+    <link rel="stylesheet" href="../styles_index.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Práctica de Francés</h1>
+        <p>Elige una categoría para comenzar:</p>
+        <div id="card-container">
+            <div class="card" onclick="redirectTo('conjugationIndex.html')">
+                <h2>Conjugación</h2>
+            </div>
+            <div class="card" onclick="redirectTo('vocabularyIndex.html')">
+                <h2>Vocabulario</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function redirectTo(url) {
+            const card = event.currentTarget; 
+            card.classList.add('clicked'); 
+            setTimeout(() => {
+                window.location.href = url;
+            }, 300); // Retraso para la animación
+        }
+    </script>
+</body>
+</html>
