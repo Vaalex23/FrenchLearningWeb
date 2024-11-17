@@ -1,10 +1,10 @@
 [
     {"word": "lundi", "traduccionESP": "lunes", "traduccionENG": "Monday"},
     {"word": "mardi", "traduccionESP": "martes", "traduccionENG": "Tuesday"},
-    {"word": "mercredi", "traduccionESP": "miércoles", "traduccionENG": "Wednesday"},
+    {"word": "mercredi", "traduccionESP": ["miércoles", "miercoles"], "traduccionENG": "Wednesday"},
     {"word": "jeudi", "traduccionESP": "jueves", "traduccionENG": "Thursday"},
     {"word": "vendredi", "traduccionESP": "viernes", "traduccionENG": "Friday"},
-    {"word": "samedi", "traduccionESP": "sábado", "traduccionENG": "Saturday"},
+    {"word": "samedi", "traduccionESP": ["sábado", "sabado"], "traduccionENG": "Saturday"},
     {"word": "dimanche", "traduccionESP": "domingo", "traduccionENG": "Sunday"},
     {"word": "janvier", "traduccionESP": "enero", "traduccionENG": "January"},
     {"word": "février", "traduccionESP": "febrero", "traduccionENG": "February"},

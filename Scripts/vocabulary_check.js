@@ -3,8 +3,26 @@ let aciertos = 0; // Contador de aciertos
 let intentos = 0; // Contador de intentos
 let palabraActual;
 
+const url = new URL(window.location.href); // Obtener la URL completa
+const archivoActual = url.pathname.split("/").pop(); // Dividir la ruta y obtener el último segmento
+console.log(archivoActual); // Esto debería mostrar "present_simple.html"
+
+let archivoJSON;
+
+// Determinar el archivo JSON a cargar según la página
+if (archivoActual === "calendar_vocabulary.html") {
+    archivoJSON = '../JsonFiles/Vocabulary/calendar.json';  // Cargar los verbos en presente
+} else if (archivoActual === "family_vocabulary.html") {
+    archivoJSON = '../JsonFiles/Vocabulary/family.json';  // Cargar los verbos en passé composé
+} else if (archivoActual === "futur_simple.html"){
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_futur_simple.json';  // Cargar los verbos en futur simple
+} else if (archivoActual === "imparfait.html"){
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_imparfait.json';  // Cargar los verbos en l'imparfait
+} else {   
+     console.error("No se pudo identificar el archivo HTML.");
+}
 // Cargar el archivo JSON con vocabulario
-fetch("../JsonFiles/Vocabulary/calendar.json")
+fetch(archivoJSON)
     .then(response => response.json())
     .then(data => {
         palabras = data;

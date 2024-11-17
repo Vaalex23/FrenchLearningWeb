@@ -131,11 +131,13 @@ button:hover {
 #backButton {
     position: absolute;
     top: 20px;
-    left: 20px;
-    font-size: 24px;
+    left: 40px;
+    font-size: 40px;
     color: white;
-    text-decoration: none;
+    text-decoration:solid;
     background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 #backButton:hover {

@@ -21,12 +21,12 @@ body {
     border-radius: 10px;
     box-shadow: 12px 8px 12px rgba(0, 0, 0, 0.2);
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 /* Título */
 #main-container h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
@@ -36,37 +36,41 @@ body {
     margin-bottom: 20px;
 }
 
-/* Botones de opciones verbales */
-.verbal-options button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #0298e8;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin: 5px 0;
-    width: 80%;
-    max-width: 250px;
+/* Contenedor de tarjetas */
+#card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
 }
 
-.verbal-options button:hover {
+/* Tarjetas */
+.card {
+    background-color: #0298e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animación al pasar el cursor */
+.card:hover {
+    transform: scale(1.05);
     background-color: #027bb8;
 }
-#backButton {
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    font-size: 40px;
-    color: white;
-    text-decoration:solid;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
 
-#backButton:hover {
-    color: #dddddd; /* Color más claro al pasar el cursor */
+/* Animación al hacer clic */
+.card.clicked {
+    transform: scale(0.9);
+    background-color: #025f9b;
 }
-
