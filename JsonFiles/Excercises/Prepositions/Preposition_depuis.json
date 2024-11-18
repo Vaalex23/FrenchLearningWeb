@@ -1,0 +1,124 @@
+[
+    {
+      "frase": "Il habite à Paris ___ cinq ans.",
+      "respuesta": "depuis",
+      "explicacionES": "Se usa *depuis* para indicar la duración de una acción que comenzó en el pasado y continúa en el presente.",
+      "explicacionEN": "*Depuis* is used to indicate the duration of an action that started in the past and continues in the present."
+    },
+    {
+      "frase": "Je ne l'ai pas vu ___ hier.",
+      "respuesta": "depuis",
+      "explicacionES": "*Depuis* indica que una acción no ha ocurrido desde un momento en el pasado hasta el presente.",
+      "explicacionEN": "*Depuis* indicates that something has not happened from a point in the past until the present."
+    },
+    {
+      "frase": "Elle travaille ___ 10 heures ce matin.",
+      "respuesta": "depuis",
+      "explicacionES": "Se usa *depuis* para mostrar el inicio de una acción en el pasado, en este caso, a las 10 de la mañana.",
+      "explicacionEN": "*Depuis* is used to show the beginning of an action in the past, in this case, at 10 AM."
+    },
+    {
+      "frase": "Ils jouent au football ___ l'enfance.",
+      "respuesta": "depuis",
+      "explicacionES": "Aquí *depuis* indica que una acción empezó en la infancia y continúa en el presente.",
+      "explicacionEN": "Here *depuis* indicates that an action started in childhood and continues to the present."
+    },
+    {
+      "frase": "Il pleut ___ toute la journée.",
+      "respuesta": "depuis",
+      "explicacionES": "*Depuis* muestra que algo ha estado ocurriendo durante un tiempo, en este caso, todo el día.",
+      "explicacionEN": "*Depuis* shows that something has been happening for a period of time, in this case, all day."
+    },
+    {
+      "frase": "Je n'ai pas mangé ___ ce matin.",
+      "respuesta": "depuis",
+      "explicacionES": "*Depuis* muestra el tiempo que ha pasado desde una acción en el pasado hasta el presente.",
+      "explicacionEN": "*Depuis* shows the time that has passed since an action in the past up to the present."
+    },
+    {
+      "frase": "Elle étudie le français ___ deux ans.",
+      "respuesta": "depuis",
+      "explicacionES": "*Depuis* se usa para mostrar el tiempo que una acción o actividad ha estado ocurriendo.",
+      "explicacionEN": "*Depuis* is used to show how long an action or activity has been occurring."
+    },
+    {
+      "frase": "Ils sont mariés ___ cinq ans.",
+      "respuesta": "depuis",
+      "explicacionES": "*Depuis* se usa para expresar el tiempo que ha pasado desde un evento o acción, en este caso, el matrimonio.",
+      "explicacionEN": "*Depuis* is used to express how much time has passed since an event or action, in this case, marriage."
+    },
+    {
+      "frase": "Je travaille ___ le matin.",
+      "respuesta": "depuis",
+      "explicacionES": "*Depuis* se usa para indicar que una acción ha estado ocurriendo durante un periodo de tiempo.",
+      "explicacionEN": "*Depuis* is used to indicate that an action has been occurring for a period of time."
+    },
+    {
+      "frase": "Nous avons déménagé ___ trois semaines.",
+      "respuesta": "depuis",
+      "explicacionES": "Se usa *depuis* para mostrar el tiempo que ha pasado desde que comenzó una acción, en este caso, mudarse.",
+      "explicacionEN": "*Depuis* is used to show how much time has passed since an action started, in this case, moving."
+    },
+    {
+        "frase": "Elle travaille ___ plus de dix ans dans cette entreprise.",
+        "respuesta": "depuis",
+        "explicacionES": "*Depuis* muestra la duración de una acción que comenzó en el pasado y sigue en el presente.",
+        "explicacionEN": "*Depuis* shows the duration of an action that started in the past and continues to the present."
+    },
+    {
+        "frase": "Il est passionné par la musique ___ son enfance.",
+        "respuesta": "depuis",
+        "explicacionES": "Se usa *depuis* para indicar que una acción o interés ha comenzado en el pasado y persiste hasta el presente.",
+        "explicacionEN": "*Depuis* is used to indicate that an action or interest started in the past and continues to the present."
+    },
+    {
+        "frase": "Les réformes ont été appliquées ___ le début de l'année.",
+        "respuesta": "depuis",
+        "explicacionES": "*Depuis* indica que algo comenzó en el pasado y sigue ocurriendo o teniendo efectos hasta ahora.",
+        "explicacionEN": "*Depuis* indicates that something started in the past and continues to occur or have effects up to now."
+    },
+    {
+        "frase": "Ils sont partis en vacances ___ deux semaines.",
+        "respuesta": "depuis",
+        "explicacionES": "*Depuis* muestra el tiempo que ha pasado desde que la acción comenzó, en este caso, su partida de vacaciones.",
+        "explicacionEN": "*Depuis* shows the time that has passed since the action started, in this case, their departure on vacation."
+    },
+    {
+        "frase": "Elle se plaint ___ des années de mauvais traitements.",
+        "respuesta": "depuis",
+        "explicacionES": "En esta frase, *depuis* muestra que ella se queja de algo que ocurrió en el pasado y sigue afectándola.",
+        "explicacionEN": "In this sentence, *depuis* shows that she is complaining about something that happened in the past and still affects her."
+    },
+    {
+        "frase": "La situation économique s'est détériorée ___ la crise financière.",
+        "respuesta": "depuis",
+        "explicacionES": "*Depuis* se usa para mostrar que algo comenzó en un momento del pasado y ha continuado hasta el presente.",
+        "explicacionEN": "*Depuis* is used to show that something started at a point in the past and has continued to the present."
+    },
+    {
+        "frase": "Il n'a pas cessé de travailler ___ la rentrée.",
+        "respuesta": "depuis",
+        "explicacionES": "En este caso, *depuis* muestra que la acción de trabajar continúa desde un evento en el pasado (la vuelta al trabajo).",
+        "explicacionEN": "In this case, *depuis* shows that the action of working continues from an event in the past (returning to work)."
+    },
+    {
+        "frase": "Les relations diplomatiques sont tendues ___ plusieurs années.",
+        "respuesta": "depuis",
+        "explicacionES": "*Depuis* indica la duración de una situación que comenzó en el pasado y sigue hasta el presente.",
+        "explicacionEN": "*Depuis* indicates the duration of a situation that started in the past and continues to the present."
+    },
+    {
+        "frase": "Les progrès scientifiques se sont accélérés ___ la découverte de l'ADN.",
+        "respuesta": "depuis",
+        "explicacionES": "Se usa *depuis* para mostrar que una acción o progreso comenzó en el pasado y continúa influyendo en el presente.",
+        "explicacionEN": "*Depuis* is used to show that an action or progress started in the past and continues influencing the present."
+    },
+    {
+        "frase": "Nous avons vécu à l'étranger ___ plusieurs années avant de revenir en France.",
+        "respuesta": "depuis",
+        "explicacionES": "*Depuis* se usa para mostrar que una acción ha estado ocurriendo durante un período de tiempo, en este caso, su vida en el extranjero.",
+        "explicacionEN": "*Depuis* is used to show that an action has been occurring over a period of time, in this case, their life abroad."
+    }
+]
+      
+  

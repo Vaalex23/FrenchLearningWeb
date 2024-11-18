@@ -1,0 +1,123 @@
+[
+    {
+      "frase": "Je dois finir mes devoirs ___ de sortir.",
+      "respuesta": "avant",
+      "explicacionES": "'Avant' se usa para indicar que una acción debe ocurrir antes de otra.",
+      "explicacionEN": "'Avant' is used to indicate that one action must happen before another."
+    },
+    {
+      "frase": "Nous avons mangé ___ de partir en vacances.",
+      "respuesta": "avant",
+      "explicacionES": "'Avant' se usa para hablar de un momento previo a otro evento.",
+      "explicacionEN": "'Avant' is used to talk about a moment prior to another event."
+    },
+    {
+      "frase": "Il faut faire les courses ___ de préparer le dîner.",
+      "respuesta": "avant",
+      "explicacionES": "Aquí, 'avant' se usa para indicar que algo debe hacerse antes de otra acción.",
+      "explicacionEN": "Here, 'avant' is used to indicate that something must be done before another action."
+    },
+    {
+      "frase": "Je me suis levé ___ tout le monde ce matin.",
+      "respuesta": "avant",
+      "explicacionES": "'Avant' se emplea para señalar que una acción ocurrió antes que otra.",
+      "explicacionEN": "'Avant' is used to indicate that one action happened before another."
+    },
+    {
+      "frase": "Elle a pris son petit déjeuner ___ d'aller au travail.",
+      "respuesta": "avant",
+      "explicacionES": "Se utiliza 'avant' para hablar de una acción que ocurre previamente a otra.",
+      "explicacionEN": "'Avant' is used to talk about an action that happens prior to another."
+    },
+    {
+      "frase": "Il faut étudier ___ l'examen.",
+      "respuesta": "avant",
+      "explicacionES": "'Avant' indica que la acción de estudiar debe ocurrir antes del examen.",
+      "explicacionEN": "'Avant' indicates that the action of studying must happen before the exam."
+    },
+    {
+      "frase": "Je vais finir mes tâches ___ de te rejoindre.",
+      "respuesta": "avant",
+      "explicacionES": "Aquí, 'avant' muestra que una tarea debe completarse antes de unirse a alguien.",
+      "explicacionEN": "Here, 'avant' shows that a task must be completed before joining someone."
+    },
+    {
+      "frase": "Nous devons arriver ___ la réunion pour nous préparer.",
+      "respuesta": "avant",
+      "explicacionES": "Se usa 'avant' para indicar que algo debe suceder antes de un evento.",
+      "explicacionEN": "'Avant' is used to indicate that something must happen before an event."
+    },
+    {
+      "frase": "Elle a pris une décision ___ de commencer le projet.",
+      "respuesta": "avant",
+      "explicacionES": "'Avant' se usa para hablar de una decisión tomada antes de una acción importante.",
+      "explicacionEN": "'Avant' is used to talk about a decision made before an important action."
+    },
+    {
+      "frase": "Il a pris son temps ___ de répondre à la question.",
+      "respuesta": "avant",
+      "explicacionES": "En este caso, 'avant' se utiliza para indicar que algo se hizo antes de otra acción.",
+      "explicacionEN": "In this case, 'avant' is used to indicate that something was done before another action."
+    },
+    {
+        "frase": "Il est essentiel de préparer un plan ___ de commencer le projet.",
+        "respuesta": "avant",
+        "explicacionES": "'Avant' se usa para indicar que una preparación debe ocurrir antes de un evento importante.",
+        "explicacionEN": "'Avant' is used to indicate that a preparation must happen before an important event."
+    },
+    {
+        "frase": "Les chercheurs ont publié leurs résultats ___ que la conférence commence.",
+        "respuesta": "avant",
+        "explicacionES": "'Avant' se emplea para indicar que una acción tuvo lugar antes de un acontecimiento programado.",
+        "explicacionEN": "'Avant' is used to indicate that an action took place before a scheduled event."
+    },
+    {
+        "frase": "Il a fait une présentation détaillée ___ de discuter des résultats.",
+        "respuesta": "avant",
+        "explicacionES": "Aquí, 'avant' se utiliza para mostrar que la presentación ocurrió antes de otra actividad.",
+        "explicacionEN": "Here, 'avant' is used to show that the presentation occurred before another activity."
+    },
+    {
+        "frase": "Nous devons finaliser le budget ___ d'annoncer le lancement du produit.",
+        "respuesta": "avant",
+        "explicacionES": "'Avant' marca que una acción debe completarse antes de hacer un anuncio oficial.",
+        "explicacionEN": "'Avant' marks that an action must be completed before making an official announcement."
+    },
+    {
+        "frase": "Les discussions ont été menées ___ de signer l'accord final.",
+        "respuesta": "avant",
+        "explicacionES": "'Avant' se usa aquí para indicar que las discusiones ocurrieron antes de una firma importante.",
+        "explicacionEN": "'Avant' is used here to indicate that discussions occurred before an important signing."
+    },
+    {
+        "frase": "Elle a pris des précautions ___ de quitter la ville.",
+        "respuesta": "avant",
+        "explicacionES": "La preposición 'avant' se emplea para mostrar que las precauciones fueron tomadas antes de una acción.",
+        "explicacionEN": "'Avant' is used to show that precautions were taken before an action."
+    },
+    {
+        "frase": "Le gouvernement a annoncé des réformes ___ que les protestations n'augmentent.",
+        "respuesta": "avant",
+        "explicacionES": "Se usa 'avant' para indicar que algo se hace antes de que ocurra otro evento, en este caso, protestas.",
+        "explicacionEN": "'Avant' is used to indicate that something is done before another event occurs, in this case, protests."
+    },
+    {
+        "frase": "La direction a pris la décision de réduire les coûts ___ d’implémenter les changements.",
+        "respuesta": "avant",
+        "explicacionES": "Se utiliza 'avant' para indicar que la decisión se tomó antes de tomar una acción mayor.",
+        "explicacionEN": "'Avant' is used to indicate that the decision was made before taking a major action."
+    },
+    {
+        "frase": "Nous avons échangé des idées ___ de définir la stratégie finale.",
+        "respuesta": "avant",
+        "explicacionES": "'Avant' se emplea para señalar que una acción ocurrió antes de una decisión importante.",
+        "explicacionEN": "'Avant' is used to indicate that an action occurred before making an important decision."
+    },
+    {
+        "frase": "Il est important de comprendre les enjeux ___ de lancer une campagne publicitaire.",
+        "respuesta": "avant",
+        "explicacionES": "'Avant' se usa para señalar que algo debe entenderse antes de realizar otra acción, como lanzar una campaña.",
+        "explicacionEN": "'Avant' is used to indicate that something must be understood before performing another action, like launching a campaign."
+    }
+]
+        

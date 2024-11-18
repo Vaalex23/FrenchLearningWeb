@@ -1,0 +1,123 @@
+[
+    {
+      "frase": "Elle est partie ___ son manteau, il faisait froid.",
+      "respuesta": "sans",
+      "explicacionES": "Se usa *sans* para indicar la ausencia de algo necesario, como en este caso, el abrigo.",
+      "explicacionEN": "*Sans* is used to indicate the absence of something necessary, like in this case, the coat."
+    },
+    {
+      "frase": "Il ne peut pas vivre ___ sa famille.",
+      "respuesta": "sans",
+      "explicacionES": "*Sans* se usa para hablar de la dependencia o la falta de algo esencial, como la familia en este caso.",
+      "explicacionEN": "*Sans* is used to talk about dependence or the lack of something essential, like family in this case."
+    },
+    {
+      "frase": "Je ne peux pas travailler ___ mon ordinateur.",
+      "respuesta": "sans",
+      "explicacionES": "Aquí, *sans* indica que el trabajo no es posible sin el ordenador.",
+      "explicacionEN": "Here, *sans* indicates that the work is not possible without the computer."
+    },
+    {
+      "frase": "Ils ont réussi ___ aide.",
+      "respuesta": "sans",
+      "explicacionES": "Se usa *sans* para expresar la idea de lograr algo sin ayuda.",
+      "explicacionEN": "*Sans* is used to express the idea of achieving something without help."
+    },
+    {
+      "frase": "Il est parti ___ dire au revoir.",
+      "respuesta": "sans",
+      "explicacionES": "En esta frase, *sans* muestra la ausencia de un gesto esperado, como despedirse.",
+      "explicacionEN": "In this sentence, *sans* shows the absence of an expected gesture, like saying goodbye."
+    },
+    {
+      "frase": "Elle a réussi ___ difficulté.",
+      "respuesta": "sans",
+      "explicacionES": "*Sans* indica la ausencia de dificultad en el proceso de éxito.",
+      "explicacionEN": "*Sans* indicates the absence of difficulty in the process of success."
+    },
+    {
+      "frase": "Je ne peux pas sortir ___ mon parapluie.",
+      "respuesta": "sans",
+      "explicacionES": "Aquí, *sans* se usa para indicar que algo es esencial para realizar la acción, como el paraguas.",
+      "explicacionEN": "Here, *sans* is used to indicate that something is essential for performing the action, like the umbrella."
+    },
+    {
+      "frase": "Il a mangé son déjeuner ___ boisson.",
+      "respuesta": "sans",
+      "explicacionES": "*Sans* se usa para indicar que la comida se hizo sin la bebida.",
+      "explicacionEN": "*Sans* is used to indicate that the meal was had without the drink."
+    },
+    {
+      "frase": "Elle a vécu ___ regrets après sa décision.",
+      "respuesta": "sans",
+      "explicacionES": "En este caso, *sans* indica que ella vivió sin arrepentimientos después de su decisión.",
+      "explicacionEN": "In this case, *sans* indicates that she lived without regrets after her decision."
+    },
+    {
+      "frase": "Il a conduit ___ permis de conduire.",
+      "respuesta": "sans",
+      "explicacionES": "*Sans* se emplea para indicar la falta de una cosa necesaria, como el permiso de conducir.",
+      "explicacionEN": "*Sans* is used to indicate the lack of something necessary, like a driving license."
+    },
+    {
+        "frase": "Il a pris cette décision ___ consulter ses collègues.",
+        "respuesta": "sans",
+        "explicacionES": "Aquí, *sans* muestra que tomó la decisión sin la consulta de sus colegas.",
+        "explicacionEN": "Here, *sans* shows that he made the decision without consulting his colleagues."
+    },
+    {
+        "frase": "Ils ont mis en place le projet ___ tenir compte des avis des experts.",
+        "respuesta": "sans",
+        "explicacionES": "Se utiliza *sans* para indicar que el proyecto se implementó sin tener en cuenta las opiniones expertas.",
+        "explicacionEN": "*Sans* is used to indicate that the project was implemented without considering expert opinions."
+    },
+    {
+        "frase": "Elle a résolu le problème ___ l'aide de ses collègues.",
+        "respuesta": "sans",
+        "explicacionES": "*Sans* indica la ausencia de ayuda para resolver el problema.",
+        "explicacionEN": "*Sans* indicates the absence of help in solving the problem."
+    },
+    {
+        "frase": "Ils ont commencé le travail ___ planification préalable.",
+        "respuesta": "sans",
+        "explicacionES": "En esta frase, *sans* denota que el trabajo empezó sin una planificación previa.",
+        "explicacionEN": "In this sentence, *sans* denotes that the work started without prior planning."
+    },
+    {
+        "frase": "Il a répondu à toutes les questions ___ hésitation.",
+        "respuesta": "sans",
+        "explicacionES": "Aquí, *sans* expresa que las respuestas se dieron sin dudar.",
+        "explicacionEN": "Here, *sans* expresses that the answers were given without hesitation."
+    },
+    {
+        "frase": "Elle a quitté le pays ___ préavis.",
+        "respuesta": "sans",
+        "explicacionES": "Se usa *sans* para indicar que ella se fue sin aviso previo.",
+        "explicacionEN": "*Sans* is used to indicate that she left without prior notice."
+    },
+    {
+        "frase": "Il a réagi ___ réfléchir à la situation.",
+        "respuesta": "sans",
+        "explicacionES": "Aquí, *sans* indica que reaccionó sin pensar en la situación.",
+        "explicacionEN": "Here, *sans* indicates that he reacted without thinking about the situation."
+    },
+    {
+        "frase": "Le gouvernement a pris des mesures ___ consulter les experts.",
+        "respuesta": "sans",
+        "explicacionES": "*Sans* se emplea para indicar que las medidas se tomaron sin consultar a los expertos.",
+        "explicacionEN": "*Sans* is used to indicate that the measures were taken without consulting experts."
+    },
+    {
+        "frase": "Elle a réussi ___ avoir une formation académique.",
+        "respuesta": "sans",
+        "explicacionES": "En este caso, *sans* muestra que logró el éxito sin tener formación académica.",
+        "explicacionEN": "In this case, *sans* shows that she achieved success without academic training."
+    },
+    {
+        "frase": "Ils ont continué à travailler ___ se rendre compte des erreurs.",
+        "respuesta": "sans",
+        "explicacionES": "Se usa *sans* para mostrar que continuaron trabajando sin darse cuenta de los errores.",
+        "explicacionEN": "*Sans* is used to show that they continued working without realizing the mistakes."
+    }
+]
+        

@@ -1,0 +1,124 @@
+[
+    {
+      "frase": "Elle a besoin ___ ton aide pour finir ce projet.",
+      "respuesta": "de",
+      "explicacionES": "Se utiliza 'de' con el verbo 'avoir besoin' para expresar necesidad.",
+      "explicacionEN": "'De' is used with the verb 'avoir besoin' to express necessity."
+    },
+    {
+      "frase": "Je viens ___ terminer mes devoirs.",
+      "respuesta": "de",
+      "explicacionES": "Se usa 'de' para formar el passé récent.",
+      "explicacionEN": "'De' is used to form the *passé récent*."
+    },
+    {
+      "frase": "Il a peur ___ l’orage qui arrive.",
+      "respuesta": "de",
+      "explicacionES": "Se utiliza 'de' con el verbo 'avoir peur' para expresar temor.",
+      "explicacionEN": "'De' is used with the verb 'avoir peur' to express fear."
+    },
+    {
+      "frase": "Elle est fière ___ ses résultats scolaires.",
+      "respuesta": "de",
+      "explicacionES": "Se usa 'de' para indicar el objeto del orgullo.",
+      "explicacionEN": "'De' is used to indicate the object of pride."
+    },
+    {
+      "frase": "Ils parlent souvent ___ leurs vacances.",
+      "respuesta": "de",
+      "explicacionES": "Se utiliza 'de' para indicar el tema de la conversación.",
+      "explicacionEN": "'De' is used to indicate the topic of conversation."
+    },
+    {
+      "frase": "Ce livre est plein ___ belles illustrations.",
+      "respuesta": "de",
+      "explicacionES": "Se usa 'de' para expresar la composición o contenido.",
+      "explicacionEN": "'De' is used to express composition or content."
+    },
+    {
+      "frase": "Je rêve ___ visiter la France un jour.",
+      "respuesta": "de",
+      "explicacionES": "Se utiliza 'de' con el verbo 'rêver' para expresar un deseo o sueño.",
+      "explicacionEN": "'De' is used with the verb 'rêver' to express a wish or dream."
+    },
+    {
+      "frase": "Elle est en train ___ préparer le dîner.",
+      "respuesta": "de",
+      "explicacionES": "Se usa 'de' para formar la perífrasis 'être en train de'.",
+      "explicacionEN": "'De' is used to form the phrase 'être en train de'."
+    },
+    {
+      "frase": "Il s’occupe ___ ses enfants avec beaucoup d’amour.",
+      "respuesta": "de",
+      "explicacionES": "Se utiliza 'de' con el verbo 's’occuper' para indicar el objeto del cuidado.",
+      "explicacionEN": "'De' is used with the verb 's’occuper' to indicate the object of care."
+    },
+    {
+      "frase": "Je doute ___ la réussite de ce plan.",
+      "respuesta": "de",
+      "explicacionES": "Se usa 'de' con el verbo 'douter' para expresar duda sobre algo.",
+      "explicacionEN": "'De' is used with the verb 'douter' to express doubt about something."
+    },
+    {
+        "frase": "Il a été accusé ___ négligence professionnelle.",
+        "respuesta": "de",
+        "explicacionES": "Se utiliza 'de' para introducir el motivo de una acusación.",
+        "explicacionEN": "'De' is used to introduce the reason for an accusation."
+    },
+    {
+        "frase": "Elle s’est souvenue ___ l’anniversaire de son ami.",
+        "respuesta": "de",
+        "explicacionES": "Se usa 'de' con el verbo 'se souvenir' para indicar el objeto del recuerdo.",
+        "explicacionEN": "'De' is used with the verb 'se souvenir' to indicate the object of memory."
+    },
+    {
+        "frase": "Je suis convaincu ___ l’importance de cette initiative.",
+        "respuesta": "de",
+        "explicacionES": "Se utiliza 'de' para expresar la causa de una convicción.",
+        "explicacionEN": "'De' is used to express the cause of a conviction."
+    },
+    {
+        "frase": "Ils ont décidé ___ ne pas participer au débat.",
+        "respuesta": "de",
+        "explicacionES": "Se usa 'de' con el verbo 'décider' para introducir la decisión tomada.",
+        "explicacionEN": "'De' is used with the verb 'décider' to introduce the decision made."
+    },
+    {
+        "frase": "Elle est capable ___ résoudre des problèmes complexes.",
+        "respuesta": "de",
+        "explicacionES": "Se utiliza 'de' para expresar la capacidad de hacer algo.",
+        "explicacionEN": "'De' is used to express the ability to do something."
+    },
+    {
+        "frase": "Il profite ___ chaque opportunité pour apprendre.",
+        "respuesta": "de",
+        "explicacionES": "Se usa 'de' con el verbo 'profiter' para indicar de qué se beneficia alguien.",
+        "explicacionEN": "'De' is used with the verb 'profiter' to indicate what someone benefits from."
+    },
+    {
+        "frase": "L’ouvrage traite ___ l’impact du changement climatique.",
+        "respuesta": "de",
+        "explicacionES": "Se utiliza 'de' con el verbo 'traiter' para indicar el tema principal.",
+        "explicacionEN": "'De' is used with the verb 'traiter' to indicate the main subject."
+    },
+    {
+        "frase": "Je me méfie ___ ses intentions depuis le début.",
+        "respuesta": "de",
+        "explicacionES": "Se usa 'de' con el verbo 'se méfier' para expresar desconfianza hacia algo o alguien.",
+        "explicacionEN": "'De' is used with the verb 'se méfier' to express distrust towards something or someone."
+    },
+    {
+        "frase": "Ils sont conscients ___ l’ampleur des défis à venir.",
+        "respuesta": "de",
+        "explicacionES": "Se utiliza 'de' para expresar conciencia sobre algo.",
+        "explicacionEN": "'De' is used to express awareness about something."
+    },
+    {
+        "frase": "Je ne peux pas me passer ___ café le matin.",
+        "respuesta": "de",
+        "explicacionES": "Se usa 'de' con el verbo 'se passer' para indicar lo que es difícil de abandonar.",
+        "explicacionEN": "'De' is used with the verb 'se passer' to indicate what is hard to give up."
+    }
+]
+
+  

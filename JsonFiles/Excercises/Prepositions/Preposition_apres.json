@@ -1,0 +1,124 @@
+[
+    {
+      "frase": "Je vais prendre une douche ___ le dîner.",
+      "respuesta": "après",
+      "explicacionES": "Se utiliza 'après' para indicar una acción que ocurre después de otra en el tiempo.",
+      "explicacionEN": "'Après' is used to indicate an action that happens after another in time."
+    },
+    {
+      "frase": "Nous irons au cinéma ___ le travail.",
+      "respuesta": "après",
+      "explicacionES": "Se usa 'après' para referirse a una actividad posterior a otra.",
+      "explicacionEN": "'Après' is used to refer to an activity following another."
+    },
+    {
+      "frase": "Elle s'est reposée ___ une longue journée de marche.",
+      "respuesta": "après",
+      "explicacionES": "Se utiliza 'après' para señalar algo que ocurre tras un período de tiempo específico.",
+      "explicacionEN": "'Après' is used to indicate something that happens after a specific period of time."
+    },
+    {
+      "frase": "Il faut nettoyer la cuisine ___ avoir mangé.",
+      "respuesta": "après",
+      "explicacionES": "Se usa 'après' con un infinitivo compuesto para describir una acción que sigue a otra.",
+      "explicacionEN": "'Après' is used with a compound infinitive to describe an action that follows another."
+    },
+    {
+      "frase": "Nous faisons une promenade ___ le déjeuner.",
+      "respuesta": "après",
+      "explicacionES": "Se utiliza 'après' para referirse a una actividad posterior en el mismo día.",
+      "explicacionEN": "'Après' is used to refer to an activity later on the same day."
+    },
+    {
+      "frase": "Ils vont se reposer ___ leur arrivée à l'hôtel.",
+      "respuesta": "après",
+      "explicacionES": "Se usa 'après' para indicar un evento que sigue a otro, especialmente relacionado con el movimiento.",
+      "explicacionEN": "'Après' is used to indicate an event that follows another, especially related to movement."
+    },
+    {
+      "frase": "On discutera de ce sujet ___ la réunion.",
+      "respuesta": "après",
+      "explicacionES": "Se utiliza 'après' para marcar una discusión posterior a un evento.",
+      "explicacionEN": "'Après' is used to mark a discussion following an event."
+    },
+    {
+      "frase": "Je vais me détendre ___ avoir fini mes devoirs.",
+      "respuesta": "après",
+      "explicacionES": "Se usa 'après' con un infinitivo compuesto para expresar una secuencia.",
+      "explicacionEN": "'Après' is used with a compound infinitive to express a sequence."
+    },
+    {
+      "frase": "Nous visiterons le musée ___ le petit-déjeuner.",
+      "respuesta": "après",
+      "explicacionES": "Se utiliza 'après' para indicar una actividad que sigue inmediatamente a otra.",
+      "explicacionEN": "'Après' is used to indicate an activity that immediately follows another."
+    },
+    {
+      "frase": "Elle regarde souvent la télévision ___ le dîner.",
+      "respuesta": "après",
+      "explicacionES": "Se usa 'après' para describir un hábito que ocurre luego de otra actividad.",
+      "explicacionEN": "'Après' is used to describe a habit that happens after another activity."
+    },
+    {
+        "frase": "___ avoir obtenu son diplôme, il a voyagé pendant un an.",
+        "respuesta": "Après",
+        "explicacionES": "Se usa 'après' con un infinitivo compuesto para expresar una acción finalizada antes de otra.",
+        "explicacionEN": "'Après' is used with a compound infinitive to express an action completed before another."
+    },
+    {
+        "frase": "Il a pris une décision importante ___ une longue réflexion.",
+        "respuesta": "après",
+        "explicacionES": "Se utiliza 'après' para describir una acción que sigue a un proceso mental o deliberación.",
+        "explicacionEN": "'Après' is used to describe an action that follows a mental process or deliberation."
+    },
+    {
+        "frase": "___ des mois d’efforts, elle a enfin réussi.",
+        "respuesta": "Après",
+        "explicacionES": "Se usa 'après' para expresar algo que ocurre tras un largo período de esfuerzo.",
+        "explicacionEN": "'Après' is used to express something happening after a long period of effort."
+    },
+    {
+        "frase": "Les résultats seront disponibles ___ l’analyse des données.",
+        "respuesta": "après",
+        "explicacionES": "Se utiliza 'après' para indicar la secuencia posterior en un contexto profesional.",
+        "explicacionEN": "'Après' is used to indicate the subsequent sequence in a professional context."
+    },
+    {
+        "frase": "Ils se sont réconciliés ___ des années de disputes.",
+        "respuesta": "après",
+        "explicacionES": "Se usa 'après' para señalar algo que sucede después de un largo conflicto.",
+        "explicacionEN": "'Après' is used to signal something happening after a long conflict."
+    },
+    {
+        "frase": "___ le départ du directeur, l’équipe a dû s’adapter rapidement.",
+        "respuesta": "Après",
+        "explicacionES": "Se utiliza 'après' para marcar una transición importante en un contexto organizativo.",
+        "explicacionEN": "'Après' is used to mark an important transition in an organizational context."
+    },
+    {
+        "frase": "On a décidé de changer de stratégie ___ l’échec du projet pilote.",
+        "respuesta": "après",
+        "explicacionES": "Se usa 'après' para indicar una acción posterior a un evento significativo.",
+        "explicacionEN": "'Après' is used to indicate an action following a significant event."
+    },
+    {
+        "frase": "Elle a publié son livre ___ avoir passé des années à le rédiger.",
+        "respuesta": "après",
+        "explicacionES": "Se utiliza 'après' con un infinitivo compuesto para enfatizar el esfuerzo previo.",
+        "explicacionEN": "'Après' is used with a compound infinitive to emphasize prior effort."
+    },
+    {
+        "frase": "Le calme est revenu ___ des heures de négociations intenses.",
+        "respuesta": "après",
+        "explicacionES": "Se usa 'après' para describir la resolución posterior a una situación difícil.",
+        "explicacionEN": "'Après' is used to describe resolution following a challenging situation."
+    },
+    {
+        "frase": "Le pays a connu une période de prospérité ___ la fin de la guerre.",
+        "respuesta": "après",
+        "explicacionES": "Se utiliza 'après' para describir un cambio significativo en la historia.",
+        "explicacionEN": "'Après' is used to describe a significant change in history."
+    }
+]
+      
+  

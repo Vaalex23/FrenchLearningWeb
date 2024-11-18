@@ -1,0 +1,123 @@
+[
+    {
+      "frase": "Je vais partir en vacances ___ une semaine.",
+      "respuesta": "dans",
+      "explicacionES": "'Dans' se usa para hablar de un período de tiempo futuro, indicando cuándo ocurrirá algo.",
+      "explicacionEN": "'Dans' is used to talk about a future period of time, indicating when something will happen."
+    },
+    {
+      "frase": "Il est arrivé ___ le matin.",
+      "respuesta": "dans",
+      "explicacionES": "'Dans' se utiliza para señalar un momento específico dentro de un período de tiempo.",
+      "explicacionEN": "'Dans' is used to indicate a specific moment within a period of time."
+    },
+    {
+      "frase": "Elle va commencer son nouveau travail ___ quelques jours.",
+      "respuesta": "dans",
+      "explicacionES": "Aquí, 'dans' señala que algo comenzará en un futuro cercano, dentro de unos días.",
+      "explicacionEN": "Here, 'dans' indicates that something will start soon, within a few days."
+    },
+    {
+      "frase": "Je vais le faire ___ cinq minutes.",
+      "respuesta": "dans",
+      "explicacionES": "'Dans' se usa para indicar un futuro cercano, un tiempo específico en el que ocurrirá algo.",
+      "explicacionEN": "'Dans' is used to indicate a near future, a specific time when something will happen."
+    },
+    {
+      "frase": "Le film commence ___ une heure.",
+      "respuesta": "dans",
+      "explicacionES": "Se usa 'dans' para señalar cuándo comenzará una acción en el futuro.",
+      "explicacionEN": "'Dans' is used to indicate when an action will start in the future."
+    },
+    {
+      "frase": "Nous serons à l'aéroport ___ deux heures.",
+      "respuesta": "dans",
+      "explicacionES": "'Dans' se utiliza para indicar que algo sucederá en un futuro cercano dentro de un plazo específico.",
+      "explicacionEN": "'Dans' is used to indicate that something will happen in the near future within a specific time frame."
+    },
+    {
+      "frase": "Ils partent en voyage ___ une semaine.",
+      "respuesta": "dans",
+      "explicacionES": "'Dans' se usa para hablar de algo que ocurrirá en el futuro, dentro de un tiempo determinado.",
+      "explicacionEN": "'Dans' is used to talk about something that will happen in the future, within a given time."
+    },
+    {
+      "frase": "Je vais répondre ___ un moment.",
+      "respuesta": "dans",
+      "explicacionES": "Se utiliza 'dans' para indicar que algo sucederá en breve.",
+      "explicacionEN": "'Dans' is used to indicate that something will happen shortly."
+    },
+    {
+      "frase": "Je vais terminer ce projet ___ deux jours.",
+      "respuesta": "dans",
+      "explicacionES": "'Dans' se usa para indicar un tiempo futuro en el que se completará algo.",
+      "explicacionEN": "'Dans' is used to indicate a future time when something will be completed."
+    },
+    {
+      "frase": "Je reviendrai ___ une heure.",
+      "respuesta": "dans",
+      "explicacionES": "Aquí, 'dans' muestra un futuro cercano, en el que algo ocurrirá pronto.",
+      "explicacionEN": "Here, 'dans' shows a near future, when something will happen soon."
+    },
+    {
+        "frase": "Les résultats du test seront disponibles ___ quelques jours.",
+        "respuesta": "dans",
+        "explicacionES": "'Dans' se usa para hablar de un período de tiempo futuro que no es inmediato, pero sí cercano.",
+        "explicacionEN": "'Dans' is used to talk about a future time period that is not immediate, but still close."
+    },
+    {
+        "frase": "Il faut soumettre votre demande ___ un mois.",
+        "respuesta": "dans",
+        "explicacionES": "'Dans' se utiliza para indicar que algo debe suceder dentro de un plazo futuro.",
+        "explicacionEN": "'Dans' is used to indicate that something must happen within a future deadline."
+    },
+    {
+        "frase": "Ils termineront le projet ___ les deux prochaines semaines.",
+        "respuesta": "dans",
+        "explicacionES": "Se emplea 'dans' para hablar de una acción futura que se completará en un plazo determinado.",
+        "explicacionEN": "'Dans' is used to talk about a future action that will be completed within a specific period."
+    },
+    {
+        "frase": "Nous devons nous préparer ___ les mois à venir.",
+        "respuesta": "dans",
+        "explicacionES": "'Dans' marca un período futuro, refiriéndose a lo que ocurrirá en los meses venideros.",
+        "explicacionEN": "'Dans' marks a future period, referring to what will happen in the coming months."
+    },
+    {
+        "frase": "La conférence commencera ___ une heure, ne soyez pas en retard.",
+        "respuesta": "dans",
+        "explicacionES": "'Dans' se utiliza para indicar cuándo ocurrirá algo en el futuro, en este caso, un evento importante.",
+        "explicacionEN": "'Dans' is used to indicate when something will happen in the future, in this case, an important event."
+    },
+    {
+        "frase": "Il faudra réévaluer la situation ___ une semaine, après les premiers retours.",
+        "respuesta": "dans",
+        "explicacionES": "'Dans' se usa para señalar un momento futuro específico en el que se realizará una evaluación.",
+        "explicacionEN": "'Dans' is used to point out a specific future time when an evaluation will take place."
+    },
+    {
+        "frase": "Je vais commencer un nouveau cours ___ deux mois.",
+        "respuesta": "dans",
+        "explicacionES": "Aquí, 'dans' se usa para indicar que algo comenzará dentro de un período futuro.",
+        "explicacionEN": "Here, 'dans' is used to indicate that something will start within a future period."
+    },
+    {
+        "frase": "Les nouvelles mesures entreront en vigueur ___ deux semaines.",
+        "respuesta": "dans",
+        "explicacionES": "Se utiliza 'dans' para hablar de la implementación de nuevas medidas en el futuro.",
+        "explicacionEN": "'Dans' is used to talk about the implementation of new measures in the future."
+    },
+    {
+        "frase": "Je serai en réunion ___ quelques heures, après cela, je pourrai vous répondre.",
+        "respuesta": "dans",
+        "explicacionES": "'Dans' se emplea para señalar un futuro cercano, en este caso, después de la reunión.",
+        "explicacionEN": "'Dans' is used to indicate a near future, in this case, after the meeting."
+    },
+    {
+        "frase": "Le rapport final sera soumis ___ le mois prochain.",
+        "respuesta": "dans",
+        "explicacionES": "'Dans' se usa para señalar un plazo futuro en el que se entregará el informe.",
+        "explicacionEN": "'Dans' is used to indicate a future deadline for submitting the report."
+    }
+]
+        

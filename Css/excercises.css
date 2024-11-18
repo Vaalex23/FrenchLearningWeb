@@ -1,0 +1,96 @@
+/* Estilos para el body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1471a3;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/* Contenedor principal */
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #056ba2;
+    border-radius: 10px;
+    box-shadow: 12px 8px 12px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Título */
+#main-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Texto de instrucciones */
+#main-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de preguntas */
+.question-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #027bb8;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Casilla de selección */
+.dropdown-container {
+    margin: 10px 0;
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Botón de verificación */
+.verify-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #0298e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.verify-button:hover {
+    background-color: #027bb8;
+}
+
+.explanation {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #f4f4f4;
+    background-color: #033f59;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para preposiciones correctas o incorrectas */
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+    text-decoration: line-through;
+}

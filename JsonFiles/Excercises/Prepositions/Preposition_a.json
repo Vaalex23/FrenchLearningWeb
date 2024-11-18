@@ -1,0 +1,124 @@
+[
+    {
+      "frase": "Je vais ___ la bibliothèque pour emprunter un livre.",
+      "respuesta": "à",
+      "explicacionES": "Se utiliza 'à' para indicar un lugar o destino.",
+      "explicacionEN": "'À' is used to indicate a place or destination."
+    },
+    {
+      "frase": "Il a téléphoné ___ son ami hier soir.",
+      "respuesta": "à",
+      "explicacionES": "Se utiliza 'à' para indicar el destinatario de una acción.",
+      "explicacionEN": "'À' is used to indicate the recipient of an action."
+    },
+    {
+      "frase": "Ce cadeau est destiné ___ ma sœur.",
+      "respuesta": "à",
+      "explicacionES": "Se usa 'à' para expresar destino o intención hacia alguien.",
+      "explicacionEN": "'À' is used to express the destination or intention towards someone."
+    },
+    {
+      "frase": "Nous avons rendez-vous ___ 15 heures devant le cinéma.",
+      "respuesta": "à",
+      "explicacionES": "Se usa 'à' para indicar una hora específica.",
+      "explicacionEN": "'À' is used to indicate a specific time."
+    },
+    {
+      "frase": "Elle habite ___ Paris depuis trois ans.",
+      "respuesta": "à",
+      "explicacionES": "Se utiliza 'à' para hablar de ciudades.",
+      "explicacionEN": "'À' is used when talking about cities."
+    },
+    {
+      "frase": "J’aime aller ___ la montagne pour me détendre.",
+      "respuesta": "à",
+      "explicacionES": "Se usa 'à' para indicar un lugar general, como 'la montagne'.",
+      "explicacionEN": "'À' is used to indicate a general place, such as 'la montagne'."
+    },
+    {
+      "frase": "Il a écrit une lettre ___ son professeur.",
+      "respuesta": "à",
+      "explicacionES": "Se utiliza 'à' para indicar a quién va dirigida la acción.",
+      "explicacionEN": "'À' is used to indicate to whom the action is directed."
+    },
+    {
+      "frase": "Ils jouent ___ la pétanque tous les samedis.",
+      "respuesta": "à",
+      "explicacionES": "Se utiliza 'à' para referirse a juegos o deportes.",
+      "explicacionEN": "'À' is used when referring to games or sports."
+    },
+    {
+      "frase": "La boulangerie se trouve ___ côté de la poste.",
+      "respuesta": "à",
+      "explicacionES": "Se usa 'à' para indicar la ubicación relativa.",
+      "explicacionEN": "'À' is used to indicate relative location."
+    },
+    {
+      "frase": "Je vais ___ l’école en vélo tous les matins.",
+      "respuesta": "à",
+      "explicacionES": "Se utiliza 'à' para indicar destino y medios de transporte sin motor.",
+      "explicacionEN": "'À' is used to indicate destination and non-motorized means of transport."
+    },
+    {
+        "frase": "Elle a contribué ___ l’organisation de cet événement international.",
+        "respuesta": "à",
+        "explicacionES": "Se utiliza 'à' para expresar participación o contribución a algo.",
+        "explicacionEN": "'À' is used to express participation or contribution to something."
+    },
+    {
+        "frase": "Il s’est habitué ___ vivre dans un pays étranger.",
+        "respuesta": "à",
+        "explicacionES": "Se usa 'à' después del verbo 's’habituer' para expresar adaptación a algo.",
+        "explicacionEN": "'À' is used after the verb 's’habituer' to express adaptation to something."
+    },
+    {
+        "frase": "Elle s’oppose fermement ___ cette décision injuste.",
+        "respuesta": "à",
+        "explicacionES": "Se utiliza 'à' con el verbo 's’opposer' para indicar oposición a algo.",
+        "explicacionEN": "'À' is used with the verb 's’opposer' to indicate opposition to something."
+    },
+    {
+        "frase": "Ils aspirent ___ une carrière pleine de défis.",
+        "respuesta": "à",
+        "explicacionES": "Se usa 'à' para expresar un objetivo o deseo hacia algo.",
+        "explicacionEN": "'À' is used to express a goal or aspiration towards something."
+    },
+    {
+        "frase": "Je ne fais pas attention ___ ces détails insignifiants.",
+        "respuesta": "à",
+        "explicacionES": "Se utiliza 'à' con el verbo 'faire attention' para indicar en qué se centra la atención.",
+        "explicacionEN": "'À' is used with the verb 'faire attention' to indicate what is being focused on."
+    },
+    {
+        "frase": "La solution ___ ce problème est loin d’être simple.",
+        "respuesta": "à",
+        "explicacionES": "Se usa 'à' para conectar una solución con su problema asociado.",
+        "explicacionEN": "'À' is used to link a solution to its associated problem."
+    },
+    {
+        "frase": "Il est parvenu ___ ses objectifs après des années d’efforts.",
+        "respuesta": "à",
+        "explicacionES": "Se utiliza 'à' con el verbo 'parvenir' para expresar la llegada a un objetivo.",
+        "explicacionEN": "'À' is used with the verb 'parvenir' to express reaching a goal."
+    },
+    {
+        "frase": "Elle est sensible ___ la critique constructive, mais pas ___ la méchanceté gratuite.",
+        "respuesta": "à",
+        "explicacionES": "Se usa 'à' para expresar sensibilidad hacia algo.",
+        "explicacionEN": "'À' is used to express sensitivity to something."
+    },
+    {
+        "frase": "Le président a répondu ___ toutes les questions posées par les journalistes.",
+        "respuesta": "à",
+        "explicacionES": "Se utiliza 'à' con el verbo 'répondre' para indicar a qué se responde.",
+        "explicacionEN": "'À' is used with the verb 'répondre' to indicate what is being responded to."
+    },
+    {
+        "frase": "Ils ont fait appel ___ un avocat spécialisé en droit international.",
+        "respuesta": "à",
+        "explicacionES": "Se usa 'à' para expresar la solicitud de ayuda o servicios.",
+        "explicacionEN": "'À' is used to express the request for help or services."
+    }
+]
+
+  

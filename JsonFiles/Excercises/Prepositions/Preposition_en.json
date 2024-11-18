@@ -1,0 +1,124 @@
+[
+    {
+      "frase": "Elle est ___ vacances en Espagne.",
+      "respuesta": "en",
+      "explicacionES": "Se utiliza 'en' para indicar que alguien está de vacaciones en un lugar.",
+      "explicacionEN": "'En' is used to indicate someone is on vacation in a place."
+    },
+    {
+      "frase": "Nous allons ___ voiture à la campagne.",
+      "respuesta": "en",
+      "explicacionES": "Se usa 'en' para indicar un medio de transporte (excepto bicicleta y caballo).",
+      "explicacionEN": "'En' is used to indicate a means of transport (except bicycle and horse)."
+    },
+    {
+      "frase": "Il a terminé le travail ___ une heure.",
+      "respuesta": "en",
+      "explicacionES": "Se utiliza 'en' para expresar la duración de una acción.",
+      "explicacionEN": "'En' is used to express the duration of an action."
+    },
+    {
+      "frase": "Les pommes sont rangées ___ paniers sur la table.",
+      "respuesta": "en",
+      "explicacionES": "Se usa 'en' para expresar el recipiente o contenedor.",
+      "explicacionEN": "'En' is used to express the container."
+    },
+    {
+      "frase": "Elle écrit souvent ___ français pour pratiquer.",
+      "respuesta": "en",
+      "explicacionES": "Se utiliza 'en' para indicar el idioma utilizado.",
+      "explicacionEN": "'En' is used to indicate the language being used."
+    },
+    {
+      "frase": "Ils habitent ___ centre-ville depuis des années.",
+      "respuesta": "en",
+      "explicacionES": "Se usa 'en' para situar algo dentro de un espacio específico.",
+      "explicacionEN": "'En' is used to situate something in a specific area."
+    },
+    {
+      "frase": "Elle est habillée ___ rouge pour la fête.",
+      "respuesta": "en",
+      "explicacionES": "Se utiliza 'en' para describir la ropa o el color que lleva alguien.",
+      "explicacionEN": "'En' is used to describe the clothing or color someone is wearing."
+    },
+    {
+      "frase": "Le gâteau est fait ___ chocolat noir.",
+      "respuesta": "en",
+      "explicacionES": "Se usa 'en' para indicar el material o ingrediente principal.",
+      "explicacionEN": "'En' is used to indicate the main material or ingredient."
+    },
+    {
+      "frase": "Nous partirons ___ janvier pour nos vacances.",
+      "respuesta": "en",
+      "explicacionES": "Se utiliza 'en' para indicar un mes o período de tiempo.",
+      "explicacionEN": "'En' is used to indicate a month or time period."
+    },
+    {
+      "frase": "Il parle toujours ___ travaillant.",
+      "respuesta": "en",
+      "explicacionES": "Se usa 'en' con el gerundio para describir cómo se hace algo.",
+      "explicacionEN": "'En' is used with the gerund to describe how something is done."
+    },
+    {
+        "frase": "Elle croit ___ un avenir meilleur malgré les difficultés.",
+        "respuesta": "en",
+        "explicacionES": "Se utiliza 'en' para expresar fe o confianza en algo.",
+        "explicacionEN": "'En' is used to express faith or trust in something."
+    },
+    {
+        "frase": "Je m'engage ___ cette cause humanitaire avec conviction.",
+        "respuesta": "en",
+        "explicacionES": "Se usa 'en' para indicar un compromiso hacia una causa.",
+        "explicacionEN": "'En' is used to indicate commitment to a cause."
+    },
+    {
+        "frase": "Il faut penser ___ l’impact environnemental de nos actions.",
+        "respuesta": "en",
+        "explicacionES": "Se utiliza 'en' para referirse a algo abstracto que requiere reflexión.",
+        "explicacionEN": "'En' is used to refer to something abstract that requires thought."
+    },
+    {
+        "frase": "Le projet est ___ cours, mais il reste beaucoup à faire.",
+        "respuesta": "en",
+        "explicacionES": "Se usa 'en' en expresiones idiomáticas como 'en cours' para indicar que algo está en proceso.",
+        "explicacionEN": "'En' is used in idiomatic expressions like 'en cours' to indicate something in progress."
+    },
+    {
+        "frase": "Il travaille ___ étroite collaboration avec ses collègues.",
+        "respuesta": "en",
+        "explicacionES": "Se utiliza 'en' para indicar la manera o el modo de hacer algo.",
+        "explicacionEN": "'En' is used to indicate the manner or way of doing something."
+    },
+    {
+        "frase": "La région est riche ___ ressources naturelles.",
+        "respuesta": "en",
+        "explicacionES": "Se usa 'en' para expresar abundancia de algo.",
+        "explicacionEN": "'En' is used to express abundance of something."
+    },
+    {
+        "frase": "Elle est ___ mesure de résoudre ce problème.",
+        "respuesta": "en",
+        "explicacionES": "Se utiliza 'en' en expresiones idiomáticas como 'en mesure de' para expresar capacidad.",
+        "explicacionEN": "'En' is used in idiomatic expressions like 'en mesure de' to express ability."
+    },
+    {
+        "frase": "Ils préfèrent investir ___ énergies renouvelables.",
+        "respuesta": "en",
+        "explicacionES": "Se usa 'en' para hablar de inversiones o dedicación a algo.",
+        "explicacionEN": "'En' is used to talk about investments or dedication to something."
+    },
+    {
+        "frase": "Elle a confiance ___ ses compétences pour ce poste.",
+        "respuesta": "en",
+        "explicacionES": "Se utiliza 'en' con 'avoir confiance' para expresar seguridad en algo o alguien.",
+        "explicacionEN": "'En' is used with 'avoir confiance' to express confidence in something or someone."
+    },
+    {
+        "frase": "Les décisions prises ___ urgence peuvent être risquées.",
+        "respuesta": "en",
+        "explicacionES": "Se usa 'en' para indicar el contexto o las circunstancias en las que ocurre algo.",
+        "explicacionEN": "'En' is used to indicate the context or circumstances in which something happens."
+    }
+ ]
+      
+  

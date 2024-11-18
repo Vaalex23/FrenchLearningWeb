@@ -1,0 +1,124 @@
+[
+    {
+      "frase": "Je vais ___ le médecin demain.",
+      "respuesta": "chez",
+      "explicacionES": "La preposición *chez* se utiliza para indicar el lugar de trabajo de una persona, como en este caso, el médico.",
+      "explicacionEN": "The preposition *chez* is used to indicate the workplace of a person, as in this case, the doctor."
+    },
+    {
+      "frase": "Nous avons passé la soirée ___ des amis.",
+      "respuesta": "chez",
+      "explicacionES": "*Chez* se usa para señalar la casa de alguien, en este caso, la casa de los amigos.",
+      "explicacionEN": "*Chez* is used to indicate someone's house, in this case, the house of friends."
+    },
+    {
+      "frase": "Il y a des livres intéressants ___ mon oncle.",
+      "respuesta": "chez",
+      "explicacionES": "En esta frase, *chez* se refiere al lugar donde se encuentran los libros, es decir, en casa del tío.",
+      "explicacionEN": "In this sentence, *chez* refers to the place where the books are, that is, at the uncle's house."
+    },
+    {
+      "frase": "Je vais rester ___ mes parents pendant les vacances.",
+      "respuesta": "chez",
+      "explicacionES": "Se usa *chez* para indicar que se va a pasar tiempo en la casa de los padres.",
+      "explicacionEN": "*Chez* is used to indicate that you will spend time at your parents' house."
+    },
+    {
+      "frase": "Il travaille ___ une entreprise internationale.",
+      "respuesta": "chez",
+      "explicacionES": "*Chez* se emplea para referirse al lugar donde alguien trabaja, en este caso, en una empresa.",
+      "explicacionEN": "*Chez* is used to refer to the place where someone works, in this case, a company."
+    },
+    {
+      "frase": "Je vais passer le week-end ___ mon cousin à Paris.",
+      "respuesta": "chez",
+      "explicacionES": "Aquí, *chez* señala que se va a quedar en casa del primo en París.",
+      "explicacionEN": "Here, *chez* indicates that you will stay at your cousin's house in Paris."
+    },
+    {
+      "frase": "Elle est allée ___ le coiffeur ce matin.",
+      "respuesta": "chez",
+      "explicacionES": "*Chez* se usa para hablar del lugar donde se realiza una actividad, como ir al salón de belleza.",
+      "explicacionEN": "*Chez* is used to talk about the place where an activity is done, like going to the beauty salon."
+    },
+    {
+      "frase": "Je suis allé ___ le boulanger pour acheter du pain.",
+      "respuesta": "chez",
+      "explicacionES": "*Chez* se utiliza para hablar de la tienda o el lugar de trabajo de alguien, como en este caso, el panadero.",
+      "explicacionEN": "*Chez* is used to talk about someone's shop or workplace, as in this case, the baker."
+    },
+    {
+      "frase": "Ils vivent ___ leurs grands-parents en été.",
+      "respuesta": "chez",
+      "explicacionES": "En este caso, *chez* se refiere a la casa de los abuelos, donde viven durante el verano.",
+      "explicacionEN": "In this case, *chez* refers to the grandparents' house, where they live during the summer."
+    },
+    {
+      "frase": "J'ai pris un café ___ un collègue ce matin.",
+      "respuesta": "chez",
+      "explicacionES": "Se utiliza *chez* para indicar que el café fue tomado en el lugar de trabajo o el local de un colega.",
+      "explicacionEN": "*Chez* is used to indicate that the coffee was taken at a colleague's workplace or their place."
+    },
+    {
+        "frase": "Nous avons organisé une réunion ___ notre directeur hier.",
+        "respuesta": "chez",
+        "explicacionES": "Aquí, *chez* se usa para indicar el lugar donde se lleva a cabo una reunión, en la oficina del director.",
+        "explicacionEN": "Here, *chez* is used to indicate the place where a meeting is held, at the director's office."
+    },
+    {
+        "frase": "Il a trouvé une solution ___ son responsable de projet.",
+        "respuesta": "chez",
+        "explicacionES": "En esta frase, *chez* señala que la solución se encontró con la ayuda de su jefe de proyecto.",
+        "explicacionEN": "In this sentence, *chez* indicates that the solution was found with the help of his project manager."
+    },
+    {
+        "frase": "La conférence a eu lieu ___ un centre de conférence international.",
+        "respuesta": "chez",
+        "explicacionES": "Se usa *chez* para referirse al lugar donde se celebró la conferencia, en un centro especializado.",
+        "explicacionEN": "*Chez* is used to refer to the place where the conference took place, at a specialized center."
+    },
+    {
+        "frase": "Le dîner sera servi ___ mon oncle ce soir.",
+        "respuesta": "chez",
+        "explicacionES": "Aquí, *chez* indica que el evento se celebrará en la casa del tío.",
+        "explicacionEN": "Here, *chez* indicates that the event will take place at the uncle's house."
+    },
+    {
+        "frase": "Nous avons fait une visite guidée ___ le musée d'art moderne.",
+        "respuesta": "chez",
+        "explicacionES": "*Chez* se emplea para indicar que la visita fue al museo, que es el lugar de trabajo de los guías.",
+        "explicacionEN": "*Chez* is used to indicate that the visit was to the museum, which is the workplace of the guides."
+    },
+    {
+        "frase": "Les documents sont à remettre ___ la direction avant vendredi.",
+        "respuesta": "chez",
+        "explicacionES": "En esta frase, *chez* se usa para referirse a la oficina o lugar de trabajo de la dirección.",
+        "explicacionEN": "In this sentence, *chez* is used to refer to the office or workplace of the management."
+    },
+    {
+        "frase": "Le livre que vous cherchez est ___ le libraire.",
+        "respuesta": "chez",
+        "explicacionES": "Aquí, *chez* se refiere al lugar de trabajo del librero, que es donde se encuentra el libro.",
+        "explicacionEN": "Here, *chez* refers to the bookseller's workplace, where the book can be found."
+    },
+    {
+        "frase": "J'ai réservé une table ___ le restaurant de l'hôtel.",
+        "respuesta": "chez",
+        "explicacionES": "Se usa *chez* para hablar del restaurante dentro del hotel, que es el lugar de trabajo de los empleados.",
+        "explicacionEN": "*Chez* is used to talk about the restaurant inside the hotel, which is the workplace of the employees."
+    },
+    {
+        "frase": "Elle a travaillé ___ un cabinet de conseil pendant cinq ans.",
+        "respuesta": "chez",
+        "explicacionES": "En esta oración, *chez* se refiere al lugar donde trabajaba, el despacho de consultoría.",
+        "explicacionEN": "In this sentence, *chez* refers to the place where she worked, the consulting firm."
+    },
+    {
+        "frase": "Ils ont rencontré un expert ___ un institut de recherche.",
+        "respuesta": "chez",
+        "explicacionES": "'Chez' se usa para indicar que la persona se encontraba en un instituto de investigación, su lugar de trabajo.",
+        "explicacionEN": "'Chez' is used to indicate that the person was at a research institute, their workplace."
+    }
+      ]
+      
+  

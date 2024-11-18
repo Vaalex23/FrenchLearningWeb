@@ -1,0 +1,124 @@
+[
+    {
+      "frase": "Le chat est assis ___ la porte.",
+      "respuesta": "devant",
+      "explicacionES": "'Devant' se usa para indicar que algo está situado frente a otra cosa.",
+      "explicacionEN": "'Devant' is used to indicate that something is located in front of something else."
+    },
+    {
+      "frase": "Elle a posé son sac ___ la table.",
+      "respuesta": "devant",
+      "explicacionES": "Se usa 'devant' para describir la posición de algo en relación a otra cosa.",
+      "explicacionEN": "'Devant' is used to describe the position of something in relation to something else."
+    },
+    {
+      "frase": "Il y a un grand arbre ___ la maison.",
+      "respuesta": "devant",
+      "explicacionES": "'Devant' señala una ubicación exterior y frontal respecto a otro objeto.",
+      "explicacionEN": "'Devant' indicates an exterior and front-facing location relative to another object."
+    },
+    {
+      "frase": "Nous avons marché ___ l'école.",
+      "respuesta": "devant",
+      "explicacionES": "Se usa 'devant' para indicar movimiento o posición frente a un lugar.",
+      "explicacionEN": "'Devant' is used to indicate movement or position in front of a place."
+    },
+    {
+      "frase": "Il a garé sa voiture ___ le parc.",
+      "respuesta": "devant",
+      "explicacionES": "'Devant' se usa para mostrar que algo está ubicado justo frente a otro objeto.",
+      "explicacionEN": "'Devant' is used to show that something is located right in front of another object."
+    },
+    {
+      "frase": "Je suis allé ___ le cinéma hier.",
+      "respuesta": "devant",
+      "explicacionES": "Se utiliza 'devant' para indicar la proximidad a un lugar, en este caso, al cine.",
+      "explicacionEN": "'Devant' is used to indicate proximity to a place, in this case, the cinema."
+    },
+    {
+      "frase": "Les enfants jouent ___ la maison.",
+      "respuesta": "devant",
+      "explicacionES": "Se usa 'devant' para describir la ubicación en el exterior de la casa.",
+      "explicacionEN": "'Devant' is used to describe the location outside the house."
+    },
+    {
+      "frase": "J'ai rencontré mon ami ___ la bibliothèque.",
+      "respuesta": "devant",
+      "explicacionES": "En este caso, 'devant' se refiere a encontrarse en la zona frontal de un edificio.",
+      "explicacionEN": "'Devant' in this case refers to being at the front area of a building."
+    },
+    {
+      "frase": "Elle se tient ___ la fenêtre.",
+      "respuesta": "devant",
+      "explicacionES": "'Devant' describe la posición de alguien o algo frente a un objeto o lugar.",
+      "explicacionEN": "'Devant' describes the position of someone or something in front of an object or place."
+    },
+    {
+      "frase": "Le professeur a parlé ___ la classe.",
+      "respuesta": "devant",
+      "explicacionES": "'Devant' indica que la acción ocurre frente a un grupo de personas.",
+      "explicacionEN": "'Devant' indicates that the action happens in front of a group of people."
+    },
+    {
+        "frase": "Il s'est exprimé ___ des milliers de personnes lors de la conférence.",
+        "respuesta": "devant",
+        "explicacionES": "Se utiliza 'devant' para referirse a una audiencia o grupo grande frente al que alguien actúa o habla.",
+        "explicacionEN": "'Devant' is used to refer to a large audience or group in front of which someone acts or speaks."
+    },
+    {
+        "frase": "Elle a pris une décision importante ___ tout le comité.",
+        "respuesta": "devant",
+        "explicacionES": "'Devant' se usa para indicar que la decisión fue tomada en presencia de otros.",
+        "explicacionEN": "'Devant' is used to indicate that the decision was made in the presence of others."
+    },
+    {
+        "frase": "Nous avons dû nous défendre ___ le tribunal.",
+        "respuesta": "devant",
+        "explicacionES": "En este caso, 'devant' se utiliza para indicar que algo ocurre en un lugar de autoridad, como un tribunal.",
+        "explicacionEN": "'Devant' is used here to indicate that something happens in an authoritative place, such as a court."
+    },
+    {
+        "frase": "Les responsables de l'entreprise ont répondu ___ la presse.",
+        "respuesta": "devant",
+        "explicacionES": "'Devant' muestra la presencia de la prensa mientras los responsables respondían a las preguntas.",
+        "explicacionEN": "'Devant' shows the presence of the press while the executives responded to the questions."
+    },
+    {
+        "frase": "Ils ont eu une discussion animée ___ leurs collègues de travail.",
+        "respuesta": "devant",
+        "explicacionES": "'Devant' se usa para mostrar que una acción ocurrió frente a otros, especialmente en el contexto laboral.",
+        "explicacionEN": "'Devant' is used to show that an action occurred in front of others, especially in a work context."
+    },
+    {
+        "frase": "___ les autorités, il a exprimé ses inquiétudes concernant la situation.",
+        "respuesta": "devant",
+        "explicacionES": "Se utiliza 'devant' para indicar que algo se expresó en presencia de una figura de autoridad.",
+        "explicacionEN": "'Devant' is used to indicate that something was expressed in the presence of an authority figure."
+    },
+    {
+        "frase": "Le ministre a expliqué la politique économique ___ les parlementaires.",
+        "respuesta": "devant",
+        "explicacionES": "'Devant' indica que la explicación se realizó en presencia de un grupo específico, en este caso, parlamentarios.",
+        "explicacionEN": "'Devant' indicates that the explanation was given in front of a specific group, in this case, parliamentarians."
+    },
+    {
+        "frase": "Il a dû se défendre ___ la commission d'enquête.",
+        "respuesta": "devant",
+        "explicacionES": "Aquí, 'devant' implica una situación formal en la que una persona se defiende frente a una comisión.",
+        "explicacionEN": "Here, 'devant' implies a formal situation in which a person defends themselves in front of a committee."
+    },
+    {
+        "frase": "Le chef a fait un discours ___ ses employés pour les encourager.",
+        "respuesta": "devant",
+        "explicacionES": "Se usa 'devant' para indicar que el discurso se pronunció en presencia de un grupo, en este caso, empleados.",
+        "explicacionEN": "'Devant' is used to indicate that the speech was delivered in front of a group, in this case, employees."
+    },
+    {
+        "frase": "Elle a pris la parole ___ un public de plus de 500 personnes.",
+        "respuesta": "devant",
+        "explicacionES": "'Devant' se utiliza para describir una acción realizada frente a una gran audiencia.",
+        "explicacionEN": "'Devant' is used to describe an action done in front of a large audience."
+    }
+]
+      
+  
