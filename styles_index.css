@@ -1,13 +1,49 @@
 /* Estilos para el body */
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Para incluir la barra superior */
     min-height: 100vh;
+    margin: 0;
     background-color: #1471a3;
     font-family: Arial, sans-serif;
     color: white;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #003366; /* Azul oscuro */
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-options {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-options li {
+    display: inline;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Animación al pasar el cursor en la barra */
+.nav-options a:hover {
+    color: #ffcc00; /* Amarillo */
+    transform: scale(1.1);
 }
 
 /* Contenedor principal */
@@ -22,6 +58,8 @@ body {
     box-shadow: 12px 8px 12px rgba(0, 0, 0, 0.2);
     width: 90%;
     max-width: 600px;
+    margin: auto;
+    margin-top: 20px; /* Espacio debajo de la barra */
 }
 
 /* Título */
@@ -63,7 +101,7 @@ body {
     justify-content: center;
 }
 
-/* Animación al pasar el cursor */
+/* Animación al pasar el cursor en tarjetas */
 .card:hover {
     transform: scale(1.05);
     background-color: #027bb8;
