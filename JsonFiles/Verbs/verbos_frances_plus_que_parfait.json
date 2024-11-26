@@ -1,0 +1,1178 @@
+[
+    {
+        "infinitivo": "être",
+        "conjugaciones": {
+            "je": "avais été",
+            "tu": "avais été",
+            "il/elle/on": "avait été",
+            "nous": "avions été",
+            "vous": "aviez été",
+            "ils/elles": "avaient été"
+        },
+        "traduccion": "ser, estar"
+    },
+    {
+        "infinitivo": "avoir",
+        "conjugaciones": {
+            "je": "avais eu",
+            "tu": "avais eu",
+            "il/elle/on": "avait eu",
+            "nous": "avions eu",
+            "vous": "aviez eu",
+            "ils/elles": "avaient eu"
+        },
+        "traduccion": "tener"
+    },
+    {
+        "infinitivo": "aller",
+        "conjugaciones": {
+            "je": "étais allé",
+            "tu": "étais allé",
+            "il/elle/on": "était allé",
+            "nous": "étions allés",
+            "vous": "étiez allés",
+            "ils/elles": "étaient allés"
+        },
+        "traduccion": "ir"
+    },
+    {
+        "infinitivo": "faire",
+        "conjugaciones": {
+            "je": "avais fait",
+            "tu": "avais fait",
+            "il/elle/on": "avait fait",
+            "nous": "avions fait",
+            "vous": "aviez fait",
+            "ils/elles": "avaient fait"
+        },
+        "traduccion": "hacer"
+    },
+    {
+        "infinitivo": "dire",
+        "conjugaciones": {
+            "je": "avais dit",
+            "tu": "avais dit",
+            "il/elle/on": "avait dit",
+            "nous": "avions dit",
+            "vous": "aviez dit",
+            "ils/elles": "avaient dit"
+        },
+        "traduccion": "decir"
+    },
+    {
+        "infinitivo": "pouvoir",
+        "conjugaciones": {
+            "je": "avais pu",
+            "tu": "avais pu",
+            "il/elle/on": "avait pu",
+            "nous": "avions pu",
+            "vous": "aviez pu",
+            "ils/elles": "avaient pu"
+        },
+        "traduccion": "poder"
+    },
+    {
+        "infinitivo": "vouloir",
+        "conjugaciones": {
+            "je": "avais voulu",
+            "tu": "avais voulu",
+            "il/elle/on": "avait voulu",
+            "nous": "avions voulu",
+            "vous": "aviez voulu",
+            "ils/elles": "avaient voulu"
+        },
+        "traduccion": "querer"
+    },
+    {
+        "infinitivo": "savoir",
+        "conjugaciones": {
+            "je": "avais su",
+            "tu": "avais su",
+            "il/elle/on": "avait su",
+            "nous": "avions su",
+            "vous": "aviez su",
+            "ils/elles": "avaient su"
+        },
+        "traduccion": "saber"
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "étais venu",
+            "tu": "étais venu",
+            "il/elle/on": "était venu",
+            "nous": "étions venus",
+            "vous": "étiez venus",
+            "ils/elles": "étaient venus"
+        },
+        "traduccion": "venir"
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "avais pris",
+            "tu": "avais pris",
+            "il/elle/on": "avait pris",
+            "nous": "avions pris",
+            "vous": "aviez pris",
+            "ils/elles": "avaient pris"
+        },
+        "traduccion": "tomar"
+    },
+    {
+        "infinitivo": "mettre",
+        "conjugaciones": {
+            "je": "avais mis",
+            "tu": "avais mis",
+            "il/elle/on": "avait mis",
+            "nous": "avions mis",
+            "vous": "aviez mis",
+            "ils/elles": "avaient mis"
+        },
+        "traduccion": "poner"
+    },
+    {
+        "infinitivo": "donner",
+        "conjugaciones": {
+            "je": "avais donné",
+            "tu": "avais donné",
+            "il/elle/on": "avait donné",
+            "nous": "avions donné",
+            "vous": "aviez donné",
+            "ils/elles": "avaient donné"
+        },
+        "traduccion": "dar"
+    },
+    {
+        "infinitivo": "devoir",
+        "conjugaciones": {
+            "je": "avais dû",
+            "tu": "avais dû",
+            "il/elle/on": "avait dû",
+            "nous": "avions dû",
+            "vous": "aviez dû",
+            "ils/elles": "avaient dû"
+        },
+        "traduccion": "deber"
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "avais pris",
+            "tu": "avais pris",
+            "il/elle/on": "avait pris",
+            "nous": "avions pris",
+            "vous": "aviez pris",
+            "ils/elles": "avaient pris"
+        },
+        "traduccion": "tomar"
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "avais parlé",
+            "tu": "avais parlé",
+            "il/elle/on": "avait parlé",
+            "nous": "avions parlé",
+            "vous": "aviez parlé",
+            "ils/elles": "avaient parlé"
+        },
+        "traduccion": "hablar"
+    },
+    {
+        "infinitivo": "aimer",
+        "conjugaciones": {
+            "je": "avais aimé",
+            "tu": "avais aimé",
+            "il/elle/on": "avait aimé",
+            "nous": "avions aimé",
+            "vous": "aviez aimé",
+            "ils/elles": "avaient aimé"
+        },
+        "traduccion": "amar"
+    },
+    {
+        "infinitivo": "trouver",
+        "conjugaciones": {
+            "je": "avais trouvé",
+            "tu": "avais trouvé",
+            "il/elle/on": "avait trouvé",
+            "nous": "avions trouvé",
+            "vous": "aviez trouvé",
+            "ils/elles": "avaient trouvé"
+        },
+        "traduccion": "encontrar"
+    },
+    {
+        "infinitivo": "vivre",
+        "conjugaciones": {
+            "je": "avais vécu",
+            "tu": "avais vécu",
+            "il/elle/on": "avait vécu",
+            "nous": "avions vécu",
+            "vous": "aviez vécu",
+            "ils/elles": "avaient vécu"
+        },
+        "traduccion": "vivir"
+    },
+    {
+        "infinitivo": "demander",
+        "conjugaciones": {
+            "je": "avais demandé",
+            "tu": "avais demandé",
+            "il/elle/on": "avait demandé",
+            "nous": "avions demandé",
+            "vous": "aviez demandé",
+            "ils/elles": "avaient demandé"
+        },
+        "traduccion": "preguntar"
+    },
+    {
+        "infinitivo": "rendre",
+        "conjugaciones": {
+            "je": "avais rendu",
+            "tu": "avais rendu",
+            "il/elle/on": "avait rendu",
+            "nous": "avions rendu",
+            "vous": "aviez rendu",
+            "ils/elles": "avaient rendu"
+        },
+        "traduccion": "devolver"
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "étais venu",
+            "tu": "étais venu",
+            "il/elle/on": "était venu",
+            "nous": "étions venus",
+            "vous": "étiez venus",
+            "ils/elles": "étaient venus"
+        },
+        "traduccion": "venir"
+    },
+    {
+        "infinitivo": "chercher",
+        "conjugaciones": {
+            "je": "avais cherché",
+            "tu": "avais cherché",
+            "il/elle/on": "avait cherché",
+            "nous": "avions cherché",
+            "vous": "aviez cherché",
+            "ils/elles": "avaient cherché"
+        },
+        "traduccion": "buscar"
+    },
+    {
+        "infinitivo": "passer",
+        "conjugaciones": {
+            "je": "avais passé",
+            "tu": "avais passé",
+            "il/elle/on": "avait passé",
+            "nous": "avions passé",
+            "vous": "aviez passé",
+            "ils/elles": "avaient passé"
+        },
+        "traduccion": "pasar"
+    },
+    {
+        "infinitivo": "comprendre",
+        "conjugaciones": {
+            "je": "avais compris",
+            "tu": "avais compris",
+            "il/elle/on": "avait compris",
+            "nous": "avions compris",
+            "vous": "aviez compris",
+            "ils/elles": "avaient compris"
+        },
+        "traduccion": "entender"
+    },
+    {
+        "infinitivo": "rester",
+        "conjugaciones": {
+            "je": "étais resté",
+            "tu": "étais resté",
+            "il/elle/on": "était resté",
+            "nous": "étions restés",
+            "vous": "étiez restés",
+            "ils/elles": "étaient restés"
+        },
+        "traduccion": "quedarse"
+    },
+    {
+        "infinitivo": "tenir",
+        "conjugaciones": {
+            "je": "avais tenu",
+            "tu": "avais tenu",
+            "il/elle/on": "avait tenu",
+            "nous": "avions tenu",
+            "vous": "aviez tenu",
+            "ils/elles": "avaient tenu"
+        },
+        "traduccion": "sostener"
+    },
+    {
+        "infinitivo": "porter",
+        "conjugaciones": {
+            "je": "avais porté",
+            "tu": "avais porté",
+            "il/elle/on": "avait porté",
+            "nous": "avions porté",
+            "vous": "aviez porté",
+            "ils/elles": "avaient porté"
+        },
+        "traduccion": "llevar"
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "avais parlé",
+            "tu": "avais parlé",
+            "il/elle/on": "avait parlé",
+            "nous": "avions parlé",
+            "vous": "aviez parlé",
+            "ils/elles": "avaient parlé"
+        },
+        "traduccion": "hablar"
+    },
+    {
+        "infinitivo": "montrer",
+        "conjugaciones": {
+            "je": "avais montré",
+            "tu": "avais montré",
+            "il/elle/on": "avait montré",
+            "nous": "avions montré",
+            "vous": "aviez montré",
+            "ils/elles": "avaient montré"
+        },
+        "traduccion": "mostrar"
+    },
+    {
+        "infinitivo": "acheter",
+        "conjugaciones": {
+            "je": "avais acheté",
+            "tu": "avais acheté",
+            "il/elle/on": "avait acheté",
+            "nous": "avions acheté",
+            "vous": "aviez acheté",
+            "ils/elles": "avaient acheté"
+        },
+        "traduccion": "comprar"
+    },
+    {
+        "infinitivo": "attendre",
+        "conjugaciones": {
+            "je": "avais attendu",
+            "tu": "avais attendu",
+            "il/elle/on": "avait attendu",
+            "nous": "avions attendu",
+            "vous": "aviez attendu",
+            "ils/elles": "avaient attendu"
+        },
+        "traduccion": "esperar"
+    },
+    {
+        "infinitivo": "manger",
+        "conjugaciones": {
+            "je": "avais mangé",
+            "tu": "avais mangé",
+            "il/elle/on": "avait mangé",
+            "nous": "avions mangé",
+            "vous": "aviez mangé",
+            "ils/elles": "avaient mangé"
+        },
+        "traduccion": "comer"
+    },
+    {
+        "infinitivo": "boire",
+        "conjugaciones": {
+            "je": "avais bu",
+            "tu": "avais bu",
+            "il/elle/on": "avait bu",
+            "nous": "avions bu",
+            "vous": "aviez bu",
+            "ils/elles": "avaient bu"
+        },
+        "traduccion": "beber"
+    },
+    {
+        "infinitivo": "finir",
+        "conjugaciones": {
+            "je": "avais fini",
+            "tu": "avais fini",
+            "il/elle/on": "avait fini",
+            "nous": "avions fini",
+            "vous": "aviez fini",
+            "ils/elles": "avaient fini"
+        },
+        "traduccion": "terminar"
+    },
+    {
+        "infinitivo": "ouvrir",
+        "conjugaciones": {
+            "je": "avais ouvert",
+            "tu": "avais ouvert",
+            "il/elle/on": "avait ouvert",
+            "nous": "avions ouvert",
+            "vous": "aviez ouvert",
+            "ils/elles": "avaient ouvert"
+        },
+        "traduccion": "abrir"
+    },
+    {
+        "infinitivo": "courir",
+        "conjugaciones": {
+            "je": "avais couru",
+            "tu": "avais couru",
+            "il/elle/on": "avait couru",
+            "nous": "avions couru",
+            "vous": "aviez couru",
+            "ils/elles": "avaient couru"
+        },
+        "traduccion": "correr"
+    },
+    {
+        "infinitivo": "sortir",
+        "conjugaciones": {
+            "je": "étais sorti",
+            "tu": "étais sorti",
+            "il/elle/on": "était sorti",
+            "nous": "étions sortis",
+            "vous": "étiez sortis",
+            "ils/elles": "étaient sortis"
+        },
+        "traduccion": "salir"
+    },
+    {
+        "infinitivo": "écrire",
+        "conjugaciones": {
+            "je": "avais écrit",
+            "tu": "avais écrit",
+            "il/elle/on": "avait écrit",
+            "nous": "avions écrit",
+            "vous": "aviez écrit",
+            "ils/elles": "avaient écrit"
+        },
+        "traduccion": "escribir"
+    },
+    {
+        "infinitivo": "lire",
+        "conjugaciones": {
+            "je": "avais lu",
+            "tu": "avais lu",
+            "il/elle/on": "avait lu",
+            "nous": "avions lu",
+            "vous": "aviez lu",
+            "ils/elles": "avaient lu"
+        },
+        "traduccion": "leer"
+    },
+    {
+        "infinitivo": "étudier",
+        "conjugaciones": {
+            "je": "avais étudié",
+            "tu": "avais étudié",
+            "il/elle/on": "avait étudié",
+            "nous": "avions étudié",
+            "vous": "aviez étudié",
+            "ils/elles": "avaient étudié"
+        },
+        "traduccion": "estudiar"
+    },
+    {
+        "infinitivo": "travailler",
+        "conjugaciones": {
+            "je": "avais travaillé",
+            "tu": "avais travaillé",
+            "il/elle/on": "avait travaillé",
+            "nous": "avions travaillé",
+            "vous": "aviez travaillé",
+            "ils/elles": "avaient travaillé"
+        },
+        "traduccion": "trabajar"
+    },
+    {
+        "infinitivo": "jouer",
+        "conjugaciones": {
+            "je": "avais joué",
+            "tu": "avais joué",
+            "il/elle/on": "avait joué",
+            "nous": "avions joué",
+            "vous": "aviez joué",
+            "ils/elles": "avaient joué"
+        },
+        "traduccion": "jugar"
+    },
+    {
+        "infinitivo": "regarder",
+        "conjugaciones": {
+            "je": "avais regardé",
+            "tu": "avais regardé",
+            "il/elle/on": "avait regardé",
+            "nous": "avions regardé",
+            "vous": "aviez regardé",
+            "ils/elles": "avaient regardé"
+        },
+        "traduccion": "mirar"
+    },
+    {
+        "infinitivo": "écouter",
+        "conjugaciones": {
+            "je": "avais écouté",
+            "tu": "avais écouté",
+            "il/elle/on": "avait écouté",
+            "nous": "avions écouté",
+            "vous": "aviez écouté",
+            "ils/elles": "avaient écouté"
+        },
+        "traduccion": "escuchar"
+    },
+    {
+        "infinitivo": "raconter",
+        "conjugaciones": {
+            "je": "avais raconté",
+            "tu": "avais raconté",
+            "il/elle/on": "avait raconté",
+            "nous": "avions raconté",
+            "vous": "aviez raconté",
+            "ils/elles": "avaient raconté"
+        },
+        "traduccion": "contar"
+    },
+    {
+        "infinitivo": "oublier",
+        "conjugaciones": {
+            "je": "avais oublié",
+            "tu": "avais oublié",
+            "il/elle/on": "avait oublié",
+            "nous": "avions oublié",
+            "vous": "aviez oublié",
+            "ils/elles": "avaient oublié"
+        },
+        "traduccion": "olvidar"
+    },
+    {
+        "infinitivo": "revenir",
+        "conjugaciones": {
+            "je": "étais revenu",
+            "tu": "étais revenu",
+            "il/elle/on": "était revenu",
+            "nous": "étions revenus",
+            "vous": "étiez revenus",
+            "ils/elles": "étaient revenus"
+        },
+        "traduccion": "volver"
+    },
+    {
+        "infinitivo": "connaître",
+        "conjugaciones": {
+            "je": "avais connu",
+            "tu": "avais connu",
+            "il/elle/on": "avait connu",
+            "nous": "avions connu",
+            "vous": "aviez connu",
+            "ils/elles": "avaient connu"
+        },
+        "traduccion": "conocer"
+    },
+    {
+        "infinitivo": "perdre",
+        "conjugaciones": {
+            "je": "avais perdu",
+            "tu": "avais perdu",
+            "il/elle/on": "avait perdu",
+            "nous": "avions perdu",
+            "vous": "aviez perdu",
+            "ils/elles": "avaient perdu"
+        },
+        "traduccion": "perder"
+    },
+    {
+        "infinitivo": "cueillir",
+        "conjugaciones": {
+            "je": "avais cueilli",
+            "tu": "avais cueilli",
+            "il/elle/on": "avait cueilli",
+            "nous": "avions cueilli",
+            "vous": "aviez cueilli",
+            "ils/elles": "avaient cueilli"
+        },
+        "traduccion": "recoger"
+    },
+    {
+        "infinitivo": "souffrir",
+        "conjugaciones": {
+            "je": "avais souffert",
+            "tu": "avais souffert",
+            "il/elle/on": "avait souffert",
+            "nous": "avions souffert",
+            "vous": "aviez souffert",
+            "ils/elles": "avaient souffert"
+        },
+        "traduccion": "sufrir"
+    },
+    {
+        "infinitivo": "accueillir",
+        "conjugaciones": {
+            "je": "avais accueilli",
+            "tu": "avais accueilli",
+            "il/elle/on": "avait accueilli",
+            "nous": "avions accueilli",
+            "vous": "aviez accueilli",
+            "ils/elles": "avaient accueilli"
+        },
+        "traduccion": "recibir"
+    },
+    {
+        "infinitivo": "découvrir",
+        "conjugaciones": {
+            "je": "avais découvert",
+            "tu": "avais découvert",
+            "il/elle/on": "avait découvert",
+            "nous": "avions découvert",
+            "vous": "aviez découvert",
+            "ils/elles": "avaient découvert"
+        },
+        "traduccion": "descubrir"
+    },
+    {
+        "infinitivo": "recouvrir",
+        "conjugaciones": {
+            "je": "avais recouvert",
+            "tu": "avais recouvert",
+            "il/elle/on": "avait recouvert",
+            "nous": "avions recouvert",
+            "vous": "aviez recouvert",
+            "ils/elles": "avaient recouvert"
+        },
+        "traduccion": "recubrir"
+    },
+    {
+        "infinitivo": "recueillir",
+        "conjugaciones": {
+            "je": "avais recueilli",
+            "tu": "avais recueilli",
+            "il/elle/on": "avait recueilli",
+            "nous": "avions recueilli",
+            "vous": "aviez recueilli",
+            "ils/elles": "avaient recueilli"
+        },
+        "traduccion": "recolectar"
+    },
+    {
+        "infinitivo": "agir",
+        "conjugaciones": {
+            "je": "avais agi",
+            "tu": "avais agi",
+            "il/elle/on": "avait agi",
+            "nous": "avions agi",
+            "vous": "aviez agi",
+            "ils/elles": "avaient agi"
+        },
+        "traduccion": "actuar"
+    },
+    {
+        "infinitivo": "grandir",
+        "conjugaciones": {
+            "je": "avais grandi",
+            "tu": "avais grandi",
+            "il/elle/on": "avait grandi",
+            "nous": "avions grandi",
+            "vous": "aviez grandi",
+            "ils/elles": "avaient grandi"
+        },
+        "traduccion": "crecer"
+    },
+    {
+        "infinitivo": "subir",
+        "conjugaciones": {
+            "je": "avais subi",
+            "tu": "avais subi",
+            "il/elle/on": "avait subi",
+            "nous": "avions subi",
+            "vous": "aviez subi",
+            "ils/elles": "avaient subi"
+        },
+        "traduccion": "sufrir"
+    },
+    {
+        "infinitivo": "accomplir",
+        "conjugaciones": {
+            "je": "avais accompli",
+            "tu": "avais accompli",
+            "il/elle/on": "avait accompli",
+            "nous": "avions accompli",
+            "vous": "aviez accompli",
+            "ils/elles": "avaient accompli"
+        },
+        "traduccion": "cumplir"
+    },
+    {
+        "infinitivo": "saisir",
+        "conjugaciones": {
+            "je": "avais saisi",
+            "tu": "avais saisi",
+            "il/elle/on": "avait saisi",
+            "nous": "avions saisi",
+            "vous": "aviez saisi",
+            "ils/elles": "avaient saisi"
+        },
+        "traduccion": "aprovechar"
+    },
+    {
+        "infinitivo": "approfondir",
+        "conjugaciones": {
+            "je": "avais approfondi",
+            "tu": "avais approfondi",
+            "il/elle/on": "avait approfondi",
+            "nous": "avions approfondi",
+            "vous": "aviez approfondi",
+            "ils/elles": "avaient approfondi"
+        },
+        "traduccion": "profundizar"
+    },
+    {
+        "infinitivo": "mincir",
+        "conjugaciones": {
+            "je": "avais minci",
+            "tu": "avais minci",
+            "il/elle/on": "avait minci",
+            "nous": "avions minci",
+            "vous": "aviez minci",
+            "ils/elles": "avaient minci"
+        },
+        "traduccion": "adelgazar"
+    },
+    {
+        "infinitivo": "apprendre",
+        "conjugaciones": {
+            "je": "avais appris",
+            "tu": "avais appris",
+            "il/elle/on": "avait appris",
+            "nous": "avions appris",
+            "vous": "aviez appris",
+            "ils/elles": "avaient appris"
+        },
+        "traduccion": "aprender"
+    },
+    {
+        "infinitivo": "entreprendre",
+        "conjugaciones": {
+            "je": "avais entrepris",
+            "tu": "avais entrepris",
+            "il/elle/on": "avait entrepris",
+            "nous": "avions entrepris",
+            "vous": "aviez entrepris",
+            "ils/elles": "avaient entrepris"
+        },
+        "traduccion": "emprender"
+    },
+    {
+        "infinitivo": "reprendre",
+        "conjugaciones": {
+            "je": "avais repris",
+            "tu": "avais repris",
+            "il/elle/on": "avait repris",
+            "nous": "avions repris",
+            "vous": "aviez repris",
+            "ils/elles": "avaient repris"
+        },
+        "traduccion": "retomar"
+    },
+    {
+        "infinitivo": "surprendre",
+        "conjugaciones": {
+            "je": "avais surpris",
+            "tu": "avais surpris",
+            "il/elle/on": "avait surpris",
+            "nous": "avions surpris",
+            "vous": "aviez surpris",
+            "ils/elles": "avaient surpris"
+        },
+        "traduccion": "sorprender"
+    },
+    {
+        "infinitivo": "se méprendre",
+        "conjugaciones": {
+            "je": "me étais mépris",
+            "tu": "t'es mépris",
+            "il/elle/on": "s'est mépris",
+            "nous": "nous étions mépris",
+            "vous": "vous étiez mépris",
+            "ils/elles": "se étaient mépris"
+        },
+        "traduccion": "equivocarse"
+    },
+    {
+        "infinitivo": "descendre",
+        "conjugaciones": {
+            "je": "étais descendu",
+            "tu": "étais descendu",
+            "il/elle/on": "était descendu",
+            "nous": "étions descendus",
+            "vous": "étiez descendus",
+            "ils/elles": "étaient descendus"
+        },
+        "traduccion": "bajar"
+    },
+    {
+        "infinitivo": "mordre",
+        "conjugaciones": {
+            "je": "avais mordu",
+            "tu": "avais mordu",
+            "il/elle/on": "avait mordu",
+            "nous": "avions mordu",
+            "vous": "aviez mordu",
+            "ils/elles": "avaient mordu"
+        },
+        "traduccion": "morder"
+    },
+    {
+        "infinitivo": "répondre",
+        "conjugaciones": {
+            "je": "avais répondu",
+            "tu": "avais répondu",
+            "il/elle/on": "avait répondu",
+            "nous": "avions répondu",
+            "vous": "aviez répondu",
+            "ils/elles": "avaient répondu"
+        },
+        "traduccion": "responder"
+    },
+    {
+        "infinitivo": "atteindre",
+        "conjugaciones": {
+            "je": "avais atteint",
+            "tu": "avais atteint",
+            "il/elle/on": "avait atteint",
+            "nous": "avions atteint",
+            "vous": "aviez atteint",
+            "ils/elles": "avaient atteint"
+        },
+        "traduccion": "alcanzar"
+    },
+    {
+        "infinitivo": "éteindre",
+        "conjugaciones": {
+            "je": "avais éteint",
+            "tu": "avais éteint",
+            "il/elle/on": "avait éteint",
+            "nous": "avions éteint",
+            "vous": "aviez éteint",
+            "ils/elles": "avaient éteint"
+        },
+        "traduccion": "apagar"
+    },
+    {
+        "infinitivo": "peindre",
+        "conjugaciones": {
+            "je": "avais peint",
+            "tu": "avais peint",
+            "il/elle/on": "avait peint",
+            "nous": "avions peint",
+            "vous": "aviez peint",
+            "ils/elles": "avaient peint"
+        },
+        "traduccion": "pintar"
+    },
+    {
+        "infinitivo": "restreindre",
+        "conjugaciones": {
+            "je": "avais restreint",
+            "tu": "avais restreint",
+            "il/elle/on": "avait restreint",
+            "nous": "avions restreint",
+            "vous": "aviez restreint",
+            "ils/elles": "avaient restreint"
+        },
+        "traduccion": "restringir"
+    },
+    {
+        "infinitivo": "teindre",
+        "conjugaciones": {
+            "je": "avais teint",
+            "tu": "avais teint",
+            "il/elle/on": "avait teint",
+            "nous": "avions teint",
+            "vous": "aviez teint",
+            "ils/elles": "avaient teint"
+        },
+        "traduccion": "teñir"
+    },
+    {
+        "infinitivo": "cuire",
+        "conjugaciones": {
+            "je": "avais cuit",
+            "tu": "avais cuit",
+            "il/elle/on": "avait cuit",
+            "nous": "avions cuit",
+            "vous": "aviez cuit",
+            "ils/elles": "avaient cuit"
+        },
+        "traduccion": "cocinar"
+    },
+    {
+        "infinitivo": "conduire",
+        "conjugaciones": {
+            "je": "avais conduit",
+            "tu": "avais conduit",
+            "il/elle/on": "avait conduit",
+            "nous": "avions conduit",
+            "vous": "aviez conduit",
+            "ils/elles": "avaient conduit"
+        },
+        "traduccion": "conducir"
+    },
+    {
+        "infinitivo": "produire",
+        "conjugaciones": {
+            "je": "avais produit",
+            "tu": "avais produit",
+            "il/elle/on": "avait produit",
+            "nous": "avions produit",
+            "vous": "aviez produit",
+            "ils/elles": "avaient produit"
+        },
+        "traduccion": "producir"
+    },
+    {
+        "infinitivo": "construire",
+        "conjugaciones": {
+            "je": "avais construit",
+            "tu": "avais construit",
+            "il/elle/on": "avait construit",
+            "nous": "avions construit",
+            "vous": "aviez construit",
+            "ils/elles": "avaient construit"
+        },
+        "traduccion": "construir"
+    },
+    {
+        "infinitivo": "traduire",
+        "conjugaciones": {
+            "je": "avais traduit",
+            "tu": "avais traduit",
+            "il/elle/on": "avait traduit",
+            "nous": "avions traduit",
+            "vous": "aviez traduit",
+            "ils/elles": "avaient traduit"
+        },
+        "traduccion": "traducir"
+    },
+    {
+        "infinitivo": "réduire",
+        "conjugaciones": {
+            "je": "avais réduit",
+            "tu": "avais réduit",
+            "il/elle/on": "avait réduit",
+            "nous": "avions réduit",
+            "vous": "aviez réduit",
+            "ils/elles": "avaient réduit"
+        },
+        "traduccion": "reducir"
+    },
+    {
+        "infinitivo": "détruire",
+        "conjugaciones": {
+            "je": "avais détruit",
+            "tu": "avais détruit",
+            "il/elle/on": "avait détruit",
+            "nous": "avions détruit",
+            "vous": "aviez détruit",
+            "ils/elles": "avaient détruit"
+        },
+        "traduccion": "destruir"
+    },
+    {
+        "infinitivo": "voir",
+        "conjugaciones": {
+            "je": "avais vu",
+            "tu": "avais vu",
+            "il/elle/on": "avait vu",
+            "nous": "avions vu",
+            "vous": "aviez vu",
+            "ils/elles": "avaient vu"
+        },
+        "traduccion": "ver"
+    },
+    {
+        "infinitivo": "revoir",
+        "conjugaciones": {
+            "je": "avais revu",
+            "tu": "avais revu",
+            "il/elle/on": "avait revu",
+            "nous": "avions revu",
+            "vous": "aviez revu",
+            "ils/elles": "avaient revu"
+        },
+        "traduccion": "revisar"
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "avais entrevu",
+            "tu": "avais entrevu",
+            "il/elle/on": "avait entrevu",
+            "nous": "avions entrevu",
+            "vous": "aviez entrevu",
+            "ils/elles": "avaient entrevu"
+        },
+        "traduccion": "vislumbrar"
+    },
+    {
+        "infinitivo": "croire",
+        "conjugaciones": {
+            "je": "avais cru",
+            "tu": "avais cru",
+            "il/elle/on": "avait cru",
+            "nous": "avions cru",
+            "vous": "aviez cru",
+            "ils/elles": "avaient cru"
+        },
+        "traduccion": "creer"
+    },
+    {
+        "infinitivo": "apercevoir",
+        "conjugaciones": {
+            "je": "avais aperçu",
+            "tu": "avais aperçu",
+            "il/elle/on": "avait aperçu",
+            "nous": "avions aperçu",
+            "vous": "aviez aperçu",
+            "ils/elles": "avaient aperçu"
+        },
+        "traduccion": "percibir"
+    },
+    {
+        "infinitivo": "commettre",
+        "conjugaciones": {
+            "je": "avais commis",
+            "tu": "avais commis",
+            "il/elle/on": "avait commis",
+            "nous": "avions commis",
+            "vous": "aviez commis",
+            "ils/elles": "avaient commis"
+        },
+        "traduccion": "cometer"
+    },
+    {
+        "infinitivo": "promettre",
+        "conjugaciones": {
+            "je": "avais promis",
+            "tu": "avais promis",
+            "il/elle/on": "avait promis",
+            "nous": "avions promis",
+            "vous": "aviez promis",
+            "ils/elles": "avaient promis"
+        },
+        "traduccion": "prometer"
+    },
+    {
+        "infinitivo": "transmettre",
+        "conjugaciones": {
+            "je": "avais transmis",
+            "tu": "avais transmis",
+            "il/elle/on": "avait transmis",
+            "nous": "avions transmis",
+            "vous": "aviez transmis",
+            "ils/elles": "avaient transmis"
+        },
+        "traduccion": "transmitir"
+    },
+    {
+        "infinitivo": "permettre",
+        "conjugaciones": {
+            "je": "avais permis",
+            "tu": "avais permis",
+            "il/elle/on": "avait permis",
+            "nous": "avions permis",
+            "vous": "aviez permis",
+            "ils/elles": "avaient permis"
+        },
+        "traduccion": "permitir"
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "avais admis",
+            "tu": "avais admis",
+            "il/elle/on": "avait admis",
+            "nous": "avions admis",
+            "vous": "aviez admis",
+            "ils/elles": "avaient admis"
+        },
+        "traduccion": "admitir"
+    },
+    {
+        "infinitivo": "omettre",
+        "conjugaciones": {
+            "je": "avais omis",
+            "tu": "avais omis",
+            "il/elle/on": "avait omis",
+            "nous": "avions omis",
+            "vous": "aviez omis",
+            "ils/elles": "avaient omis"
+        },
+        "traduccion": "omitir"
+    },
+    {
+        "infinitivo": "soumettre",
+        "conjugaciones": {
+            "je": "avais soumis",
+            "tu": "avais soumis",
+            "il/elle/on": "avait soumis",
+            "nous": "avions soumis",
+            "vous": "aviez soumis",
+            "ils/elles": "avaient soumis"
+        },
+        "traduccion": "someter"
+    },
+    {
+        "infinitivo": "compromettre",
+        "conjugaciones": {
+            "je": "avais compromis",
+            "tu": "avais compromis",
+            "il/elle/on": "avait compromis",
+            "nous": "avions compromis",
+            "vous": "aviez compromis",
+            "ils/elles": "avaient compromis"
+        },
+        "traduccion": "comprometer"
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "avais admis",
+            "tu": "avais admis",
+            "il/elle/on": "avait admis",
+            "nous": "avions admis",
+            "vous": "aviez admis",
+            "ils/elles": "avaient admis"
+        },
+        "traduccion": "admitir"
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "avais entrevu",
+            "tu": "avais entrevu",
+            "il/elle/on": "avait entrevu",
+            "nous": "avions entrevu",
+            "vous": "aviez entrevu",
+            "ils/elles": "avaient entrevu"
+        },
+        "traduccion": "vislumbrar"
+    },
+    {
+        "infinitivo": "partir",
+        "conjugaciones": {
+            "je": "étais parti",
+            "tu": "étais parti",
+            "il/elle/on": "était parti",
+            "nous": "étions partis",
+            "vous": "étiez partis",
+            "ils/elles": "étaient partis"
+        },
+        "traduccion": "partir"
+    }
+]

@@ -1,0 +1,1178 @@
+[
+    {
+        "infinitivo": "être",
+        "conjugaciones": {
+            "je": "aurai été",
+            "tu": "auras été",
+            "il/elle/on": "aura été",
+            "nous": "aurons été",
+            "vous": "aurez été",
+            "ils/elles": "auront été"
+        },
+        "traduccion": "ser, estar"
+    },
+    {
+        "infinitivo": "avoir",
+        "conjugaciones": {
+            "je": "aurai eu",
+            "tu": "auras eu",
+            "il/elle/on": "aura eu",
+            "nous": "aurons eu",
+            "vous": "aurez eu",
+            "ils/elles": "auront eu"
+        },
+        "traduccion": "tener"
+    },
+    {
+        "infinitivo": "aller",
+        "conjugaciones": {
+            "je": "serai allé",
+            "tu": "seras allé",
+            "il/elle/on": "sera allé",
+            "nous": "serons allés",
+            "vous": "serez allés",
+            "ils/elles": "seront allés"
+        },
+        "traduccion": "ir"
+    },
+    {
+        "infinitivo": "faire",
+        "conjugaciones": {
+            "je": "aurai fait",
+            "tu": "auras fait",
+            "il/elle/on": "aura fait",
+            "nous": "aurons fait",
+            "vous": "aurez fait",
+            "ils/elles": "auront fait"
+        },
+        "traduccion": "hacer"
+    },
+    {
+        "infinitivo": "dire",
+        "conjugaciones": {
+            "je": "aurai dit",
+            "tu": "auras dit",
+            "il/elle/on": "aura dit",
+            "nous": "aurons dit",
+            "vous": "aurez dit",
+            "ils/elles": "auront dit"
+        },
+        "traduccion": "decir"
+    },
+    {
+        "infinitivo": "pouvoir",
+        "conjugaciones": {
+            "je": "aurai pu",
+            "tu": "auras pu",
+            "il/elle/on": "aura pu",
+            "nous": "aurons pu",
+            "vous": "aurez pu",
+            "ils/elles": "auront pu"
+        },
+        "traduccion": "poder"
+    },
+    {
+        "infinitivo": "vouloir",
+        "conjugaciones": {
+            "je": "aurai voulu",
+            "tu": "auras voulu",
+            "il/elle/on": "aura voulu",
+            "nous": "aurons voulu",
+            "vous": "aurez voulu",
+            "ils/elles": "auront voulu"
+        },
+        "traduccion": "querer"
+    },
+    {
+        "infinitivo": "savoir",
+        "conjugaciones": {
+            "je": "aurai su",
+            "tu": "auras su",
+            "il/elle/on": "aura su",
+            "nous": "aurons su",
+            "vous": "aurez su",
+            "ils/elles": "auront su"
+        },
+        "traduccion": "saber"
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "serai venu",
+            "tu": "seras venu",
+            "il/elle/on": "sera venu",
+            "nous": "serons venus",
+            "vous": "serez venus",
+            "ils/elles": "seront venus"
+        },
+        "traduccion": "venir"
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "aurai pris",
+            "tu": "auras pris",
+            "il/elle/on": "aura pris",
+            "nous": "aurons pris",
+            "vous": "aurez pris",
+            "ils/elles": "auront pris"
+        },
+        "traduccion": "tomar"
+    },
+    {
+        "infinitivo": "mettre",
+        "conjugaciones": {
+            "je": "aurai mis",
+            "tu": "auras mis",
+            "il/elle/on": "aura mis",
+            "nous": "aurons mis",
+            "vous": "aurez mis",
+            "ils/elles": "auront mis"
+        },
+        "traduccion": "poner"
+    },
+    {
+        "infinitivo": "donner",
+        "conjugaciones": {
+            "je": "aurai donné",
+            "tu": "auras donné",
+            "il/elle/on": "aura donné",
+            "nous": "aurons donné",
+            "vous": "aurez donné",
+            "ils/elles": "auront donné"
+        },
+        "traduccion": "dar"
+    },
+    {
+        "infinitivo": "devoir",
+        "conjugaciones": {
+            "je": "aurai dû",
+            "tu": "auras dû",
+            "il/elle/on": "aura dû",
+            "nous": "aurons dû",
+            "vous": "aurez dû",
+            "ils/elles": "auront dû"
+        },
+        "traduccion": "deber"
+    },
+    {
+        "infinitivo": "prendre",
+        "conjugaciones": {
+            "je": "aurai pris",
+            "tu": "auras pris",
+            "il/elle/on": "aura pris",
+            "nous": "aurons pris",
+            "vous": "aurez pris",
+            "ils/elles": "auront pris"
+        },
+        "traduccion": "tomar"
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "aurai parlé",
+            "tu": "auras parlé",
+            "il/elle/on": "aura parlé",
+            "nous": "aurons parlé",
+            "vous": "aurez parlé",
+            "ils/elles": "auront parlé"
+        },
+        "traduccion": "hablar"
+    },
+    {
+        "infinitivo": "aimer",
+        "conjugaciones": {
+            "je": "aurai aimé",
+            "tu": "auras aimé",
+            "il/elle/on": "aura aimé",
+            "nous": "aurons aimé",
+            "vous": "aurez aimé",
+            "ils/elles": "auront aimé"
+        },
+        "traduccion": "amar"
+    },
+    {
+        "infinitivo": "trouver",
+        "conjugaciones": {
+            "je": "aurai trouvé",
+            "tu": "auras trouvé",
+            "il/elle/on": "aura trouvé",
+            "nous": "aurons trouvé",
+            "vous": "aurez trouvé",
+            "ils/elles": "auront trouvé"
+        },
+        "traduccion": "encontrar"
+    },
+    {
+        "infinitivo": "vivre",
+        "conjugaciones": {
+            "je": "aurai vécu",
+            "tu": "auras vécu",
+            "il/elle/on": "aura vécu",
+            "nous": "aurons vécu",
+            "vous": "aurez vécu",
+            "ils/elles": "auront vécu"
+        },
+        "traduccion": "vivir"
+    },
+    {
+        "infinitivo": "demander",
+        "conjugaciones": {
+            "je": "aurai demandé",
+            "tu": "auras demandé",
+            "il/elle/on": "aura demandé",
+            "nous": "aurons demandé",
+            "vous": "aurez demandé",
+            "ils/elles": "auront demandé"
+        },
+        "traduccion": "preguntar"
+    },
+    {
+        "infinitivo": "rendre",
+        "conjugaciones": {
+            "je": "aurai rendu",
+            "tu": "auras rendu",
+            "il/elle/on": "aura rendu",
+            "nous": "aurons rendu",
+            "vous": "aurez rendu",
+            "ils/elles": "auront rendu"
+        },
+        "traduccion": "devolver"
+    },
+    {
+        "infinitivo": "venir",
+        "conjugaciones": {
+            "je": "serai venu",
+            "tu": "seras venu",
+            "il/elle/on": "sera venu",
+            "nous": "serons venus",
+            "vous": "serez venus",
+            "ils/elles": "seront venus"
+        },
+        "traduccion": "venir"
+    },
+    {
+        "infinitivo": "chercher",
+        "conjugaciones": {
+            "je": "aurai cherché",
+            "tu": "auras cherché",
+            "il/elle/on": "aura cherché",
+            "nous": "aurons cherché",
+            "vous": "aurez cherché",
+            "ils/elles": "auront cherché"
+        },
+        "traduccion": "buscar"
+    },
+    {
+        "infinitivo": "passer",
+        "conjugaciones": {
+            "je": "aurai passé",
+            "tu": "auras passé",
+            "il/elle/on": "aura passé",
+            "nous": "aurons passé",
+            "vous": "aurez passé",
+            "ils/elles": "auront passé"
+        },
+        "traduccion": "pasar"
+    },
+    {
+        "infinitivo": "comprendre",
+        "conjugaciones": {
+            "je": "aurai compris",
+            "tu": "auras compris",
+            "il/elle/on": "aura compris",
+            "nous": "aurons compris",
+            "vous": "aurez compris",
+            "ils/elles": "auront compris"
+        },
+        "traduccion": "entender"
+    },
+    {
+        "infinitivo": "rester",
+        "conjugaciones": {
+            "je": "serai resté",
+            "tu": "seras resté",
+            "il/elle/on": "sera resté",
+            "nous": "serons restés",
+            "vous": "serez restés",
+            "ils/elles": "seront restés"
+        },
+        "traduccion": "quedarse"
+    },
+    {
+        "infinitivo": "tenir",
+        "conjugaciones": {
+            "je": "aurai tenu",
+            "tu": "auras tenu",
+            "il/elle/on": "aura tenu",
+            "nous": "aurons tenu",
+            "vous": "aurez tenu",
+            "ils/elles": "auront tenu"
+        },
+        "traduccion": "sostener"
+    },
+    {
+        "infinitivo": "porter",
+        "conjugaciones": {
+            "je": "aurai porté",
+            "tu": "auras porté",
+            "il/elle/on": "aura porté",
+            "nous": "aurons porté",
+            "vous": "aurez porté",
+            "ils/elles": "auront porté"
+        },
+        "traduccion": "llevar"
+    },
+    {
+        "infinitivo": "parler",
+        "conjugaciones": {
+            "je": "aurai parlé",
+            "tu": "auras parlé",
+            "il/elle/on": "aura parlé",
+            "nous": "aurons parlé",
+            "vous": "aurez parlé",
+            "ils/elles": "auront parlé"
+        },
+        "traduccion": "hablar"
+    },
+    {
+        "infinitivo": "montrer",
+        "conjugaciones": {
+            "je": "aurai montré",
+            "tu": "auras montré",
+            "il/elle/on": "aura montré",
+            "nous": "aurons montré",
+            "vous": "aurez montré",
+            "ils/elles": "auront montré"
+        },
+        "traduccion": "mostrar"
+    },
+    {
+        "infinitivo": "acheter",
+        "conjugaciones": {
+            "je": "aurai acheté",
+            "tu": "auras acheté",
+            "il/elle/on": "aura acheté",
+            "nous": "aurons acheté",
+            "vous": "aurez acheté",
+            "ils/elles": "auront acheté"
+        },
+        "traduccion": "comprar"
+    },
+    {
+        "infinitivo": "attendre",
+        "conjugaciones": {
+            "je": "aurai attendu",
+            "tu": "auras attendu",
+            "il/elle/on": "aura attendu",
+            "nous": "aurons attendu",
+            "vous": "aurez attendu",
+            "ils/elles": "auront attendu"
+        },
+        "traduccion": "esperar"
+    },
+    {
+        "infinitivo": "manger",
+        "conjugaciones": {
+            "je": "aurai mangé",
+            "tu": "auras mangé",
+            "il/elle/on": "aura mangé",
+            "nous": "aurons mangé",
+            "vous": "aurez mangé",
+            "ils/elles": "auront mangé"
+        },
+        "traduccion": "comer"
+    },
+    {
+        "infinitivo": "boire",
+        "conjugaciones": {
+            "je": "aurai bu",
+            "tu": "auras bu",
+            "il/elle/on": "aura bu",
+            "nous": "aurons bu",
+            "vous": "aurez bu",
+            "ils/elles": "auront bu"
+        },
+        "traduccion": "beber"
+    },
+    {
+        "infinitivo": "finir",
+        "conjugaciones": {
+            "je": "aurai fini",
+            "tu": "auras fini",
+            "il/elle/on": "aura fini",
+            "nous": "aurons fini",
+            "vous": "aurez fini",
+            "ils/elles": "auront fini"
+        },
+        "traduccion": "terminar"
+    },
+    {
+        "infinitivo": "ouvrir",
+        "conjugaciones": {
+            "je": "aurai ouvert",
+            "tu": "auras ouvert",
+            "il/elle/on": "aura ouvert",
+            "nous": "aurons ouvert",
+            "vous": "aurez ouvert",
+            "ils/elles": "auront ouvert"
+        },
+        "traduccion": "abrir"
+    },
+    {
+        "infinitivo": "courir",
+        "conjugaciones": {
+            "je": "aurai couru",
+            "tu": "auras couru",
+            "il/elle/on": "aura couru",
+            "nous": "aurons couru",
+            "vous": "aurez couru",
+            "ils/elles": "auront couru"
+        },
+        "traduccion": "correr"
+    },
+    {
+        "infinitivo": "sortir",
+        "conjugaciones": {
+            "je": "serai sorti",
+            "tu": "seras sorti",
+            "il/elle/on": "sera sorti",
+            "nous": "serons sortis",
+            "vous": "serez sortis",
+            "ils/elles": "seront sortis"
+        },
+        "traduccion": "salir"
+    },
+    {
+        "infinitivo": "écrire",
+        "conjugaciones": {
+            "je": "aurai écrit",
+            "tu": "auras écrit",
+            "il/elle/on": "aura écrit",
+            "nous": "aurons écrit",
+            "vous": "aurez écrit",
+            "ils/elles": "auront écrit"
+        },
+        "traduccion": "escribir"
+    },
+    {
+        "infinitivo": "lire",
+        "conjugaciones": {
+            "je": "aurai lu",
+            "tu": "auras lu",
+            "il/elle/on": "aura lu",
+            "nous": "aurons lu",
+            "vous": "aurez lu",
+            "ils/elles": "auront lu"
+        },
+        "traduccion": "leer"
+    },
+    {
+        "infinitivo": "étudier",
+        "conjugaciones": {
+            "je": "aurai étudié",
+            "tu": "auras étudié",
+            "il/elle/on": "aura étudié",
+            "nous": "aurons étudié",
+            "vous": "aurez étudié",
+            "ils/elles": "auront étudié"
+        },
+        "traduccion": "estudiar"
+    },
+    {
+        "infinitivo": "travailler",
+        "conjugaciones": {
+            "je": "aurai travaillé",
+            "tu": "auras travaillé",
+            "il/elle/on": "aura travaillé",
+            "nous": "aurons travaillé",
+            "vous": "aurez travaillé",
+            "ils/elles": "auront travaillé"
+        },
+        "traduccion": "trabajar"
+    },
+    {
+        "infinitivo": "jouer",
+        "conjugaciones": {
+            "je": "aurai joué",
+            "tu": "auras joué",
+            "il/elle/on": "aura joué",
+            "nous": "aurons joué",
+            "vous": "aurez joué",
+            "ils/elles": "auront joué"
+        },
+        "traduccion": "jugar"
+    },
+    {
+        "infinitivo": "regarder",
+        "conjugaciones": {
+            "je": "aurai regardé",
+            "tu": "auras regardé",
+            "il/elle/on": "aura regardé",
+            "nous": "aurons regardé",
+            "vous": "aurez regardé",
+            "ils/elles": "auront regardé"
+        },
+        "traduccion": "mirar"
+    },
+    {
+        "infinitivo": "écouter",
+        "conjugaciones": {
+            "je": "aurai écouté",
+            "tu": "auras écouté",
+            "il/elle/on": "aura écouté",
+            "nous": "aurons écouté",
+            "vous": "aurez écouté",
+            "ils/elles": "auront écouté"
+        },
+        "traduccion": "escuchar"
+    },
+    {
+        "infinitivo": "raconter",
+        "conjugaciones": {
+            "je": "aurai raconté",
+            "tu": "auras raconté",
+            "il/elle/on": "aura raconté",
+            "nous": "aurons raconté",
+            "vous": "aurez raconté",
+            "ils/elles": "auront raconté"
+        },
+        "traduccion": "contar"
+    },
+    {
+        "infinitivo": "oublier",
+        "conjugaciones": {
+            "je": "aurai oublié",
+            "tu": "auras oublié",
+            "il/elle/on": "aura oublié",
+            "nous": "aurons oublié",
+            "vous": "aurez oublié",
+            "ils/elles": "auront oublié"
+        },
+        "traduccion": "olvidar"
+    },
+    {
+        "infinitivo": "revenir",
+        "conjugaciones": {
+            "je": "serai revenu",
+            "tu": "seras revenu",
+            "il/elle/on": "sera revenu",
+            "nous": "serons revenus",
+            "vous": "serez revenus",
+            "ils/elles": "seront revenus"
+        },
+        "traduccion": "volver"
+    },
+    {
+        "infinitivo": "connaître",
+        "conjugaciones": {
+            "je": "aurai connu",
+            "tu": "auras connu",
+            "il/elle/on": "aura connu",
+            "nous": "aurons connu",
+            "vous": "aurez connu",
+            "ils/elles": "auront connu"
+        },
+        "traduccion": "conocer"
+    },
+    {
+        "infinitivo": "perdre",
+        "conjugaciones": {
+            "je": "aurai perdu",
+            "tu": "auras perdu",
+            "il/elle/on": "aura perdu",
+            "nous": "aurons perdu",
+            "vous": "aurez perdu",
+            "ils/elles": "auront perdu"
+        },
+        "traduccion": "perder"
+    },
+    {
+        "infinitivo": "cueillir",
+        "conjugaciones": {
+            "je": "aurai cueilli",
+            "tu": "auras cueilli",
+            "il/elle/on": "aura cueilli",
+            "nous": "aurons cueilli",
+            "vous": "aurez cueilli",
+            "ils/elles": "auront cueilli"
+        },
+        "traduccion": "recoger"
+    },
+    {
+        "infinitivo": "souffrir",
+        "conjugaciones": {
+            "je": "aurai souffert",
+            "tu": "auras souffert",
+            "il/elle/on": "aura souffert",
+            "nous": "aurons souffert",
+            "vous": "aurez souffert",
+            "ils/elles": "auront souffert"
+        },
+        "traduccion": "sufrir"
+    },
+    {
+        "infinitivo": "accueillir",
+        "conjugaciones": {
+            "je": "aurai accueilli",
+            "tu": "auras accueilli",
+            "il/elle/on": "aura accueilli",
+            "nous": "aurons accueilli",
+            "vous": "aurez accueilli",
+            "ils/elles": "auront accueilli"
+        },
+        "traduccion": "recibir"
+    },
+    {
+        "infinitivo": "découvrir",
+        "conjugaciones": {
+            "je": "aurai découvert",
+            "tu": "auras découvert",
+            "il/elle/on": "aura découvert",
+            "nous": "aurons découvert",
+            "vous": "aurez découvert",
+            "ils/elles": "auront découvert"
+        },
+        "traduccion": "descubrir"
+    },
+    {
+        "infinitivo": "recouvrir",
+        "conjugaciones": {
+            "je": "aurai recouvert",
+            "tu": "auras recouvert",
+            "il/elle/on": "aura recouvert",
+            "nous": "aurons recouvert",
+            "vous": "aurez recouvert",
+            "ils/elles": "auront recouvert"
+        },
+        "traduccion": "recubrir"
+    },
+    {
+        "infinitivo": "recueillir",
+        "conjugaciones": {
+            "je": "aurai recueilli",
+            "tu": "auras recueilli",
+            "il/elle/on": "aura recueilli",
+            "nous": "aurons recueilli",
+            "vous": "aurez recueilli",
+            "ils/elles": "auront recueilli"
+        },
+        "traduccion": "recolectar"
+    },
+    {
+        "infinitivo": "agir",
+        "conjugaciones": {
+            "je": "aurai agi",
+            "tu": "auras agi",
+            "il/elle/on": "aura agi",
+            "nous": "aurons agi",
+            "vous": "aurez agi",
+            "ils/elles": "auront agi"
+        },
+        "traduccion": "actuar"
+    },
+    {
+        "infinitivo": "grandir",
+        "conjugaciones": {
+            "je": "aurai grandi",
+            "tu": "auras grandi",
+            "il/elle/on": "aura grandi",
+            "nous": "aurons grandi",
+            "vous": "aurez grandi",
+            "ils/elles": "auront grandi"
+        },
+        "traduccion": "crecer"
+    },
+    {
+        "infinitivo": "subir",
+        "conjugaciones": {
+            "je": "aurai subi",
+            "tu": "auras subi",
+            "il/elle/on": "aura subi",
+            "nous": "aurons subi",
+            "vous": "aurez subi",
+            "ils/elles": "auront subi"
+        },
+        "traduccion": "sufrir"
+    },
+    {
+        "infinitivo": "accomplir",
+        "conjugaciones": {
+            "je": "aurai accompli",
+            "tu": "auras accompli",
+            "il/elle/on": "aura accompli",
+            "nous": "aurons accompli",
+            "vous": "aurez accompli",
+            "ils/elles": "auront accompli"
+        },
+        "traduccion": "cumplir"
+    },
+    {
+        "infinitivo": "saisir",
+        "conjugaciones": {
+            "je": "aurai saisi",
+            "tu": "auras saisi",
+            "il/elle/on": "aura saisi",
+            "nous": "aurons saisi",
+            "vous": "aurez saisi",
+            "ils/elles": "auront saisi"
+        },
+        "traduccion": "aprovechar"
+    },
+    {
+        "infinitivo": "approfondir",
+        "conjugaciones": {
+            "je": "aurai approfondi",
+            "tu": "auras approfondi",
+            "il/elle/on": "aura approfondi",
+            "nous": "aurons approfondi",
+            "vous": "aurez approfondi",
+            "ils/elles": "auront approfondi"
+        },
+        "traduccion": "profundizar"
+    },
+    {
+        "infinitivo": "mincir",
+        "conjugaciones": {
+            "je": "aurai minci",
+            "tu": "auras minci",
+            "il/elle/on": "aura minci",
+            "nous": "aurons minci",
+            "vous": "aurez minci",
+            "ils/elles": "auront minci"
+        },
+        "traduccion": "adelgazar"
+    },
+    {
+        "infinitivo": "apprendre",
+        "conjugaciones": {
+            "je": "aurai appris",
+            "tu": "auras appris",
+            "il/elle/on": "aura appris",
+            "nous": "aurons appris",
+            "vous": "aurez appris",
+            "ils/elles": "auront appris"
+        },
+        "traduccion": "aprender"
+    },
+    {
+        "infinitivo": "entreprendre",
+        "conjugaciones": {
+            "je": "aurai entrepris",
+            "tu": "auras entrepris",
+            "il/elle/on": "aura entrepris",
+            "nous": "aurons entrepris",
+            "vous": "aurez entrepris",
+            "ils/elles": "auront entrepris"
+        },
+        "traduccion": "emprender"
+    },
+    {
+        "infinitivo": "reprendre",
+        "conjugaciones": {
+            "je": "aurai repris",
+            "tu": "auras repris",
+            "il/elle/on": "aura repris",
+            "nous": "aurons repris",
+            "vous": "aurez repris",
+            "ils/elles": "auront repris"
+        },
+        "traduccion": "retomar"
+    },
+    {
+        "infinitivo": "surprendre",
+        "conjugaciones": {
+            "je": "aurai surpris",
+            "tu": "auras surpris",
+            "il/elle/on": "aura surpris",
+            "nous": "aurons surpris",
+            "vous": "aurez surpris",
+            "ils/elles": "auront surpris"
+        },
+        "traduccion": "sorprender"
+    },
+    {
+        "infinitivo": "se méprendre",
+        "conjugaciones": {
+            "je": "me serai mépris",
+            "tu": "t'es mépris",
+            "il/elle/on": "s'est mépris",
+            "nous": "nous serons mépris",
+            "vous": "vous serez mépris",
+            "ils/elles": "se seront mépris"
+        },
+        "traduccion": "equivocarse"
+    },
+    {
+        "infinitivo": "descendre",
+        "conjugaciones": {
+            "je": "serai descendu",
+            "tu": "seras descendu",
+            "il/elle/on": "sera descendu",
+            "nous": "serons descendus",
+            "vous": "serez descendus",
+            "ils/elles": "seront descendus"
+        },
+        "traduccion": "bajar"
+    },
+    {
+        "infinitivo": "mordre",
+        "conjugaciones": {
+            "je": "aurai mordu",
+            "tu": "auras mordu",
+            "il/elle/on": "aura mordu",
+            "nous": "aurons mordu",
+            "vous": "aurez mordu",
+            "ils/elles": "auront mordu"
+        },
+        "traduccion": "morder"
+    },
+    {
+        "infinitivo": "répondre",
+        "conjugaciones": {
+            "je": "aurai répondu",
+            "tu": "auras répondu",
+            "il/elle/on": "aura répondu",
+            "nous": "aurons répondu",
+            "vous": "aurez répondu",
+            "ils/elles": "auront répondu"
+        },
+        "traduccion": "responder"
+    },
+    {
+        "infinitivo": "atteindre",
+        "conjugaciones": {
+            "je": "aurai atteint",
+            "tu": "auras atteint",
+            "il/elle/on": "aura atteint",
+            "nous": "aurons atteint",
+            "vous": "aurez atteint",
+            "ils/elles": "auront atteint"
+        },
+        "traduccion": "alcanzar"
+    },
+    {
+        "infinitivo": "éteindre",
+        "conjugaciones": {
+            "je": "aurai éteint",
+            "tu": "auras éteint",
+            "il/elle/on": "aura éteint",
+            "nous": "aurons éteint",
+            "vous": "aurez éteint",
+            "ils/elles": "auront éteint"
+        },
+        "traduccion": "apagar"
+    },
+    {
+        "infinitivo": "peindre",
+        "conjugaciones": {
+            "je": "aurai peint",
+            "tu": "auras peint",
+            "il/elle/on": "aura peint",
+            "nous": "aurons peint",
+            "vous": "aurez peint",
+            "ils/elles": "auront peint"
+        },
+        "traduccion": "pintar"
+    },
+    {
+        "infinitivo": "restreindre",
+        "conjugaciones": {
+            "je": "aurai restreint",
+            "tu": "auras restreint",
+            "il/elle/on": "aura restreint",
+            "nous": "aurons restreint",
+            "vous": "aurez restreint",
+            "ils/elles": "auront restreint"
+        },
+        "traduccion": "restringir"
+    },
+    {
+        "infinitivo": "teindre",
+        "conjugaciones": {
+            "je": "aurai teint",
+            "tu": "auras teint",
+            "il/elle/on": "aura teint",
+            "nous": "aurons teint",
+            "vous": "aurez teint",
+            "ils/elles": "auront teint"
+        },
+        "traduccion": "teñir"
+    },
+    {
+        "infinitivo": "cuire",
+        "conjugaciones": {
+            "je": "aurai cuit",
+            "tu": "auras cuit",
+            "il/elle/on": "aura cuit",
+            "nous": "aurons cuit",
+            "vous": "aurez cuit",
+            "ils/elles": "auront cuit"
+        },
+        "traduccion": "cocinar"
+    },
+    {
+        "infinitivo": "conduire",
+        "conjugaciones": {
+            "je": "aurai conduit",
+            "tu": "auras conduit",
+            "il/elle/on": "aura conduit",
+            "nous": "aurons conduit",
+            "vous": "aurez conduit",
+            "ils/elles": "auront conduit"
+        },
+        "traduccion": "conducir"
+    },
+    {
+        "infinitivo": "produire",
+        "conjugaciones": {
+            "je": "aurai produit",
+            "tu": "auras produit",
+            "il/elle/on": "aura produit",
+            "nous": "aurons produit",
+            "vous": "aurez produit",
+            "ils/elles": "auront produit"
+        },
+        "traduccion": "producir"
+    },
+    {
+        "infinitivo": "construire",
+        "conjugaciones": {
+            "je": "aurai construit",
+            "tu": "auras construit",
+            "il/elle/on": "aura construit",
+            "nous": "aurons construit",
+            "vous": "aurez construit",
+            "ils/elles": "auront construit"
+        },
+        "traduccion": "construir"
+    },
+    {
+        "infinitivo": "traduire",
+        "conjugaciones": {
+            "je": "aurai traduit",
+            "tu": "auras traduit",
+            "il/elle/on": "aura traduit",
+            "nous": "aurons traduit",
+            "vous": "aurez traduit",
+            "ils/elles": "auront traduit"
+        },
+        "traduccion": "traducir"
+    },
+    {
+        "infinitivo": "réduire",
+        "conjugaciones": {
+            "je": "aurai réduit",
+            "tu": "auras réduit",
+            "il/elle/on": "aura réduit",
+            "nous": "aurons réduit",
+            "vous": "aurez réduit",
+            "ils/elles": "auront réduit"
+        },
+        "traduccion": "reducir"
+    },
+    {
+        "infinitivo": "détruire",
+        "conjugaciones": {
+            "je": "aurai détruit",
+            "tu": "auras détruit",
+            "il/elle/on": "aura détruit",
+            "nous": "aurons détruit",
+            "vous": "aurez détruit",
+            "ils/elles": "auront détruit"
+        },
+        "traduccion": "destruir"
+    },
+    {
+        "infinitivo": "voir",
+        "conjugaciones": {
+            "je": "aurai vu",
+            "tu": "auras vu",
+            "il/elle/on": "aura vu",
+            "nous": "aurons vu",
+            "vous": "aurez vu",
+            "ils/elles": "auront vu"
+        },
+        "traduccion": "ver"
+    },
+    {
+        "infinitivo": "revoir",
+        "conjugaciones": {
+            "je": "aurai revu",
+            "tu": "auras revu",
+            "il/elle/on": "aura revu",
+            "nous": "aurons revu",
+            "vous": "aurez revu",
+            "ils/elles": "auront revu"
+        },
+        "traduccion": "revisar"
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "aurai entrevu",
+            "tu": "auras entrevu",
+            "il/elle/on": "aura entrevu",
+            "nous": "aurons entrevu",
+            "vous": "aurez entrevu",
+            "ils/elles": "auront entrevu"
+        },
+        "traduccion": "vislumbrar"
+    },
+    {
+        "infinitivo": "croire",
+        "conjugaciones": {
+            "je": "aurai cru",
+            "tu": "auras cru",
+            "il/elle/on": "aura cru",
+            "nous": "aurons cru",
+            "vous": "aurez cru",
+            "ils/elles": "auront cru"
+        },
+        "traduccion": "creer"
+    },
+    {
+        "infinitivo": "apercevoir",
+        "conjugaciones": {
+            "je": "aurai aperçu",
+            "tu": "auras aperçu",
+            "il/elle/on": "aura aperçu",
+            "nous": "aurons aperçu",
+            "vous": "aurez aperçu",
+            "ils/elles": "auront aperçu"
+        },
+        "traduccion": "percibir"
+    },
+    {
+        "infinitivo": "commettre",
+        "conjugaciones": {
+            "je": "aurai commis",
+            "tu": "auras commis",
+            "il/elle/on": "aura commis",
+            "nous": "aurons commis",
+            "vous": "aurez commis",
+            "ils/elles": "auront commis"
+        },
+        "traduccion": "cometer"
+    },
+    {
+        "infinitivo": "promettre",
+        "conjugaciones": {
+            "je": "aurai promis",
+            "tu": "auras promis",
+            "il/elle/on": "aura promis",
+            "nous": "aurons promis",
+            "vous": "aurez promis",
+            "ils/elles": "auront promis"
+        },
+        "traduccion": "prometer"
+    },
+    {
+        "infinitivo": "transmettre",
+        "conjugaciones": {
+            "je": "aurai transmis",
+            "tu": "auras transmis",
+            "il/elle/on": "aura transmis",
+            "nous": "aurons transmis",
+            "vous": "aurez transmis",
+            "ils/elles": "auront transmis"
+        },
+        "traduccion": "transmitir"
+    },
+    {
+        "infinitivo": "permettre",
+        "conjugaciones": {
+            "je": "aurai permis",
+            "tu": "auras permis",
+            "il/elle/on": "aura permis",
+            "nous": "aurons permis",
+            "vous": "aurez permis",
+            "ils/elles": "auront permis"
+        },
+        "traduccion": "permitir"
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "aurai admis",
+            "tu": "auras admis",
+            "il/elle/on": "aura admis",
+            "nous": "aurons admis",
+            "vous": "aurez admis",
+            "ils/elles": "auront admis"
+        },
+        "traduccion": "admitir"
+    },
+    {
+        "infinitivo": "omettre",
+        "conjugaciones": {
+            "je": "aurai omis",
+            "tu": "auras omis",
+            "il/elle/on": "aura omis",
+            "nous": "aurons omis",
+            "vous": "aurez omis",
+            "ils/elles": "auront omis"
+        },
+        "traduccion": "omitir"
+    },
+    {
+        "infinitivo": "soumettre",
+        "conjugaciones": {
+            "je": "aurai soumis",
+            "tu": "auras soumis",
+            "il/elle/on": "aura soumis",
+            "nous": "aurons soumis",
+            "vous": "aurez soumis",
+            "ils/elles": "auront soumis"
+        },
+        "traduccion": "someter"
+    },
+    {
+        "infinitivo": "compromettre",
+        "conjugaciones": {
+            "je": "aurai compromis",
+            "tu": "auras compromis",
+            "il/elle/on": "aura compromis",
+            "nous": "aurons compromis",
+            "vous": "aurez compromis",
+            "ils/elles": "auront compromis"
+        },
+        "traduccion": "comprometer"
+    },
+    {
+        "infinitivo": "admettre",
+        "conjugaciones": {
+            "je": "aurai admis",
+            "tu": "auras admis",
+            "il/elle/on": "aura admis",
+            "nous": "aurons admis",
+            "vous": "aurez admis",
+            "ils/elles": "auront admis"
+        },
+        "traduccion": "admitir"
+    },
+    {
+        "infinitivo": "entrevoir",
+        "conjugaciones": {
+            "je": "aurai entrevu",
+            "tu": "auras entrevu",
+            "il/elle/on": "aura entrevu",
+            "nous": "aurons entrevu",
+            "vous": "aurez entrevu",
+            "ils/elles": "auront entrevu"
+        },
+        "traduccion": "vislumbrar"
+    },
+    {
+        "infinitivo": "partir",
+        "conjugaciones": {
+            "je": "serai parti",
+            "tu": "seras parti",
+            "il/elle/on": "sera parti",
+            "nous": "serons partis",
+            "vous": "serez partis",
+            "ils/elles": "seront partis"
+        },
+        "traduccion": "partir"
+    }
+]
