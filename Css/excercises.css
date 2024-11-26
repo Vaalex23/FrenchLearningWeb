@@ -1,6 +1,52 @@
 /* Estilos para el body */
 body {
     display: flex;
+    flex-direction: column; /* Para incluir la barra superior */
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1471a3;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #003366; /* Azul oscuro */
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-options li {
+    display: inline;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Animación al pasar el cursor en la barra */
+.nav-options a:hover {
+    color: #ffcc00; /* Amarillo */
+    transform: scale(1.1);
+}
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -8,60 +54,63 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
 
-/* Contenedor principal */
 #main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
     background-color: #056ba2;
     border-radius: 10px;
     box-shadow: 12px 8px 12px rgba(0, 0, 0, 0.2);
     width: 90%;
-    max-width: 600px;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Título */
-#main-container h1 {
-    font-size: 2.5em;
+#questions-container {
     margin-bottom: 20px;
 }
 
-/* Texto de instrucciones */
-#main-container p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9em;
+    white-space: nowrap; /* Muestra las frases en una sola línea */
+    margin-bottom: 10px;
 }
 
-/* Contenedor de preguntas */
-.question-container {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #027bb8;
-    border-radius: 8px;
+.phrase {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.correct-answer {
+    color: rgb(78, 180, 78);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.explanation {
     color: white;
-    font-size: 1.2em;
-}
-
-/* Casilla de selección */
-.dropdown-container {
-    margin: 10px 0;
+    font-size: 0.8em;
+    margin-top: 5px;
+    white-space: normal; /* Permite que las explicaciones largas ocupen varias líneas */
+    word-wrap: break-word; /* Ajusta automáticamente el contenido largo */
+    overflow-wrap: break-word; /* Compatibilidad adicional */
+    text-align: left; /* Alinea el texto explicativo a la izquierda */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente diferente */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 select {
-    padding: 10px;
-    font-size: 1em;
-    border-radius: 5px;
-    border: none;
+    margin-left: 10px;
 }
 
-/* Botón de verificación */
-.verify-button {
+button {
     padding: 10px 20px;
-    font-size: 1.2em;
+    font-size: 16px;
     background-color: #0298e8;
     border: none;
     border-radius: 5px;
@@ -70,27 +119,6 @@ select {
     transition: background-color 0.3s ease;
 }
 
-.verify-button:hover {
+button:hover {
     background-color: #027bb8;
-}
-
-.explanation {
-    margin-top: 15px;
-    font-size: 1em;
-    color: #f4f4f4;
-    background-color: #033f59;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Estilo para preposiciones correctas o incorrectas */
-.correct {
-    color: green;
-    font-weight: bold;
-}
-
-.incorrect {
-    color: red;
-    font-weight: bold;
-    text-decoration: line-through;
 }

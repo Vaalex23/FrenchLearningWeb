@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica de Preposiciones en Francés</title>
+    <title>Práctica de Preposiciones</title>
     <link rel="stylesheet" href="../Css/excercises.css">
 </head>
 <body>
+    <nav class="navbar">
+        <ul class="nav-options">
+            <li><a href="#tarjetas">Tarjetas</a></li>
+            <li><a href="#mazo">Mazo</a></li>
+            <li><a href="Excercises/prepositions.html">Ejercicios</a></li>
+        </ul>
+    </nav>
     <div id="main-container">
         <h1>Práctica de Preposiciones</h1>
-        <p>Selecciona la preposición correcta para cada frase.</p>
-
-        <div id="questions-container">
-            <!-- Las preguntas se insertarán aquí de forma dinámica -->
-        </div>
-
-        <button class="verify-button" onclick="verifyAnswers()">Verificar respuestas</button>
+        <div id="questions-container"></div>
+        <button id="verifyButton">Verificar</button>
     </div>
-
     <script src="../Scripts/preposition_check.js"></script>
 </body>
 </html>

@@ -1,15 +1,56 @@
-/* Estilos generales del body */
+/* Estilos para el body */
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Para incluir la barra superior */
+    justify-content: flex-start;
+    align-items: center; /* Alineación central horizontal del contenido */
     min-height: 100vh;
+    margin: 0;
+    padding: 0; /* Elimina cualquier padding extra */
     background-color: #1471a3;
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-    margin: 0;
     position: relative;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #003366; /* Azul oscuro */
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: sticky; /* Se queda fija en la parte superior al hacer scroll */
+    top: 0;
+    z-index: 1000;
+    margin: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Añade un sombreado ligero */
+}
+
+.nav-options {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-options li {
+    display: inline;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Animación al pasar el cursor en la barra */
+.nav-options a:hover {
+    color: #ffcc00; /* Amarillo */
+    transform: scale(1.1);
 }
 
 /* Contenedor principal */
@@ -21,6 +62,7 @@ body {
     width: 100%;
     max-width: 600px;
     padding: 20px;
+    margin-top: 20px;
 }
 
 /* Contenedor del contador */
@@ -131,16 +173,16 @@ button:hover {
 /* Botón de regreso */
 #backButton {
     position: absolute;
-    top: 20px;
-    left: 40px;
+    top: 80px; /* Ajustado para evitar superposición con la barra de navegación */
+    left: 20px;
     font-size: 40px;
     color: white;
-    text-decoration:solid;
+    text-decoration: solid;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
 #backButton:hover {
-    color: #dddddd;
+    color: #dddddd; /* Color más claro al pasar el cursor */
 }

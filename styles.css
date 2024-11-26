@@ -1,15 +1,55 @@
-/* Estilos generales del body */
+/* Estilos para el body */
 body {
-    display:flex;
-    justify-content: center;
+    display: flex;
+    flex-direction: column; /* Para incluir la barra superior */
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 0; /* Elimina cualquier padding extra */
     background-color: #1471a3;
-   /* margin: 0;*/
     font-family: Arial, sans-serif;
     color: white;
-    text-align: center; 
-    position:relative; /* Para posicionar la línea con respecto al body */
+    position: relative;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #003366; /* Azul oscuro */
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Añade un sombreado ligero */
+    margin: 0;
+}
+
+.nav-options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-options li {
+    display: inline;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Animación al pasar el cursor en la barra */
+.nav-options a:hover {
+    color: #ffcc00; /* Amarillo */
+    transform: scale(1.1);
 }
 
 /* Contenedor que incluye tarjeta y botón */
@@ -22,8 +62,8 @@ body {
     perspective: 1000px;
     height: 600px;
     width: 900px;  /* Asegura que el contenedor ocupe el 100% del ancho disponible */
+    margin-top: 20px; /* Ajusta el margen inferior de la barra */
 }
-
 
 /* Estilos de la tarjeta con flip */
 .flip-card {
@@ -33,16 +73,14 @@ body {
 }
 
 /* Frontal de la tarjeta */
-.flip-card .front{
+.flip-card .front {
     position: absolute;
     width: 320px;
     height: 250px;
-    /*backface-visibility: hidden;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*padding: 20px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     transition: transform 0.6s;
@@ -130,7 +168,6 @@ button:hover {
 
 /* Estilos del botón "Next" */
 #nextButton {
-   /* padding: 10px 10px;*/
     font-size: 16px;
     background-color: #0298e8;
     border: none;
@@ -158,14 +195,15 @@ button:hover {
     width: 2px; /* Ancho de la línea */
     background-color: black; /* Color de la línea */
 }
+
 /* Botón de regreso en forma de flecha */
 #backButton {
     position: absolute;
-    top: 20px;
+    top: 80px; /* Ajustado para evitar superposición con la barra */
     left: 40px;
     font-size: 40px;
     color: white;
-    text-decoration:solid;
+    text-decoration: solid;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -174,6 +212,7 @@ button:hover {
 #backButton:hover {
     color: #dddddd; /* Color más claro al pasar el cursor */
 }
+
 /* Estilos para el contador */
 #contador {
     text-align: center;
