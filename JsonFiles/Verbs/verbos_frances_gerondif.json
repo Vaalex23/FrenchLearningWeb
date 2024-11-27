@@ -1,0 +1,492 @@
+[
+    {
+        "infinitivo": "être",
+        "gerundio": "étant",
+        "traduccion": "ser, estar"
+    },
+    {
+        "infinitivo": "avoir",
+        "gerundio": "ayant",
+        "traduccion": "tener"
+    },
+    {
+        "infinitivo": "aller",
+        "gerundio": "allant",
+        "traduccion": "ir"
+    },
+    {
+        "infinitivo": "faire",
+        "gerundio": "faisant",
+        "traduccion": "hacer"
+    },
+    {
+        "infinitivo": "dire",
+        "gerundio": "disant",
+        "traduccion": "decir"
+    },
+    {
+        "infinitivo": "pouvoir",
+        "gerundio": "pouvant",
+        "traduccion": "poder"
+    },
+    {
+        "infinitivo": "vouloir",
+        "gerundio": "voulant",
+        "traduccion": "querer"
+    },
+    {
+        "infinitivo": "savoir",
+        "gerundio": "sachant",
+        "traduccion": "saber"
+    },
+    {
+        "infinitivo": "venir",
+        "gerundio": "venant",
+        "traduccion": "venir"
+    },
+    {
+        "infinitivo": "prendre",
+        "gerundio": "prenant",
+        "traduccion": "tomar"
+    },
+    {
+        "infinitivo": "mettre",
+        "gerundio": "mettant",
+        "traduccion": "poner"
+    },
+    {
+        "infinitivo": "donner",
+        "gerundio": "donnant",
+        "traduccion": "dar"
+    },
+    {
+        "infinitivo": "devoir",
+        "gerundio": "devant",
+        "traduccion": "deber"
+    },
+    {
+        "infinitivo": "prendre",
+        "gerundio": "prenant",
+        "traduccion": "tomar"
+    },
+    {
+        "infinitivo": "parler",
+        "gerundio": "parlant",
+        "traduccion": "hablar"
+    },
+    {
+        "infinitivo": "aimer",
+        "gerundio": "aimant",
+        "traduccion": "amar"
+    },
+    {
+        "infinitivo": "trouver",
+        "gerundio": "trouvant",
+        "traduccion": "encontrar"
+    },
+    {
+        "infinitivo": "vivre",
+        "gerundio": "vivant",
+        "traduccion": "vivir"
+    },
+    {
+        "infinitivo": "demander",
+        "gerundio": "demandant",
+        "traduccion": "preguntar"
+    },
+    {
+        "infinitivo": "rendre",
+        "gerundio": "rendant",
+        "traduccion": "devolver"
+    },
+    {
+        "infinitivo": "venir",
+        "gerundio": "venant",
+        "traduccion": "venir"
+    },
+    {
+        "infinitivo": "chercher",
+        "gerundio": "cherchant",
+        "traduccion": "buscar"
+    },
+    {
+        "infinitivo": "passer",
+        "gerundio": "passant",
+        "traduccion": "pasar"
+    },
+    {
+        "infinitivo": "comprendre",
+        "gerundio": "comprenant",
+        "traduccion": "entender"
+    },
+    {
+        "infinitivo": "rester",
+        "gerundio": "restant",
+        "traduccion": "quedarse"
+    },
+    {
+        "infinitivo": "tenir",
+        "gerundio": "tenant",
+        "traduccion": "sostener"
+    },
+    {
+        "infinitivo": "porter",
+        "gerundio": "portant",
+        "traduccion": "llevar"
+    },
+    {
+        "infinitivo": "parler",
+        "gerundio": "parlant",
+        "traduccion": "hablar"
+    },
+    {
+        "infinitivo": "montrer",
+        "gerundio": "montrant",
+        "traduccion": "mostrar"
+    },
+    {
+        "infinitivo": "acheter",
+        "gerundio": "achetant",
+        "traduccion": "comprar"
+    },
+    {
+        "infinitivo": "attendre",
+        "gerundio": "attendant",
+        "traduccion": "esperar"
+    },
+    {
+        "infinitivo": "manger",
+        "gerundio": "mangeant",
+        "traduccion": "comer"
+    },
+    {
+        "infinitivo": "boire",
+        "gerundio": "buvant",
+        "traduccion": "beber"
+    },
+    {
+        "infinitivo": "finir",
+        "gerundio": "finissant",
+        "traduccion": "terminar"
+    },
+    {
+        "infinitivo": "ouvrir",
+        "gerundio": "ouvrant",
+        "traduccion": "abrir"
+    },
+    {
+        "infinitivo": "courir",
+        "gerundio": "courant",
+        "traduccion": "correr"
+    },
+    {
+        "infinitivo": "sortir",
+        "gerundio": "sortant",
+        "traduccion": "salir"
+    },
+    {
+        "infinitivo": "écrire",
+        "gerundio": "écrivant",
+        "traduccion": "escribir"
+    },
+    {
+        "infinitivo": "lire",
+        "gerundio": "lisant",
+        "traduccion": "leer"
+    },
+    {
+        "infinitivo": "étudier",
+        "gerundio": "étudiant",
+        "traduccion": "estudiar"
+    },
+    {
+        "infinitivo": "travailler",
+        "gerundio": "travaillant",
+        "traduccion": "trabajar"
+    },
+    {
+        "infinitivo": "jouer",
+        "gerundio": "jouant",
+        "traduccion": "jugar"
+    },
+    {
+        "infinitivo": "regarder",
+        "gerundio": "regardant",
+        "traduccion": "mirar"
+    },
+    {
+        "infinitivo": "écouter",
+        "gerundio": "écoutant",
+        "traduccion": "escuchar"
+    },
+    {
+        "infinitivo": "raconter",
+        "gerundio": "racontant",
+        "traduccion": "contar"
+    },
+    {
+        "infinitivo": "oublier",
+        "gerundio": "oubliant",
+        "traduccion": "olvidar"
+    },
+    {
+        "infinitivo": "revenir",
+        "gerundio": "revenant",
+        "traduccion": "volver"
+    },
+    {
+        "infinitivo": "connaître",
+        "gerundio": "connaissant",
+        "traduccion": "conocer"
+    },
+    {
+        "infinitivo": "perdre",
+        "gerundio": "perdant",
+        "traduccion": "perder"
+    },
+    {
+        "infinitivo": "cueillir",
+        "gerundio": "cueillant",
+        "traduccion": "recoger"
+    },
+    {
+        "infinitivo": "souffrir",
+        "gerundio": "souffrant",
+        "traduccion": "sufrir"
+    },
+    {
+        "infinitivo": "accueillir",
+        "gerundio": "accueillant",
+        "traduccion": "recibir"
+    },
+    {
+        "infinitivo": "découvrir",
+        "gerundio": "découvrant",
+        "traduccion": "descubrir"
+    },
+    {
+        "infinitivo": "recouvrir",
+        "gerundio": "recouvrant",
+        "traduccion": "recubrir"
+    },
+    {
+        "infinitivo": "recueillir",
+        "gerundio": "recueillant",
+        "traduccion": "recolectar"
+    },
+    {
+        "infinitivo": "agir",
+        "gerundio": "agissant",
+        "traduccion": "actuar"
+    },
+    {
+        "infinitivo": "grandir",
+        "gerundio": "grandissant",
+        "traduccion": "crecer"
+    },
+    {
+        "infinitivo": "subir",
+        "gerundio": "subissant",
+        "traduccion": "sufrir"
+    },
+    {
+        "infinitivo": "accomplir",
+        "gerundio": "accomplissant",
+        "traduccion": "cumplir"
+    },
+    {
+        "infinitivo": "saisir",
+        "gerundio": "saisissant",
+        "traduccion": "aprovechar"
+    },
+    {
+        "infinitivo": "approfondir",
+        "gerundio": "approfondissant",
+        "traduccion": "profundizar"
+    },
+    {
+        "infinitivo": "mincir",
+        "gerundio": "mincissant",
+        "traduccion": "adelgazar"
+    },
+    {
+        "infinitivo": "apprendre",
+        "gerundio": "apprenant",
+        "traduccion": "aprender"
+    },
+    {
+        "infinitivo": "entreprendre",
+        "gerundio": "entreprenant",
+        "traduccion": "emprender"
+    },
+    {
+        "infinitivo": "reprendre",
+        "gerundio": "reprenant",
+        "traduccion": "retomar"
+    },
+    {
+        "infinitivo": "surprendre",
+        "gerundio": "surprenant",
+        "traduccion": "sorprender"
+    },
+    {
+        "infinitivo": "se méprendre",
+        "gerundio": "nous méprenant",
+        "traduccion": "equivocarse"
+    },
+    {
+        "infinitivo": "descendre",
+        "gerundio": "descendant",
+        "traduccion": "bajar"
+    },
+    {
+        "infinitivo": "mordre",
+        "gerundio": "mordant",
+        "traduccion": "morder"
+    },
+    {
+        "infinitivo": "répondre",
+        "gerundio": "répondant",
+        "traduccion": "responder"
+    },
+    {
+        "infinitivo": "atteindre",
+        "gerundio": "atteignant",
+        "traduccion": "alcanzar"
+    },
+    {
+        "infinitivo": "éteindre",
+        "gerundio": "éteignant",
+        "traduccion": "apagar"
+    },
+    {
+        "infinitivo": "peindre",
+        "gerundio": "peignant",
+        "traduccion": "pintar"
+    },
+    {
+        "infinitivo": "restreindre",
+        "gerundio": "restreignant",
+        "traduccion": "restringir"
+    },
+    {
+        "infinitivo": "teindre",
+        "gerundio": "teignant",
+        "traduccion": "teñir"
+    },
+    {
+        "infinitivo": "cuire",
+        "gerundio": "cuisant",
+        "traduccion": "cocinar"
+    },
+    {
+        "infinitivo": "conduire",
+        "gerundio": "conduisant",
+        "traduccion": "conducir"
+    },
+    {
+        "infinitivo": "produire",
+        "gerundio": "produisant",
+        "traduccion": "producir"
+    },
+    {
+        "infinitivo": "construire",
+        "gerundio": "construisant",
+        "traduccion": "construir"
+    },
+    {
+        "infinitivo": "traduire",
+        "gerundio": "traduisant",
+        "traduccion": "traducir"
+    },
+    {
+        "infinitivo": "réduire",
+        "gerundio": "réduisant",
+        "traduccion": "reducir"
+    },
+    {
+        "infinitivo": "détruire",
+        "gerundio": "détruisant",
+        "traduccion": "destruir"
+    },
+    {
+        "infinitivo": "voir",
+        "gerundio": "voyant",
+        "traduccion": "ver"
+    },
+    {
+        "infinitivo": "revoir",
+        "gerundio": "revoyant",
+        "traduccion": "revisar"
+    },
+    {
+        "infinitivo": "entrevoir",
+        "gerundio": "entrevoyant",
+        "traduccion": "vislumbrar"
+    },
+    {
+        "infinitivo": "croire",
+        "gerundio": "croyant",
+        "traduccion": "creer"
+    },
+    {
+        "infinitivo": "apercevoir",
+        "gerundio": "apercevant",
+        "traduccion": "percibir"
+    },
+    {
+        "infinitivo": "commettre",
+        "gerundio": "commettant",
+        "traduccion": "cometer"
+    },
+    {
+        "infinitivo": "promettre",
+        "gerundio": "promettant",
+        "traduccion": "prometer"
+    },
+    {
+        "infinitivo": "transmettre",
+        "gerundio": "transmettant",
+        "traduccion": "transmitir"
+    },
+    {
+        "infinitivo": "permettre",
+        "gerundio": "permettant",
+        "traduccion": "permitir"
+    },
+    {
+        "infinitivo": "admettre",
+        "gerundio": "admettant",
+        "traduccion": "admitir"
+    },
+    {
+        "infinitivo": "omettre",
+        "gerundio": "omettant",
+        "traduccion": "omitir"
+    },
+    {
+        "infinitivo": "soumettre",
+        "gerundio": "soumettant",
+        "traduccion": "someter"
+    },
+    {
+        "infinitivo": "compromettre",
+        "gerundio": "compromettant",
+        "traduccion": "comprometer"
+    },
+    {
+        "infinitivo": "admettre",
+        "gerundio": "admettant",
+        "traduccion": "admitir"
+    },
+    {
+        "infinitivo": "entrevoir",
+        "gerundio": "entrevoyant",
+        "traduccion": "vislumbrar"
+    },
+    {
+        "infinitivo": "partir",
+        "gerundio": "partant",
+        "traduccion": "partir"
+    }
+]

@@ -18,7 +18,13 @@ if (archivoActual === "present_simple.html") {
     archivoJSON = '../JsonFiles/Verbs/verbos_frances_futur_simple.json';  // Cargar los verbos en futur simple
 } else if (archivoActual === "imparfait.html"){
     archivoJSON = '../JsonFiles/Verbs/verbos_frances_imparfait.json';  // Cargar los verbos en l'imparfait
-} else {   
+} else if (archivoActual === "plus_que_parfait.html"){
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_plus_que_parfait.json';  // Cargar los verbos en plus que parfait
+} else if (archivoActual === "futur_anterieur.html"){
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_futur_anterieur.json';  // Cargar los verbos en futur anterieur
+}else if (archivoActual === "gerondif.html"){
+    archivoJSON = '../JsonFiles/Verbs/verbos_frances_gerondif.json';  // Cargar los verbos en gerondif
+}else{
      console.error("No se pudo identificar el archivo HTML.");
 }
 
@@ -48,13 +54,18 @@ function mostrarNuevoVerbo() {
 
     // Obtén un verbo aleatorio y un sujeto aleatorio
     verboActual = obtenerVerboAleatorio();
-    const sujetos = Object.keys(verboActual.conjugaciones);
-    sujetoActual = sujetos[Math.floor(Math.random() * sujetos.length)];
+    if (archivoActual != "gerondif.html"){
+        const sujetos = Object.keys(verboActual.conjugaciones);
+        sujetoActual = sujetos[Math.floor(Math.random() * sujetos.length)];
+    }
+
+    
 
     // Muestra la traducción, verbo y el sujeto en la tarjeta
     document.getElementById("traduccion").textContent = verboActual.traduccion; // Traducción del verbo
     document.getElementById("verbo").textContent = verboActual.infinitivo; // Verbo en infinitivo
-    document.getElementById("sujeto").textContent = sujetoActual; // Sujeto correspondiente
+    if (archivoActual != "gerondif.html")
+        document.getElementById("sujeto").textContent = sujetoActual; // Sujeto correspondiente
 
     // Limpiar la respuesta y el resultado
     document.getElementById("respuesta").value = "";
@@ -67,8 +78,10 @@ function mostrarNuevoVerbo() {
 
 function verificar() {
     const respuesta = document.getElementById("respuesta").value.toLowerCase();
-    const respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
-
+    const respuestaCorrecta = verboActual.gerundio;
+    if (archivoActual != "gerondif.html"){
+        respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
+    }
     // Incrementar el contador de intentos
     intentos++;
 
