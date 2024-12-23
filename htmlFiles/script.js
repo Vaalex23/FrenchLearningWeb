@@ -78,7 +78,7 @@ function mostrarNuevoVerbo() {
 
 function verificar() {
     const respuesta = document.getElementById("respuesta").value.toLowerCase();
-    const respuestaCorrecta = verboActual.gerundio;
+    let respuestaCorrecta = verboActual.gerundio;
     if (archivoActual != "gerondif.html"){
         respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
     }

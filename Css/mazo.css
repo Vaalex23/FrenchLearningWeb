@@ -1,0 +1,188 @@
+/* Estilos globales para el body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Incluye la barra superior */
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #1471a3; /* Fondo azul */
+    color: white;
+    position: relative;
+}
+/* Contenedor principal de la página */
+.content {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 50px); /* Ajusta según la altura de la barra de navegación */
+}
+
+/* Biblioteca en la parte izquierda */
+.library {
+    width: 30%; /* Ocupa un tercio de la página */
+    background-color: #005080; /* Azul oscuro para destacar */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1); /* Sombra para separar visualmente */
+    max-height: 80vh; /* Altura máxima */
+    overflow-y: auto; /* Scroll automático si hay muchas palabras */
+}
+
+.library h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.library ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.library li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.library li:hover {
+    background-color: #027bb8; /* Azul más claro al pasar el ratón */
+}
+/* Contenedor principal */
+.main {
+    flex: 1; /* Ocupa el resto del espacio */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #003366; /* Azul oscuro */
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.nav-options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-options li {
+    display: inline;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-options a:hover {
+    color: #ffcc00; /* Amarillo */
+    transform: scale(1.1);
+}
+
+
+/* Estilo de los botones */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0298e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #027bb8;
+}
+
+#add-card-btn {
+    font-size: 2em;
+    width: 60px; /* Ancho fijo para asegurar un círculo */
+    height: 60px; /* Alto igual al ancho */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Hace que sea un círculo perfecto */
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra el contenido dentro del círculo */
+}
+
+#add-card-form input {
+    margin-bottom: 15px; /* Agrega espacio entre los campos de entrada */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Asegura que los inputs ocupen el ancho disponible */
+    box-sizing: border-box;
+}
+
+#add-card-form button {
+    margin-top: 10px; /* Agrega espacio entre el último input y el botón */
+    padding: 10px 20px;
+    background-color: #0298e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-card-form button:hover {
+    background-color: #027bb8;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color:#003366;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}

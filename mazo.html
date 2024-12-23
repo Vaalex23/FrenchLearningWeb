@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas de Vocabulario</title>
+    <link rel="stylesheet" href="Css/mazo.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-options">
+            <li><a href="index.html">Tarjetas</a></li>
+            <li><a href="mazo.html">Mazo</a></li>
+            <li><a href="Excercises/prepositions.html">Ejercicios</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <!-- Contenedor de la biblioteca -->
+        <aside class="library">
+            <h2>Biblioteca</h2>
+            <ul id="word-list"></ul>
+        </aside>
+
+        <!-- Contenedor principal -->
+        <div class="main">
+            <button id="add-card-btn">+</button>
+            <div id="card-container"></div>
+        </div>
+    </div>
+
+    <!-- Modal para agregar tarjeta -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Nueva Palabra</h2>
+            <form id="add-card-form">
+                <input type="text" id="french-word" placeholder="Palabra en francés" required>
+                <input type="text" id="spanish-word" placeholder="Traducción en español" required>
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="Scripts/mazo.js"></script>
+</body>
+</html>

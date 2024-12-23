@@ -1,31 +1,29 @@
-/* Estilos para el body */
+/* General */
 body {
     display: flex;
-    flex-direction: column; /* Para incluir la barra superior */
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: flex-start; /* Asegura que el contenido se alinee desde la parte superior */
     min-height: 100vh;
     margin: 0;
-    padding: 0; /* Elimina cualquier padding extra */
     background-color: #1471a3;
     font-family: Arial, sans-serif;
     color: white;
+    position: relative;
 }
 
 /* Barra de navegación */
 .navbar {
-    background-color: #003366; /* Azul oscuro */
+    background-color: #003366;
     padding: 15px;
     text-align: center;
     width: 100%;
-    position: sticky; /* La barra permanece visible en la parte superior al hacer scroll */
+    position: sticky;
     top: 0;
     z-index: 1000;
-    margin: 0;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Añade un ligero sombreado */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Opciones de navegación */
 .nav-options {
     list-style-type: none;
     margin: 0;
@@ -35,10 +33,6 @@ body {
     gap: 50px;
 }
 
-.nav-options li {
-    display: inline;
-}
-
 .nav-options a {
     text-decoration: none;
     color: white;
@@ -46,9 +40,8 @@ body {
     transition: color 0.3s, transform 0.3s;
 }
 
-/* Animación al pasar el cursor en la barra */
 .nav-options a:hover {
-    color: #ffcc00; /* Amarillo */
+    color: #ffcc00;
     transform: scale(1.1);
 }
 
@@ -63,35 +56,32 @@ body {
     border-radius: 10px;
     box-shadow: 12px 8px 12px rgba(0, 0, 0, 0.2);
     width: 90%;
-    max-width: 500px;
-    margin-top: 20px;
-}
-
-/* Título */
-#main-container h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-/* Texto de instrucciones */
-#main-container p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+    max-width: 800px;
+    margin-top: 80px;
 }
 
 /* Botones de opciones verbales */
+.verbal-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-rows: repeat(4, 1fr); /* Cuatro filas con altura igual */
+    grid-gap: 10px; /* Espacio entre botones reducido */
+    justify-items: stretch; /* Asegura que todos los botones ocupen el 100% del espacio */
+    width: 100%;
+    max-width: 600px;
+}
+
 .verbal-options button {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #0298e8;
     border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 5px 0;
-    width: 80%;
-    max-width: 250px;
+    text-align: center;
+    height: 100%; /* Hace que todos los botones tengan la misma longitud */
 }
 
 .verbal-options button:hover {
@@ -101,8 +91,8 @@ body {
 /* Botón de regreso */
 #backButton {
     position: absolute;
-    top: 60px;
-    left: 40px;
+    top: 80px; /* Ajustado para evitar superposición con la barra de navegación */
+    left: 20px;
     font-size: 40px;
     color: white;
     text-decoration: solid;
