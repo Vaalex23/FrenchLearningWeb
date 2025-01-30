@@ -20,14 +20,32 @@
     <div class="content">
         <!-- Contenedor de la biblioteca -->
         <aside class="library">
+            
             <h2>Biblioteca</h2>
             <ul id="word-list"></ul>
+            
         </aside>
-
+        
         <!-- Contenedor principal -->
         <div class="main">
             <button id="add-card-btn">+</button>
-            <div id="card-container"></div>
+            <div id="card-container">
+                <div id="viewed-counter" style="position: absolute; top: -40px; right: 15px;"></div>
+                <button id="invert-btn"style="position: absolute; top: -50px; left: 0px;">Invertir Texto</button>
+                <div id="card" class="card-inner">
+                    <div class="card-front">
+                        <p id="card-front-text">Cargando...</p>
+                    </div>
+                    <div class="card-back">
+                        <p id="card-back-text"></p>
+                    </div>
+                </div>
+                <div class="navigation-buttons">
+                    <button id="prev-btn">Volver</button>
+                    <button id="shuffle-btn">Barajar</button>
+                    <button id="next-btn">Siguiente</button>
+                </div>
+            </div>            
         </div>
     </div>
 
