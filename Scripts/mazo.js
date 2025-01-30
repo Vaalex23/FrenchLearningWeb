@@ -1,3 +1,7 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
+import { get, remove } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
 // Configuración de Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyBrYA0_hCMoQD7CSH3BXTH4Gdwt_oYsVho",
@@ -10,9 +14,22 @@ const firebaseConfig = {
     measurementId: "G-MS5V079QZ2"
 };
 
-const app = firebase.initializeApp(firebaseConfig);
-const database = firebase.database();
+// Inicializar Firebase
+const app = initializeApp(firebaseConfig);
 
+// Obtener instancias de autenticación y base de datos
+const auth = getAuth(app);
+const database = getDatabase(app);
+
+// Iniciar sesión anónimamente
+signInAnonymously(auth)
+    .then(() => {
+        console.log("Usuario autenticado correctamente.");
+        loadUserCards(); // Cargar las tarjetas del usuario
+    })
+    .catch((error) => {
+        console.error("Error de autenticación: ", error);
+    });
 // Referencias
 const addCardBtn = document.getElementById("add-card-btn");
 const modal = document.getElementById("modal");
@@ -42,12 +59,12 @@ modal.addEventListener("click", (e) => {
     }
 });
 
-// Guardar tarjeta en Firebase
+// Guardar tarjeta en la base de datos de Firebase
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     const frenchInput = document.getElementById("french-word");
     const spanishInput = document.getElementById("spanish-word");
-    
+
     let frenchWord = frenchInput.value.trim();
     let spanishWord = spanishInput.value.trim();
 
@@ -59,10 +76,22 @@ form.addEventListener("submit", (e) => {
     frenchWord = frenchWord.charAt(0).toUpperCase() + frenchWord.slice(1).toLowerCase();
     spanishWord = spanishWord.charAt(0).toUpperCase() + spanishWord.slice(1).toLowerCase();
 
-    database.ref("cards").push({ french: frenchWord, spanish: spanishWord }, () => {
-        modal.style.display = "none";
-        form.reset();
-    });
+    // Verificar si el usuario está autenticado
+    if (auth.currentUser) {
+        const userId = auth.currentUser.uid; // Obtener el ID del usuario autenticado
+        const userRef = ref(database, `users/${userId}/cards`); // Usar `ref()` correctamente
+
+        // Usamos `push()` para agregar una nueva tarjeta a la base de datos
+        push(userRef, { french: frenchWord, spanish: spanishWord }).then(() => {
+            modal.style.display = "none";
+            form.reset();
+            loadUserCards(); // Cargar las tarjetas después de agregar una nueva
+        }).catch((error) => {
+            console.error("Error al guardar la tarjeta: ", error);
+        });
+    } else {
+        alert("Por favor, inicie sesión para agregar tarjetas.");
+    }
 });
 // Variable para saber si el texto está invertido
 let isInverted = false;
@@ -198,38 +227,56 @@ document.getElementById("card").addEventListener("click", () => {
     document.querySelector(".card-inner").classList.toggle("flipped");
 });
 
-// Cargar y mostrar las tarjetas desde Firebase
-database.ref("cards").on("value", (snapshot) => {
-    wordList.innerHTML = "";
-    const cards = snapshot.val();
-    totalCards = Object.keys(cards).length;
+// Función para cargar las tarjetas del usuario
+function loadUserCards() {
+    const userId = auth.currentUser.uid;  // ID único del usuario
+    const userRef = ref(database, `users/${userId}/cards`); // Usar `ref()` correctamente
 
-    cardArray = [];
-    for (let id in cards) {
-        cardArray.push({ id: id, ...cards[id] });
+    // Obtener las tarjetas del usuario
+    get(userRef).then((snapshot) => {
+        wordList.innerHTML = "";
+        const cards = snapshot.val();
+        totalCards = cards ? Object.keys(cards).length : 0;
 
-        const listItem = document.createElement("li");
-        listItem.textContent = cards[id].french;
-        listItem.classList.add("word-item");
+        cardArray = [];
+        for (let id in cards) {
+            cardArray.push({ id: id, ...cards[id] });
 
-        listItem.addEventListener("click", () => {
-            listItem.textContent = cards[id].spanish;
-            setTimeout(() => {
-                const keep = confirm("¿Mantener en la biblioteca?");
-                if (!keep) {
-                    database.ref(`cards/${id}`).remove();
-                } else {
-                    listItem.textContent = cards[id].french;
-                }
-            }, 1000);
-        });
+            const listItem = document.createElement("li");
+            listItem.textContent = cards[id].french;
+            listItem.classList.add("word-item");
 
-        wordList.appendChild(listItem);
-    }
+            listItem.addEventListener("click", () => {
+                listItem.textContent = cards[id].spanish;
+                setTimeout(() => {
+                    const keep = confirm("¿Mantener en la biblioteca?");
+                    if (!keep) {
+                        // Eliminar la tarjeta
+                        remove(ref(database, `users/${userId}/cards/${id}`));
+                    } else {
+                        listItem.textContent = cards[id].french;
+                    }
+                }, 1000);
+            });
 
-    if (cardArray.length > 0) {
-        cardIndex = 0;
-        viewedCards.clear();
-        showCard(cardIndex);
+            wordList.appendChild(listItem);
+        }
+
+        if (cardArray.length > 0) {
+            cardIndex = 0;
+            viewedCards.clear();
+            showCard(cardIndex);
+        }
+    }).catch((error) => {
+        console.error("Error al cargar las tarjetas: ", error);
+    });
+}
+
+// Verificar si el usuario está autenticado
+auth.onAuthStateChanged(user => {
+    if (user) {
+        loadUserCards(); // Cargar tarjetas del usuario cuando inicie sesión
+    } else {
+        console.log("Usuario no autenticado.");
     }
 });
