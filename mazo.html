@@ -9,6 +9,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 </head>
 <body>
+    
     <nav class="navbar">
         <ul class="nav-options">
             <li><a href="index.html">Tarjetas</a></li>
@@ -31,7 +32,12 @@
             <button id="add-card-btn">+</button>
             <div id="card-container">
                 <div id="viewed-counter" style="position: absolute; top: -40px; right: 15px;"></div>
-                <button id="invert-btn"style="position: absolute; top: -50px; left: 0px;">Invertir Texto</button>
+                <button id="invert-btn"style="position: absolute; top: -40px; left: 0px;">Invertir Texto</button>
+                <div style="position: absolute; top: -125px; right: -300px; display: flex; gap: 10px;">
+                    <button id="google-login-btn">Iniciar sesión con Google</button>
+                    <button id="logout-btn">Cerrar sesión</button>
+                </div>
+                <p id="user-info"></p>
                 <div id="card" class="card-inner">
                     <div class="card-front">
                         <p id="card-front-text">Cargando...</p>

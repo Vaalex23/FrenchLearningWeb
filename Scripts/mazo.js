@@ -1,7 +1,13 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
-import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
-import { get, remove } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
+import { 
+    initializeApp 
+} from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+import { 
+    getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, onAuthStateChanged, signOut 
+} from "https://www.gstatic.com/firebasejs/10.7.2/firebase-auth.js";
+import { 
+    getDatabase, ref, push, onValue, remove, get
+} from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js";
+
 // Configuración de Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyBrYA0_hCMoQD7CSH3BXTH4Gdwt_oYsVho",
@@ -16,26 +22,155 @@ const firebaseConfig = {
 
 // Inicializar Firebase
 const app = initializeApp(firebaseConfig);
-
-// Obtener instancias de autenticación y base de datos
 const auth = getAuth(app);
 const database = getDatabase(app);
+const provider = new GoogleAuthProvider();
 
-// Iniciar sesión anónimamente
-signInAnonymously(auth)
-    .then(() => {
-        console.log("Usuario autenticado correctamente.");
-        loadUserCards(); // Cargar las tarjetas del usuario
-    })
-    .catch((error) => {
-        console.error("Error de autenticación: ", error);
+// Elementos del DOM
+const loginButton = document.getElementById("google-login-btn");
+const logoutButton = document.getElementById("logout-btn");
+const userInfo = document.getElementById("user-info");
+
+// Función de inicio de sesión con Google
+loginButton.addEventListener("click", async () => {
+    loginButton.disabled = true; // Evita múltiples solicitudes
+
+    try {
+        const result = await signInWithPopup(auth, provider);
+        console.log("Usuario autenticado:", result.user);
+        
+        userInfo.textContent = `Hola, ${result.user.displayName}`;
+        loginButton.style.display = "none";
+        logoutButton.style.display = "inline";
+        loadUserCards();
+    } catch (error) {
+        console.error("Error al iniciar sesión con Google:", error);
+
+        // Si el popup fue bloqueado, intenta con redirección
+        if (error.code === "auth/popup-blocked") {
+            console.warn("El popup fue bloqueado, intentando con redirección...");
+            signInWithRedirect(auth, provider);
+        }
+    } finally {
+        loginButton.disabled = false;
+    }
+});
+
+// Función de cierre de sesión
+logoutButton.addEventListener("click", async () => {
+    try {
+        await signOut(auth);
+        console.log("Usuario ha cerrado sesión.");
+        userInfo.textContent = "";
+        loginButton.style.display = "inline";
+        logoutButton.style.display = "none";
+    } catch (error) {
+        console.error("Error al cerrar sesión:", error);
+    }
+});
+
+
+onAuthStateChanged(auth, (user) => {
+    updateUI(user);
+    if (user) {
+        console.log("Usuario ya autenticado:", user);
+        userInfo.textContent = `Hola, ${user.displayName}`;
+        loginButton.style.display = "none";
+        logoutButton.style.display = "inline";
+        loadUserCards();
+    }
+});
+
+// Elementos del DOM
+const wordList = document.getElementById("word-list");
+
+document.getElementById("google-login-btn").addEventListener("click", () => {
+    signInWithPopup(auth, provider)
+        .then((result) => {
+            const user = result.user;
+            console.log("Usuario autenticado:", user);
+            document.getElementById("user-info").textContent = `Hola, ${user.displayName}`;
+            document.getElementById("google-login-btn").style.display = "none";
+            document.getElementById("logout-btn").style.display = "inline";
+            loadUserCards(); // Cargar tarjetas del usuario autenticado
+        })
+        .catch((error) => {
+            console.error("Error al iniciar sesión con Google:", error);
+        });
+});
+
+document.getElementById("logout-btn").addEventListener("click", () => {
+    signOut(auth).then(() => {
+        console.log("Usuario ha cerrado sesión.");
+        document.getElementById("user-info").textContent = "";
+        document.getElementById("google-login-btn").style.display = "inline";
+        document.getElementById("logout-btn").style.display = "none";
+    }).catch((error) => {
+        console.error("Error al cerrar sesión:", error);
     });
+});
+
+
+// Actualizar la interfaz de usuario
+function updateUI(user) {
+    if (user) {
+        userInfo.textContent = `Hola, ${user.displayName}`;
+        loginButton.style.display = "none";
+        logoutButton.style.display = "inline";
+    } else {
+        userInfo.textContent = "";
+        loginButton.style.display = "inline";
+        logoutButton.style.display = "none";
+        wordList.innerHTML = ""; // Limpiar la lista de tarjetas
+    }
+}
+
+// Cargar las tarjetas del usuario
+function loadUserCards() {
+    const user = auth.currentUser;
+    if (!user) return;
+
+    const userRef = ref(database, `users/${user.uid}/cards`);
+    get(userRef).then((snapshot) => {
+        wordList.innerHTML = "";
+        const cards = snapshot.val();
+        
+        if (!cards) {
+            console.log("No hay tarjetas guardadas.");
+            return;
+        }
+
+        Object.entries(cards).forEach(([id, card]) => {
+            const listItem = document.createElement("li");
+            listItem.textContent = card.french;
+            listItem.classList.add("word-item");
+
+            listItem.addEventListener("click", () => {
+                listItem.textContent = card.spanish;
+                setTimeout(() => {
+                    const keep = confirm("¿Mantener en la biblioteca?");
+                    if (!keep) {
+                        remove(ref(database, `users/${user.uid}/cards/${id}`));
+                        listItem.remove();
+                    } else {
+                        listItem.textContent = card.french;
+                    }
+                }, 1000);
+            });
+
+            wordList.appendChild(listItem);
+        });
+    }).catch((error) => {
+        console.error("Error al cargar las tarjetas: ", error);
+    });
+}
+
 // Referencias
 const addCardBtn = document.getElementById("add-card-btn");
 const modal = document.getElementById("modal");
 const form = document.getElementById("add-card-form");
 const cardContainer = document.getElementById("card-container");
-const wordList = document.getElementById("word-list");
+
 
 // Variables globales
 let isShuffled = false; // Estado del modo aleatorio
@@ -76,12 +211,10 @@ form.addEventListener("submit", (e) => {
     frenchWord = frenchWord.charAt(0).toUpperCase() + frenchWord.slice(1).toLowerCase();
     spanishWord = spanishWord.charAt(0).toUpperCase() + spanishWord.slice(1).toLowerCase();
 
-    // Verificar si el usuario está autenticado
     if (auth.currentUser) {
-        const userId = auth.currentUser.uid; // Obtener el ID del usuario autenticado
-        const userRef = ref(database, `users/${userId}/cards`); // Usar `ref()` correctamente
+        const userId = auth.currentUser.uid;
+        const userRef = ref(database, `users/${userId}/cards`);
 
-        // Usamos `push()` para agregar una nueva tarjeta a la base de datos
         push(userRef, { french: frenchWord, spanish: spanishWord }).then(() => {
             modal.style.display = "none";
             form.reset();
@@ -227,12 +360,13 @@ document.getElementById("card").addEventListener("click", () => {
     document.querySelector(".card-inner").classList.toggle("flipped");
 });
 
-// Función para cargar las tarjetas del usuario
+/*// Función para cargar las tarjetas del usuario
 function loadUserCards() {
-    const userId = auth.currentUser.uid;  // ID único del usuario
-    const userRef = ref(database, `users/${userId}/cards`); // Usar `ref()` correctamente
+    if (!auth.currentUser) return;
 
-    // Obtener las tarjetas del usuario
+    const userId = auth.currentUser.uid;
+    const userRef = ref(database, `users/${userId}/cards`);
+
     get(userRef).then((snapshot) => {
         wordList.innerHTML = "";
         const cards = snapshot.val();
@@ -251,7 +385,6 @@ function loadUserCards() {
                 setTimeout(() => {
                     const keep = confirm("¿Mantener en la biblioteca?");
                     if (!keep) {
-                        // Eliminar la tarjeta
                         remove(ref(database, `users/${userId}/cards/${id}`));
                     } else {
                         listItem.textContent = cards[id].french;
@@ -270,7 +403,7 @@ function loadUserCards() {
     }).catch((error) => {
         console.error("Error al cargar las tarjetas: ", error);
     });
-}
+}*/
 
 // Verificar si el usuario está autenticado
 auth.onAuthStateChanged(user => {
@@ -279,4 +412,28 @@ auth.onAuthStateChanged(user => {
     } else {
         console.log("Usuario no autenticado.");
     }
+});
+document.getElementById("google-login-btn").addEventListener("click", () => {
+    signInWithPopup(auth, provider)
+        .then((result) => {
+            const user = result.user;
+            console.log("Usuario autenticado:", user);
+            document.getElementById("user-info").textContent = `Hola, ${user.displayName}`;
+            document.getElementById("google-login-btn").style.display = "none";
+            document.getElementById("logout-btn").style.display = "inline";
+            loadUserCards(); // Cargar tarjetas del usuario autenticado
+        })
+        .catch((error) => {
+            console.error("Error al iniciar sesión con Google:", error);
+        });
+});
+document.getElementById("logout-btn").addEventListener("click", () => {
+    signOut(auth).then(() => {
+        console.log("Usuario ha cerrado sesión.");
+        document.getElementById("user-info").textContent = "";
+        document.getElementById("google-login-btn").style.display = "inline";
+        document.getElementById("logout-btn").style.display = "none";
+    }).catch((error) => {
+        console.error("Error al cerrar sesión:", error);
+    });
 });
