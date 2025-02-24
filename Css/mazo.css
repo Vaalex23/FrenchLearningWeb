@@ -1,3 +1,4 @@
+
 /* Estilos globales para el body */
 body {
     font-family: Arial, sans-serif;
@@ -11,12 +12,16 @@ body {
     background-color: #1471a3; /* Fondo azul */
     color: white;
     position: relative;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    overflow-y: auto;   /* Muestra el desplazamiento vertical solo cuando sea necesario */
+    height: 100%;        /* Asegura que el contenido no desborde la pantalla */
 }
 /* Contenedor principal de la página */
 .content {
     display: flex;
     width: 100%;
     min-height: calc(100vh - 50px); /* Ajusta según la altura de la barra de navegación */
+    box-sizing: border-box; /* Asegura que los márgenes no causen desbordamiento */
 }
 
 /* Biblioteca en la parte izquierda */
@@ -26,8 +31,9 @@ body {
     color: white;
     padding: 20px;
     box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1); /* Sombra para separar visualmente */
-    max-height: 80vh; /* Altura máxima */
+    max-height: 100vh; /* Altura máxima */
     overflow-y: auto; /* Scroll automático si hay muchas palabras */
+    overflow-x: hidden; /* Evita desplazamiento horizontal */
 }
 
 .library h2 {
@@ -158,6 +164,8 @@ button:hover {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    z-index: 1000; /* Asegura que se muestre sobre otros elementos */
+    overflow: hidden; /* Evita que aparezcan barras de desplazamiento dentro del botón */
 }
 
 #add-card-form button:hover {
@@ -323,4 +331,167 @@ button:hover {
 
 .word-item:hover {
     background-color: #f5f5f5;
+}
+#confirm-modal {
+    display: none; /* Asegurar que el modal esté oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+#confirm-modal .modal-content {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#confirm-modal button {
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yes-btn {
+    background-color: #4CAF50;
+}
+
+#no-btn {
+    background-color: #f44336;
+}
+/* Estilos para la lista de categorías */
+#category-list {
+    margin-bottom: 20px;
+}
+
+.category-item {
+    margin: 5px 0;
+}
+
+.category-btn {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+}
+
+.category-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.category-count {
+    color: #666;
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+/* Estilos para el datalist */
+datalist {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+datalist option {
+    padding: 8px;
+    cursor: pointer;
+}
+
+datalist option:hover {
+    background-color: #f0f0f0;
+}
+/* Media Queries para móviles */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    
+    .library {
+        width: 100%;
+        max-height: 300px;
+        position: static;
+    }
+    
+    .main {
+        padding: 10px;
+        min-height: auto;
+    }
+    
+    .navigation-buttons {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    #card {
+        width: 90%;
+        max-width: 300px;
+        height: 200px;
+        margin: 20px auto;
+    }
+    
+    #invert-btn {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        margin: 10px 0;
+    }
+    
+    #viewed-counter {
+        position: relative !important;
+        top: 0 !important;
+        right: 0 !important;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .nav-options {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .nav-options a {
+        font-size: 1em;
+    }
+    
+    #add-card-btn {
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+    }
+    
+    .modal-content {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    #card-container {
+        padding-top: 40px;
+    }
+    
+    #google-login-btn, #logout-btn {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin: 10px 0;
+        width: 100%;
+    }
 }

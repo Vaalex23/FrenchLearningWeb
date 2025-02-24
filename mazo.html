@@ -21,18 +21,18 @@
     <div class="content">
         <!-- Contenedor de la biblioteca -->
         <aside class="library">
-            
             <h2>Biblioteca</h2>
+            <div id="category-list"></div>
+            <h3>Tarjetas</h3>
             <ul id="word-list"></ul>
-            
         </aside>
         
         <!-- Contenedor principal -->
         <div class="main">
             <button id="add-card-btn">+</button>
             <div id="card-container">
-                <div id="viewed-counter" style="position: absolute; top: -40px; right: 15px;"></div>
-                <button id="invert-btn"style="position: absolute; top: -40px; left: 0px;">Invertir Texto</button>
+                <div id="viewed-counter" style="position: absolute; top: -30px; right: 10px;">0/0</div>
+                <button id="invert-btn" style="position: absolute; top: -40px; left: 0px;">Invertir Texto</button>
                 <div style="position: absolute; top: -125px; right: -300px; display: flex; gap: 10px;">
                     <button id="google-login-btn">Iniciar sesión con Google</button>
                     <button id="logout-btn">Cerrar sesión</button>
@@ -51,21 +51,42 @@
                     <button id="shuffle-btn">Barajar</button>
                     <button id="next-btn">Siguiente</button>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
 
-    <!-- Modal para agregar tarjeta -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <h2>Nueva Palabra</h2>
-            <form id="add-card-form">
-                <input type="text" id="french-word" placeholder="Palabra en francés" required>
-                <input type="text" id="spanish-word" placeholder="Traducción en español" required>
-                <button type="submit">Guardar</button>
-            </form>
+<!-- Modal para agregar tarjeta -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h2>Nueva Palabra</h2>
+        <form id="add-card-form">
+            <input type="text" id="french-word" placeholder="Palabra en francés" required>
+            <input type="text" id="spanish-word" placeholder="Traducción en español" required>
+            <input type="text" id="category" list="category-options" placeholder="Categoría" required>
+            <datalist id="category-options">
+                <!-- Las opciones se llenarán dinámicamente -->
+            </datalist>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal de confirmación con opción de mover a categoría -->
+<div id="confirm-modal">
+    <div class="modal-content">
+        <p>¿Qué deseas hacer con esta tarjeta?</p>
+        <button id="yes-btn">Sí</button>
+        <button id="no-btn">No</button>
+        <button id="move-btn">Mover</button>
+        <div id="move-options" style="display: none;">
+            <select id="category-select">
+                <option></option>
+                <!-- Las opciones de categoría se llenarán dinámicamente -->
+            </select>
+            <button id="accept-move-btn">Aceptar</button>
         </div>
     </div>
+</div>
 
     <script type="module"src="Scripts/mazo.js"></script>
 </body>
