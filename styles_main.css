@@ -104,3 +104,32 @@ body {
 #backButton:hover {
     color: #dddddd; /* Color más claro al pasar el cursor */
 }
+/* Estilo de los botones */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0298e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* styles_main.css */
+/* Añadir esta regla para botones generados dinámicamente */
+#categories-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0298e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    height: 100%;
+}
+
+#categories-container button:hover {
+    background-color: #027bb8;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Vocabulario en Francés</title>
+    <link rel="stylesheet" href="../styles_vocabulary.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-options">
+            <li><a href="#tarjetas">Tarjetas</a></li>
+            <li><a href="mazo.html">Mazo</a></li>
+            <li><a href="../Excercises/prepositions.html">Ejercicios</a></li>
+        </ul>
+    </nav>
+    <a href="../vocabularyIndex.html" id="backButton">&#8592;</a> <!-- Botón de regreso -->
+    <div id="contenedor">
+                <!-- En tarjetasVocabulario.html -->
+        <div id="contador">
+            <h2 id="categoria-titulo"></h2>
+            <p>Puntuación: <span id="aciertos">0</span>/<span id="intentos">0</span> | <span id="porcentaje">0%</span></p>
+        </div>
+        <!-- Tarjeta de palabra -->
+        <div class="flip-card" id="flipCard">
+            <div class="front">
+                <h1 id="palabra"></h1> <!-- Palabra en francés -->
+                <input type="text" id="respuesta" placeholder="Traducción">
+                <button id="verificar-button">Verificar</button>
+            </div>
+            <div class="back" id="resultado"></div>
+        </div>
+        <button id="next-Button">Next</button>
+    </div>
+    <!-- Añadir estos scripts antes de vocabulary_check.js -->
+<script type="module" src="../Scripts/vocabulary_check.js">
+   
+</script>
+</body>
+</html>
