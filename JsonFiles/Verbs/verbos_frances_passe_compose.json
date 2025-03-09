@@ -1174,5 +1174,390 @@
             "ils/elles": "sont partis"
         },
         "traduccion": "partir"
+    },
+    {
+        "infinitivo": "sembler",
+        "conjugaciones": {
+            "je": "ai semblé",
+            "tu": "as semblé",
+            "il/elle/on": "a semblé",
+            "nous": "avons semblé",
+            "vous": "avez semblé",
+            "ils/elles": "ont semblé"
+        },
+        "traduccion": "parecer"
+    },
+    {
+        "infinitivo": "utiliser",
+        "conjugaciones": {
+            "je": "ai utilisé",
+            "tu": "as utilisé",
+            "il/elle/on": "a utilisé",
+            "nous": "avons utilisé",
+            "vous": "avez utilisé",
+            "ils/elles": "ont utilisé"
+        },
+        "traduccion": "usar"
+    },
+    {
+        "infinitivo": "occuper",
+        "conjugaciones": {
+            "je": "ai occupé",
+            "tu": "as occupé",
+            "il/elle/on": "a occupé",
+            "nous": "avons occupé",
+            "vous": "avez occupé",
+            "ils/elles": "ont occupé"
+        },
+        "traduccion": "ocupar"
+    },
+    {
+        "infinitivo": "offrir",
+        "conjugaciones": {
+            "je": "ai offert",
+            "tu": "as offert",
+            "il/elle/on": "a offert",
+            "nous": "avons offert",
+            "vous": "avez offert",
+            "ils/elles": "ont offert"
+        },
+        "traduccion": "ofrecer"
+    },
+    {
+        "infinitivo": "changer",
+        "conjugaciones": {
+            "je": "ai changé",
+            "tu": "as changé",
+            "il/elle/on": "a changé",
+            "nous": "avons changé",
+            "vous": "avez changé",
+            "ils/elles": "ont changé"
+        },
+        "traduccion": "cambiar"
+    },
+    {
+        "infinitivo": "servir",
+        "conjugaciones": {
+            "je": "ai servi",
+            "tu": "as servi",
+            "il/elle/on": "a servi",
+            "nous": "avons servi",
+            "vous": "avez servi",
+            "ils/elles": "ont servi"
+        },
+        "traduccion": "servir"
+    },
+    {
+        "infinitivo": "envoyer",
+        "conjugaciones": {
+            "je": "ai envoyé",
+            "tu": "as envoyé",
+            "il/elle/on": "a envoyé",
+            "nous": "avons envoyé",
+            "vous": "avez envoyé",
+            "ils/elles": "ont envoyé"
+        },
+        "traduccion": "enviar"
+    },
+    {
+        "infinitivo": "gagner",
+        "conjugaciones": {
+            "je": "ai gagné",
+            "tu": "as gagné",
+            "il/elle/on": "a gagné",
+            "nous": "avons gagné",
+            "vous": "avez gagné",
+            "ils/elles": "ont gagné"
+        },
+        "traduccion": "ganar"
+    },
+    {
+        "infinitivo": "empêcher",
+        "conjugaciones": {
+            "je": "ai empêché",
+            "tu": "as empêché",
+            "il/elle/on": "a empêché",
+            "nous": "avons empêché",
+            "vous": "avez empêché",
+            "ils/elles": "ont empêché"
+        },
+        "traduccion": "impedir"
+    },
+    {
+        "infinitivo": "préparer",
+        "conjugaciones": {
+            "je": "ai préparé",
+            "tu": "as préparé",
+            "il/elle/on": "a préparé",
+            "nous": "avons préparé",
+            "vous": "avez préparé",
+            "ils/elles": "ont préparé"
+        },
+        "traduccion": "preparar"
+    },
+    {
+        "infinitivo": "ajouter",
+        "conjugaciones": {
+            "je": "ai ajouté",
+            "tu": "as ajouté",
+            "il/elle/on": "a ajouté",
+            "nous": "avons ajouté",
+            "vous": "avez ajouté",
+            "ils/elles": "ont ajouté"
+        },
+        "traduccion": "añadir"
+    },
+    {
+        "infinitivo": "réfléchir",
+        "conjugaciones": {
+            "je": "ai réfléchi",
+            "tu": "as réfléchi",
+            "il/elle/on": "a réfléchi",
+            "nous": "avons réfléchi",
+            "vous": "avez réfléchi",
+            "ils/elles": "ont réfléchi"
+        },
+        "traduccion": "reflexionar"
+    },
+    {
+        "infinitivo": "accepter",
+        "conjugaciones": {
+            "je": "ai accepté",
+            "tu": "as accepté",
+            "il/elle/on": "a accepté",
+            "nous": "avons accepté",
+            "vous": "avez accepté",
+            "ils/elles": "ont accepté"
+        },
+        "traduccion": "aceptar"
+    },
+    {
+        "infinitivo": "refuser",
+        "conjugaciones": {
+            "je": "ai refusé",
+            "tu": "as refusé",
+            "il/elle/on": "a refusé",
+            "nous": "avons refusé",
+            "vous": "avez refusé",
+            "ils/elles": "ont refusé"
+        },
+        "traduccion": "rechazar"
+    },
+    {
+        "infinitivo": "continuer",
+        "conjugaciones": {
+            "je": "ai continué",
+            "tu": "as continué",
+            "il/elle/on": "a continué",
+            "nous": "avons continué",
+            "vous": "avez continué",
+            "ils/elles": "ont continué"
+        },
+        "traduccion": "continuar"
+    },
+    {
+        "infinitivo": "proposer",
+        "conjugaciones": {
+            "je": "ai proposé",
+            "tu": "as proposé",
+            "il/elle/on": "a proposé",
+            "nous": "avons proposé",
+            "vous": "avez proposé",
+            "ils/elles": "ont proposé"
+        },
+        "traduccion": "proponer"
+    },
+    {
+        "infinitivo": "représenter",
+        "conjugaciones": {
+            "je": "ai représenté",
+            "tu": "as représenté",
+            "il/elle/on": "a représenté",
+            "nous": "avons représenté",
+            "vous": "avez représenté",
+            "ils/elles": "ont représenté"
+        },
+        "traduccion": "representar"
+    },
+    {
+        "infinitivo": "réaliser",
+        "conjugaciones": {
+            "je": "ai réalisé",
+            "tu": "as réalisé",
+            "il/elle/on": "a réalisé",
+            "nous": "avons réalisé",
+            "vous": "avez réalisé",
+            "ils/elles": "ont réalisé"
+        },
+        "traduccion": "darse cuenta"
+    },
+    {
+        "infinitivo": "supporter",
+        "conjugaciones": {
+            "je": "ai supporté",
+            "tu": "as supporté",
+            "il/elle/on": "a supporté",
+            "nous": "avons supporté",
+            "vous": "avez supporté",
+            "ils/elles": "ont supporté"
+        },
+        "traduccion": "soportar"
+    },
+    {
+        "infinitivo": "tuer",
+        "conjugaciones": {
+            "je": "ai tué",
+            "tu": "as tué",
+            "il/elle/on": "a tué",
+            "nous": "avons tué",
+            "vous": "avez tué",
+            "ils/elles": "ont tué"
+        },
+        "traduccion": "matar"
+    },
+    {
+        "infinitivo": "créer",
+        "conjugaciones": {
+            "je": "ai créé",
+            "tu": "as créé",
+            "il/elle/on": "a créé",
+            "nous": "avons créé",
+            "vous": "avez créé",
+            "ils/elles": "ont créé"
+        },
+        "traduccion": "crear"
+    },
+    {
+        "infinitivo": "décider",
+        "conjugaciones": {
+            "je": "ai décidé",
+            "tu": "as décidé",
+            "il/elle/on": "a décidé",
+            "nous": "avons décidé",
+            "vous": "avez décidé",
+            "ils/elles": "ont décidé"
+        },
+        "traduccion": "decidir"
+    },
+    {
+        "infinitivo": "résoudre",
+        "conjugaciones": {
+            "je": "ai résolu",
+            "tu": "as résolu",
+            "il/elle/on": "a résolu",
+            "nous": "avons résolu",
+            "vous": "avez résolu",
+            "ils/elles": "ont résolu"
+        },
+        "traduccion": "resolver"
+    },
+    {
+        "infinitivo": "obtenir",
+        "conjugaciones": {
+            "je": "ai obtenu",
+            "tu": "as obtenu",
+            "il/elle/on": "a obtenu",
+            "nous": "avons obtenu",
+            "vous": "avez obtenu",
+            "ils/elles": "ont obtenu"
+        },
+        "traduccion": "obtener"
+    },
+    {
+        "infinitivo": "remplir",
+        "conjugaciones": {
+            "je": "ai rempli",
+            "tu": "as rempli",
+            "il/elle/on": "a rempli",
+            "nous": "avons rempli",
+            "vous": "avez rempli",
+            "ils/elles": "ont rempli"
+        },
+        "traduccion": "llenar"
+    },
+    {
+        "infinitivo": "fermer",
+        "conjugaciones": {
+            "je": "ai fermé",
+            "tu": "as fermé",
+            "il/elle/on": "a fermé",
+            "nous": "avons fermé",
+            "vous": "avez fermé",
+            "ils/elles": "ont fermé"
+        },
+        "traduccion": "cerrar"
+    },
+    {
+        "infinitivo": "risquer",
+        "conjugaciones": {
+            "je": "ai risqué",
+            "tu": "as risqué",
+            "il/elle/on": "a risqué",
+            "nous": "avons risqué",
+            "vous": "avez risqué",
+            "ils/elles": "ont risqué"
+        },
+        "traduccion": "arriesgar"
+    },
+    {
+        "infinitivo": "rentrer (à)",
+        "conjugaciones": {
+            "je": "suis rentré",
+            "tu": "es rentré",
+            "il/elle/on": "est rentré",
+            "nous": "sommes rentrés",
+            "vous": "êtes rentrés",
+            "ils/elles": "sont rentrés"
+        },
+        "traduccion": "volver a"
+    },
+    {
+        "infinitivo": "monter",
+        "conjugaciones": {
+            "je": "suis monté",
+            "tu": "es monté",
+            "il/elle/on": "est monté",
+            "nous": "sommes montés",
+            "vous": "êtes montés",
+            "ils/elles": "sont montés"
+        },
+        "traduccion": "subir o entrar en"
+    },
+    {
+        "infinitivo": "retourner",
+        "conjugaciones": {
+            "je": "suis retourné",
+            "tu": "es retourné",
+            "il/elle/on": "est retourné",
+            "nous": "sommes retournés",
+            "vous": "êtes retournés",
+            "ils/elles": "sont retournés"
+        },
+        "traduccion": "volver"
+    },
+    {
+        "infinitivo": "naître",
+        "conjugaciones": {
+            "je": "suis né(e)",
+            "tu": "es né(e)",
+            "il/elle/on": "est né",
+            "nous": "sommes nés",
+            "vous": "êtes nés",
+            "ils/elles": "sont nés"
+        },
+        "traduccion": "nacer"
+    },
+    {
+        "infinitivo": "tomber",
+        "conjugaciones": {
+            "je": "suis tombé",
+            "tu": "es tombé",
+            "il/elle/on": "est tombé",
+            "nous": "sommes tombés",
+            "vous": "êtes tombés",
+            "ils/elles": "sont tombés"
+        },
+        "traduccion": "caer"
+        
     }
 ]

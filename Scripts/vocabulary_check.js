@@ -32,9 +32,13 @@ let palabraActual = "";
 let indiceActual = 0;
 let intentos = 0;
 let aciertos = 0;
+let isInverted = false; // Para inversión de carta
+
 
 const nextButton = document.getElementById("next-Button");
 const verificarB = document.getElementById("verificar-button");
+const invertButton = document.getElementById("invert-btn");
+
 
 // Obtener categoría de la URL
 const urlParams = new URLSearchParams(window.location.search);
@@ -45,9 +49,8 @@ function normalizarTexto(texto) {
     if (!texto || typeof texto !== 'string') {
         return ""; // Devuelve una cadena vacía si el texto es undefined, null o no es una cadena
     }
-    return texto.trim().toLowerCase().replace(/\b\w/g, l => l.toUpperCase());
+    return texto.trim().charAt(0).toUpperCase() + texto.trim().slice(1).toLowerCase();
 }
-
 // Cargar palabras desde Firebase
 function cargarPalabrasDesdeFirebase(userId) {
     document.getElementById("categoria-titulo").textContent = `Categoría: ${categoriaActual}`;
@@ -57,7 +60,6 @@ function cargarPalabrasDesdeFirebase(userId) {
     onValue(palabrasRef, (snapshot) => {
         palabras = [];
         const data = snapshot.val();
-        
         if (data) {
             Object.keys(data).forEach(key => {
                 palabras.push({
@@ -85,7 +87,12 @@ function mostrarNuevaPalabra() {
     }
 
     palabraActual = obtenerPalabraAleatoria();
-    document.getElementById("palabra").textContent = palabraActual.word;
+
+    const frontText = isInverted ? 
+        palabraActual.traduccionESP :
+        palabraActual.word;
+
+    document.getElementById("palabra").textContent = frontText;
     document.getElementById("respuesta").value = "";
     document.getElementById("respuesta").focus();
     document.getElementById("flipCard").classList.remove("flipped", "correct", "incorrect");
@@ -115,14 +122,23 @@ function verificar() {
     const respuesta = normalizarTexto(document.getElementById("respuesta").value);
     
     let esCorrecto = false;
-    const traducciones = Array.isArray(palabraActual.traduccionESP) ? 
-                        palabraActual.traduccionESP : 
-                        [palabraActual.traduccionESP];
+    let traduccion = "";
+    if(!isInverted){
+        traduccion = palabraActual.traduccionESP;
+    }else{
+        traduccion = palabraActual.word;
+    }
 
-    esCorrecto = traducciones.some(trad => normalizarTexto(trad) === respuesta);
+   /* const traducciones = Array.isArray(palabraActual.traduccionESP) ? 
+                        palabraActual.traduccionESP : 
+                        [palabraActual.traduccionESP];*/
+
+    //esCorrecto = traducciones.some(trad => normalizarTexto(trad) === respuesta);
+    console.log(traduccion+" es "+normalizarTexto(respuesta));
+    esCorrecto = normalizarTexto(traduccion) === respuesta;
    console.log(esCorrecto);
    console.log(" ");
-   console.log(traducciones);
+   console.log(traduccion);
     intentos++;
     document.getElementById("flipCard").classList.add("flipped");
 
@@ -131,12 +147,9 @@ function verificar() {
         document.getElementById("flipCard").classList.add("correct");
         document.getElementById("resultado").textContent = "¡Correcto!";
     } else {
-        const respuestaCorrecta = Array.isArray(palabraActual.traduccionESP)
-            ? palabraActual.traduccionESP.join(" / ")  // Combina las opciones con " / "
-            : palabraActual.traduccionESP;
         document.getElementById("flipCard").classList.add("incorrect");
         document.getElementById("resultado").innerHTML =
-            `Incorrecto.<br><br>La respuesta correcta es:<br><br> ${respuestaCorrecta}`;
+            `Tu respuesta: ${respuesta}<br><br> INCORRECTO.<br><br>La respuesta correcta es:<br><br> ${traduccion}`;
     }
 
     actualizarContador();
@@ -166,7 +179,7 @@ onAuthStateChanged(auth, (user) => {
 
 verificarB.addEventListener("click", verificar);
 nextButton.addEventListener("click", mostrarNuevaPalabra);
-
+invertButton.addEventListener("click", invertText);
 // Configurar el evento de teclado para activar "verificar" o "nextVerb" con "Enter"
 document.getElementById("respuesta").addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
@@ -179,3 +192,7 @@ document.getElementById("respuesta").addEventListener("keydown", function(event)
         }
     }
 });
+function invertText(){
+    isInverted = !isInverted;
+    mostrarNuevaPalabra();
+}

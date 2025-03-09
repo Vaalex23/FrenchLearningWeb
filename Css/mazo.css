@@ -70,6 +70,7 @@ body {
     justify-content: center;
     padding: 20px;
     position: relative;
+    margin-top: -90px;
 }
 
 /* Barra de navegación */

@@ -32,7 +32,8 @@ if (archivoActual === "present_simple.html") {
 fetch(archivoJSON)
     .then(response => response.json())
     .then(data => {
-        verbos = data; // Guardar los datos del JSON en la variable verbos
+        // Inicializar el peso de cada verbo
+        verbos = data.map(verbo => ({ ...verbo, peso: 1 }));
         mostrarNuevoVerbo(); // Mostrar un verbo al cargar la página
     })
     .catch(error => console.error("Error cargando el archivo JSON:", error));
@@ -41,9 +42,17 @@ let verboActual;
 let sujetoActual;
 
 function obtenerVerboAleatorio() {
-    // Selecciona un verbo aleatorio de la lista cargada desde el JSON
-    const verbo = verbos[Math.floor(Math.random() * verbos.length)];
-    return verbo;
+    // Calcular la suma total de los pesos
+    const totalPesos = verbos.reduce((sum, verbo) => sum + verbo.peso, 0);
+    // Seleccionar un número aleatorio entre 0 y el total de pesos
+    let random = Math.random() * totalPesos;
+    // Encontrar el verbo correspondiente al número aleatorio
+    for (const verbo of verbos) {
+        if (random < verbo.peso) {
+            return verbo;
+        }
+        random -= verbo.peso;
+    }
 }
 
 function mostrarNuevoVerbo() {
@@ -59,7 +68,8 @@ function mostrarNuevoVerbo() {
         sujetoActual = sujetos[Math.floor(Math.random() * sujetos.length)];
     }
 
-    
+    // Reducir el peso del verbo actual para que tenga menos probabilidad de aparecer de nuevo
+    verboActual.peso *= 0.2; // Puedes ajustar este factor para cambiar la reducción de peso
 
     // Muestra la traducción, verbo y el sujeto en la tarjeta
     document.getElementById("traduccion").textContent = verboActual.traduccion; // Traducción del verbo
@@ -77,7 +87,7 @@ function mostrarNuevoVerbo() {
 }
 
 function verificar() {
-    const respuesta = document.getElementById("respuesta").value.toLowerCase();
+    const respuesta = document.getElementById("respuesta").value.trim().toLowerCase();
     let respuestaCorrecta = verboActual.gerundio;
     if (archivoActual != "gerondif.html"){
         respuestaCorrecta = verboActual.conjugaciones[sujetoActual].toLowerCase();
@@ -95,7 +105,7 @@ function verificar() {
         document.getElementById("resultado").textContent = "¡Correcto!";
     } else {
         document.getElementById("flipCard").classList.add("incorrect");
-        document.getElementById("resultado").innerHTML = "Incorrecto.<br><br>La respuesta correcta es:<br><br>" + respuestaCorrecta;
+        document.getElementById("resultado").innerHTML = respuesta + "<br><br>Incorrecto.<br><br>La respuesta correcta es:<br><br>" + respuestaCorrecta;
     }
 
     // Actualizar el contador de aciertos y el porcentaje

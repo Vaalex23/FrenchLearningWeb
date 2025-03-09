@@ -1138,5 +1138,389 @@
             "ils/elles": "partaient"
         },
         "traduccion": "partir"
+    },
+    {
+        "infinitivo": "sembler",
+        "conjugaciones": {
+            "je": "semblais",
+            "tu": "semblais",
+            "il/elle/on": "semblait",
+            "nous": "semblions",
+            "vous": "sembliez",
+            "ils/elles": "semblaient"
+        },
+        "traduccion": "parecer"
+    },
+    {
+        "infinitivo": "utiliser",
+        "conjugaciones": {
+            "je": "utilisais",
+            "tu": "utilisais",
+            "il/elle/on": "utilisait",
+            "nous": "utilisions",
+            "vous": "utilisiez",
+            "ils/elles": "utilisaient"
+        },
+        "traduccion": "usar"
+    },
+    {
+        "infinitivo": "occuper",
+        "conjugaciones": {
+            "je": "occupais",
+            "tu": "occupais",
+            "il/elle/on": "occupait",
+            "nous": "occupions",
+            "vous": "occupiez",
+            "ils/elles": "occupaient"
+        },
+        "traduccion": "ocupar"
+    },
+    {
+        "infinitivo": "offrir",
+        "conjugaciones": {
+            "je": "offrais",
+            "tu": "offrais",
+            "il/elle/on": "offrait",
+            "nous": "offrions",
+            "vous": "offriez",
+            "ils/elles": "offraient"
+        },
+        "traduccion": "ofrecer"
+    },
+    {
+        "infinitivo": "changer",
+        "conjugaciones": {
+            "je": "changeais",
+            "tu": "changeais",
+            "il/elle/on": "changeait",
+            "nous": "changions",
+            "vous": "changiez",
+            "ils/elles": "changeaient"
+        },
+        "traduccion": "cambiar"
+    },
+    {
+        "infinitivo": "servir",
+        "conjugaciones": {
+            "je": "servais",
+            "tu": "servais",
+            "il/elle/on": "servait",
+            "nous": "servions",
+            "vous": "serviez",
+            "ils/elles": "servaient"
+        },
+        "traduccion": "servir"
+    },
+    {
+        "infinitivo": "envoyer",
+        "conjugaciones": {
+            "je": "envoyais",
+            "tu": "envoyais",
+            "il/elle/on": "envoyait",
+            "nous": "envoyions",
+            "vous": "envoyiez",
+            "ils/elles": "envoyaient"
+        },
+        "traduccion": "enviar"
+    },
+    {
+        "infinitivo": "gagner",
+        "conjugaciones": {
+            "je": "gagnais",
+            "tu": "gagnais",
+            "il/elle/on": "gagnait",
+            "nous": "gagnions",
+            "vous": "gagniez",
+            "ils/elles": "gagnaient"
+        },
+        "traduccion": "ganar"
+    },
+    {
+        "infinitivo": "empêcher",
+        "conjugaciones": {
+            "je": "empêchais",
+            "tu": "empêchais",
+            "il/elle/on": "empêchait",
+            "nous": "empêchions",
+            "vous": "empêchiez",
+            "ils/elles": "empêchaient"
+        },
+        "traduccion": "impedir"
+    },
+    {
+        "infinitivo": "préparer",
+        "conjugaciones": {
+            "je": "préparais",
+            "tu": "préparais",
+            "il/elle/on": "préparait",
+            "nous": "préparions",
+            "vous": "prépariez",
+            "ils/elles": "préparaient"
+        },
+        "traduccion": "preparar"
+    },
+    {
+        "infinitivo": "ajouter",
+        "conjugaciones": {
+            "je": "ajoutais",
+            "tu": "ajoutais",
+            "il/elle/on": "ajoutait",
+            "nous": "ajoutions",
+            "vous": "ajoutiez",
+            "ils/elles": "ajoutaient"
+        },
+        "traduccion": "añadir"
+    },
+    {
+        "infinitivo": "réfléchir",
+        "conjugaciones": {
+            "je": "réfléchissais",
+            "tu": "réfléchissais",
+            "il/elle/on": "réfléchissait",
+            "nous": "réfléchissions",
+            "vous": "réfléchissiez",
+            "ils/elles": "réfléchissaient"
+        },
+        "traduccion": "reflexionar"
+    },
+    {
+        "infinitivo": "accepter",
+        "conjugaciones": {
+            "je": "acceptais",
+            "tu": "acceptais",
+            "il/elle/on": "acceptait",
+            "nous": "acceptions",
+            "vous": "acceptiez",
+            "ils/elles": "acceptaient"
+        },
+        "traduccion": "aceptar"
+    },
+    {
+        "infinitivo": "refuser",
+        "conjugaciones": {
+            "je": "refusais",
+            "tu": "refusais",
+            "il/elle/on": "refusait",
+            "nous": "refusions",
+            "vous": "refusiez",
+            "ils/elles": "refusaient"
+        },
+        "traduccion": "rechazar"
+    },
+    {
+        "infinitivo": "continuer",
+        "conjugaciones": {
+            "je": "continuais",
+            "tu": "continuais",
+            "il/elle/on": "continuait",
+            "nous": "continuions",
+            "vous": "continuiez",
+            "ils/elles": "continuaient"
+        },
+        "traduccion": "continuar"
+    },
+    {
+        "infinitivo": "proposer",
+        "conjugaciones": {
+            "je": "proposais",
+            "tu": "proposais",
+            "il/elle/on": "proposait",
+            "nous": "proposions",
+            "vous": "proposiez",
+            "ils/elles": "proposaient"
+        },
+        "traduccion": "proponer"
+    },
+    {
+        "infinitivo": "représenter",
+        "conjugaciones": {
+            "je": "représentais",
+            "tu": "représentais",
+            "il/elle/on": "représentait",
+            "nous": "représentions",
+            "vous": "représentiez",
+            "ils/elles": "représentaient"
+        },
+        "traduccion": "representar"
+    },
+    {
+        "infinitivo": "réaliser",
+        "conjugaciones": {
+            "je": "réalisais",
+            "tu": "réalisais",
+            "il/elle/on": "réalisait",
+            "nous": "réalisions",
+            "vous": "réalisiez",
+            "ils/elles": "réalisaient"
+        },
+        "traduccion": "darse cuenta"
+    },
+    {
+        "infinitivo": "supporter",
+        "conjugaciones": {
+            "je": "supportais",
+            "tu": "supportais",
+            "il/elle/on": "supportait",
+            "nous": "supportions",
+            "vous": "supportiez",
+            "ils/elles": "supportaient"
+        },
+        "traduccion": "soportar"
+    },
+    {
+        "infinitivo": "tuer",
+        "conjugaciones": {
+            "je": "tuais",
+            "tu": "tuais",
+            "il/elle/on": "tuait",
+            "nous": "tuions",
+            "vous": "tuiez",
+            "ils/elles": "tuaient"
+        },
+        "traduccion": "matar"
+    },
+    {
+        "infinitivo": "créer",
+        "conjugaciones": {
+            "je": "créais",
+            "tu": "créais",
+            "il/elle/on": "créait",
+            "nous": "créions",
+            "vous": "créiez",
+            "ils/elles": "créaient"
+        },
+        "traduccion": "crear"
+    },
+    {
+        "infinitivo": "décider",
+        "conjugaciones": {
+            "je": "décidais",
+            "tu": "décidais",
+            "il/elle/on": "décidait",
+            "nous": "décidions",
+            "vous": "décidiez",
+            "ils/elles": "décidaient"
+        },
+        "traduccion": "decidir"
+    },
+    {
+        "infinitivo": "résoudre",
+        "conjugaciones": {
+            "je": "résolvais",
+            "tu": "résolvais",
+            "il/elle/on": "résolvait",
+            "nous": "résolvions",
+            "vous": "résolviez",
+            "ils/elles": "résolvaient"
+        },
+        "traduccion": "resolver"
+    },
+    {
+        "infinitivo": "obtenir",
+        "conjugaciones": {
+            "je": "obtenais",
+            "tu": "obtenais",
+            "il/elle/on": "obtenait",
+            "nous": "obtenions",
+            "vous": "obteniez",
+            "ils/elles": "obtenaient"
+        },
+        "traduccion": "obtener"
+    },
+    {
+        "infinitivo": "remplir",
+        "conjugaciones": {
+            "je": "remplissais",
+            "tu": "remplissais",
+            "il/elle/on": "remplissait",
+            "nous": "remplissions",
+            "vous": "remplissiez",
+            "ils/elles": "remplissaient"
+        },
+        "traduccion": "llenar"
+    },
+    {
+        "infinitivo": "fermer",
+        "conjugaciones": {
+            "je": "fermais",
+            "tu": "fermais",
+            "il/elle/on": "fermait",
+            "nous": "fermions",
+            "vous": "fermiez",
+            "ils/elles": "fermaient"
+        },
+        "traduccion": "cerrar"
+    },
+    {
+        "infinitivo": "risquer",
+        "conjugaciones": {
+            "je": "risquais",
+            "tu": "risquais",
+            "il/elle/on": "risquait",
+            "nous": "risquions",
+            "vous": "risquiez",
+            "ils/elles": "risquaient"
+        },
+        "traduccion": "arriesgar"
+    },
+    {
+        "infinitivo": "rentrer (à)",
+        "conjugaciones": {
+            "je": "rentrais",
+            "tu": "rentrais",
+            "il/elle/on": "rentrait",
+            "nous": "rentrions",
+            "vous": "rentriez",
+            "ils/elles": "rentraient"
+        },
+        "traduccion": "volver a"
+    },
+    {
+        "infinitivo": "monter (dans)",
+        "conjugaciones": {
+            "je": "montais",
+            "tu": "montais",
+            "il/elle/on": "montait",
+            "nous": "montions",
+            "vous": "montiez",
+            "ils/elles": "montaient"
+        },
+        "traduccion": "subir o entrar en"
+    },
+    {
+        "infinitivo": "retourner",
+        "conjugaciones": {
+            "je": "retournais",
+            "tu": "retournais",
+            "il/elle/on": "retournait",
+            "nous": "retournions",
+            "vous": "retourniez",
+            "ils/elles": "retournaient"
+        },
+        "traduccion": "volver"
+    },
+    {
+        "infinitivo": "naître",
+        "conjugaciones": {
+            "je": "naissais",
+            "tu": "naissais",
+            "il/elle/on": "naissait",
+            "nous": "naissions",
+            "vous": "naissiez",
+            "ils/elles": "naissaient"
+        },
+        "traduccion": "nacer"
+    },
+    {
+        "infinitivo": "tomber",
+        "conjugaciones": {
+            "je": "tombais",
+            "tu": "tombais",
+            "il/elle/on": "tombait",
+            "nous": "tombions",
+            "vous": "tombiez",
+            "ils/elles": "tombaient"
+        },
+        "traduccion": "caer"
     }
 ]

@@ -112,3 +112,40 @@ body {
     transform: scale(0.9);
     background-color: #025f9b;
 }
+/* Estilos generales para móviles */
+/* Estilos generales para móviles */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+        min-height: auto;
+    }
+
+    #main-container {
+        width: 90%; /* Ajusta el ancho del contenedor principal */
+        max-width: 400px; /* Limita el ancho máximo para móviles */
+        margin-top: 20px; /* Reduce el margen superior */
+        padding: 20px; /* Añade un poco de padding */
+        box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    }
+
+    #card-container {
+        width: 100%; /* Ocupa todo el ancho disponible dentro del main-container */
+        flex-direction: row; /* Mantiene las tarjetas en fila */
+        gap: 10px; /* Reduce el espacio entre las tarjetas */
+        justify-content: center; /* Centra las tarjetas horizontalmente */
+    }
+
+    .card {
+        width: 180px; /* Aumenta el ancho de las tarjetas */
+        height: 180px; /* Aumenta la altura de las tarjetas */
+        font-size: 1.1em; /* Aumenta un poco el tamaño del texto */
+        padding: 15px; /* Aumenta el padding interno */
+        box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+    }
+
+    .card h2 {
+        font-size: 1.3em; /* Aumenta el tamaño del título dentro de las tarjetas */
+        margin: 0; /* Elimina el margen predeterminado del h2 */
+    }
+}

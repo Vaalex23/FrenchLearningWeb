@@ -1174,5 +1174,390 @@
             "ils/elles": "partent"
         },
         "traduccion": "partir"
+    },
+    {
+        "infinitivo": "sembler",
+        "conjugaciones": {
+            "je": "semble",
+            "tu": "sembles",
+            "il/elle/on": "semble",
+            "nous": "semblons",
+            "vous": "semblez",
+            "ils/elles": "semblent"
+        },
+        "traduccion": "parecer"
+    },
+    {
+        "infinitivo": "utiliser",
+        "conjugaciones": {
+            "je": "utilise",
+            "tu": "utilises",
+            "il/elle/on": "utilise",
+            "nous": "utilisons",
+            "vous": "utilisez",
+            "ils/elles": "utilisent"
+        },
+        "traduccion": "usar"
+    },
+    {
+        "infinitivo": "occuper",
+        "conjugaciones": {
+            "je": "occupe",
+            "tu": "occupes",
+            "il/elle/on": "occupe",
+            "nous": "occupons",
+            "vous": "occupez",
+            "ils/elles": "occupent"
+        },
+        "traduccion": "ocupar"
+    },
+    {
+        "infinitivo": "offrir",
+        "conjugaciones": {
+            "je": "offre",
+            "tu": "offres",
+            "il/elle/on": "offre",
+            "nous": "offrons",
+            "vous": "offrez",
+            "ils/elles": "offrent"
+        },
+        "traduccion": "ofrecer"
+    },
+    {
+        "infinitivo": "changer",
+        "conjugaciones": {
+            "je": "change",
+            "tu": "changes",
+            "il/elle/on": "change",
+            "nous": "changeons",
+            "vous": "changez",
+            "ils/elles": "changent"
+        },
+        "traduccion": "cambiar"
+    },
+    {
+        "infinitivo": "servir",
+        "conjugaciones": {
+            "je": "sers",
+            "tu": "sers",
+            "il/elle/on": "sert",
+            "nous": "servons",
+            "vous": "servez",
+            "ils/elles": "servent"
+        },
+        "traduccion": "servir"
+    },
+    {
+        "infinitivo": "envoyer",
+        "conjugaciones": {
+            "je": "envoie",
+            "tu": "envoies",
+            "il/elle/on": "envoie",
+            "nous": "envoyons",
+            "vous": "envoyez",
+            "ils/elles": "envoient"
+        },
+        "traduccion": "enviar"
+    },
+    {
+        "infinitivo": "gagner",
+        "conjugaciones": {
+            "je": "gagne",
+            "tu": "gagnes",
+            "il/elle/on": "gagne",
+            "nous": "gagnons",
+            "vous": "gagnez",
+            "ils/elles": "gagnent"
+        },
+        "traduccion": "ganar"
+    },
+    {
+        "infinitivo": "empêcher",
+        "conjugaciones": {
+            "je": "empêche",
+            "tu": "empêches",
+            "il/elle/on": "empêche",
+            "nous": "empêchons",
+            "vous": "empêchez",
+            "ils/elles": "empêchent"
+        },
+        "traduccion": "impedir"
+    },
+    {
+        "infinitivo": "préparer",
+        "conjugaciones": {
+            "je": "prépare",
+            "tu": "prépares",
+            "il/elle/on": "prépare",
+            "nous": "préparons",
+            "vous": "préparez",
+            "ils/elles": "préparent"
+        },
+        "traduccion": "preparar"
+    },
+    {
+        "infinitivo": "ajouter",
+        "conjugaciones": {
+            "je": "ajoute",
+            "tu": "ajoutes",
+            "il/elle/on": "ajoute",
+            "nous": "ajoutons",
+            "vous": "ajoutez",
+            "ils/elles": "ajoutent"
+        },
+        "traduccion": "añadir"
+    },
+    {
+        "infinitivo": "réfléchir",
+        "conjugaciones": {
+            "je": "réfléchis",
+            "tu": "réfléchis",
+            "il/elle/on": "réfléchit",
+            "nous": "réfléchissons",
+            "vous": "réfléchissez",
+            "ils/elles": "réfléchissent"
+        },
+        "traduccion": "reflexionar"
+    },
+    {
+        "infinitivo": "accepter",
+        "conjugaciones": {
+            "je": "accepte",
+            "tu": "acceptes",
+            "il/elle/on": "accepte",
+            "nous": "acceptons",
+            "vous": "acceptez",
+            "ils/elles": "acceptent"
+        },
+        "traduccion": "aceptar"
+    },
+    {
+        "infinitivo": "refuser",
+        "conjugaciones": {
+            "je": "refuse",
+            "tu": "refuses",
+            "il/elle/on": "refuse",
+            "nous": "refusons",
+            "vous": "refusez",
+            "ils/elles": "refusent"
+        },
+        "traduccion": "rechazar"
+    },
+    {
+        "infinitivo": "continuer",
+        "conjugaciones": {
+            "je": "continue",
+            "tu": "continues",
+            "il/elle/on": "continue",
+            "nous": "continuons",
+            "vous": "continuez",
+            "ils/elles": "continuent"
+        },
+        "traduccion": "continuar"
+    },
+    {
+        "infinitivo": "proposer",
+        "conjugaciones": {
+            "je": "propose",
+            "tu": "proposes",
+            "il/elle/on": "propose",
+            "nous": "proposons",
+            "vous": "proposez",
+            "ils/elles": "proposent"
+        },
+        "traduccion": "proponer"
+    },
+    {
+        "infinitivo": "représenter",
+        "conjugaciones": {
+            "je": "représente",
+            "tu": "représentes",
+            "il/elle/on": "représente",
+            "nous": "représentons",
+            "vous": "représentez",
+            "ils/elles": "représentent"
+        },
+        "traduccion": "representar"
+    },
+    {
+        "infinitivo": "réaliser",
+        "conjugaciones": {
+            "je": "réalise",
+            "tu": "réalises",
+            "il/elle/on": "réalise",
+            "nous": "réalisons",
+            "vous": "réalisez",
+            "ils/elles": "réalisent"
+        },
+        "traduccion": "darse cuenta"
+    },
+    {
+        "infinitivo": "supporter",
+        "conjugaciones": {
+            "je": "supporte",
+            "tu": "supportes",
+            "il/elle/on": "supporte",
+            "nous": "supportons",
+            "vous": "supportez",
+            "ils/elles": "supportent"
+        },
+        "traduccion": "soportar"
+    },
+    {
+        "infinitivo": "tuer",
+        "conjugaciones": {
+            "je": "tue",
+            "tu": "tues",
+            "il/elle/on": "tue",
+            "nous": "tuons",
+            "vous": "tuez",
+            "ils/elles": "tuent"
+        },
+        "traduccion": "matar"
+    },
+    {
+        "infinitivo": "créer",
+        "conjugaciones": {
+            "je": "crée",
+            "tu": "crées",
+            "il/elle/on": "crée",
+            "nous": "créons",
+            "vous": "créez",
+            "ils/elles": "créent"
+        },
+        "traduccion": "crear"
+    },
+    {
+        "infinitivo": "décider",
+        "conjugaciones": {
+            "je": "décide",
+            "tu": "décides",
+            "il/elle/on": "décide",
+            "nous": "décidons",
+            "vous": "décidez",
+            "ils/elles": "décident"
+        },
+        "traduccion": "decidir"
+    },
+    {
+        "infinitivo": "résoudre",
+        "conjugaciones": {
+            "je": "résous",
+            "tu": "résous",
+            "il/elle/on": "résout",
+            "nous": "résolvons",
+            "vous": "résolvez",
+            "ils/elles": "résolvent"
+        },
+        "traduccion": "resolver"
+    },
+    {
+        "infinitivo": "obtenir",
+        "conjugaciones": {
+            "je": "obtiens",
+            "tu": "obtiens",
+            "il/elle/on": "obtient",
+            "nous": "obtenons",
+            "vous": "obtenez",
+            "ils/elles": "obtiennent"
+        },
+        "traduccion": "obtener"
+    },
+    {
+        "infinitivo": "remplir",
+        "conjugaciones": {
+            "je": "remplis",
+            "tu": "remplis",
+            "il/elle/on": "remplit",
+            "nous": "remplissons",
+            "vous": "remplissez",
+            "ils/elles": "remplissent"
+        },
+        "traduccion": "llenar"
+    },
+    {
+        "infinitivo": "fermer",
+        "conjugaciones": {
+            "je": "ferme",
+            "tu": "fermes",
+            "il/elle/on": "ferme",
+            "nous": "fermons",
+            "vous": "fermez",
+            "ils/elles": "ferment"
+        },
+        "traduccion": "cerrar"
+    },
+    {
+        "infinitivo": "risquer",
+        "conjugaciones": {
+            "je": "risque",
+            "tu": "risques",
+            "il/elle/on": "risque",
+            "nous": "risquons",
+            "vous": "risquez",
+            "ils/elles": "risquent"
+        },
+        "traduccion": "arriesgar"
+    },
+    {
+        "infinitivo": "rentrer (à)",
+        "conjugaciones": {
+            "je": "rentre",
+            "tu": "rentres",
+            "il/elle/on": "rentre",
+            "nous": "rentrons",
+            "vous": "rentrez",
+            "ils/elles": "rentrent"
+        },
+        "traduccion": "volver a"
+    },
+    {
+        "infinitivo": "monter (dans)",
+        "conjugaciones": {
+            "je": "monte",
+            "tu": "montes",
+            "il/elle/on": "monte",
+            "nous": "montons",
+            "vous": "montez",
+            "ils/elles": "montent"
+        },
+        "traduccion": "subir o entrar en"
+    },
+    {
+        "infinitivo": "retourner",
+        "conjugaciones": {
+            "je": "retourne",
+            "tu": "retournes",
+            "il/elle/on": "retourne",
+            "nous": "retournons",
+            "vous": "retournez",
+            "ils/elles": "retournent"
+        },
+        "traduccion": "volver"
+    },
+    {
+        "infinitivo": "naître",
+        "conjugaciones": {
+            "je": "nais",
+            "tu": "nais",
+            "il/elle/on": "naît",
+            "nous": "naissons",
+            "vous": "naissez",
+            "ils/elles": "naissent"
+        },
+        "traduccion": "nacer"
+    },
+    {
+        "infinitivo": "tomber",
+        "conjugaciones": {
+            "je": "tombe",
+            "tu": "tombes",
+            "il/elle/on": "tombe",
+            "nous": "tombons",
+            "vous": "tombez",
+            "ils/elles": "tombent"
+        },
+        "traduccion": "caer"
     }
+    
 ]

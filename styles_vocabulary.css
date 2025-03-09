@@ -61,13 +61,13 @@ body {
     align-items: center;
     width: 100%;
     max-width: 600px;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 55px;
+    margin-top: 10px;
 }
 
 /* Contenedor del contador */
 #contador {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 1.2em;
     color: white;
 }
@@ -186,3 +186,4 @@ button:hover {
 #backButton:hover {
     color: #dddddd; /* Color más claro al pasar el cursor */
 }
+

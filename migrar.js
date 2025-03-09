@@ -2,8 +2,12 @@ import {
     initializeApp 
 } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
 import { 
-    getDatabase, ref, get, set, remove
+    getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, onAuthStateChanged, signOut 
+} from "https://www.gstatic.com/firebasejs/10.7.2/firebase-auth.js";
+import { 
+    getDatabase, ref, push, onValue, remove, get, set
 } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js";
+
 // Configuración de Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyBrYA0_hCMoQD7CSH3BXTH4Gdwt_oYsVho",
@@ -17,88 +21,67 @@ const firebaseConfig = {
 };
 
 // Inicializar Firebase
-firebase.initializeApp(firebaseConfig);
-const database = firebase.database();
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const database = getDatabase(app);
+const provider = new GoogleAuthProvider();
 
 // Lista de adverbios en formato JSON
-const adverbs = [
-    { "french": "L'artère", "spanish": "La arteria" },
-    { "french": "L'articulation", "spanish": "La articulación" },
-    { "french": "Le menton", "spanish": "El mentón" },
-    { "french": "La bouche", "spanish": "La boca" },
-    { "french": "Le bras", "spanish": "El brazo" },
-    { "french": "La tête", "spanish": "La cabeza" },
-    { "french": "La hanche", "spanish": "La cadera" },
-    { "french": "Le visage", "spanish": "La cara" },
-    { "french": "Le sourcil", "spanish": "La ceja" },
-    { "french": "Le cerveau", "spanish": "El cerebro" },
-    { "french": "La taille", "spanish": "La cintura" },
-    { "french": "Le coude", "spanish": "El codo" },
-    { "french": "La colonne vertébrale", "spanish": "La columna vertebral" },
-    { "french": "Le cœur", "spanish": "El corazón" },
-    { "french": "Le flanc", "spanish": "El costado" },
-    { "french": "La côte", "spanish": "La costilla" },
-    { "french": "Le crâne", "spanish": "El cráneo" },
-    { "french": "Le cou", "spanish": "El cuello" },
-    { "french": "Le doigt", "spanish": "El dedo" },
-    { "french": "L'annulaire", "spanish": "El dedo anular" },
-    { "french": "Le majeur", "spanish": "El dedo corazón" },
-    { "french": "Le pouce", "spanish": "El dedo gordo" },
-    { "french": "L'index", "spanish": "El dedo índice" },
-    { "french": "Le petit doigt", "spanish": "El dedo meñique" },
-    { "french": "La dent", "spanish": "El diente" },
-    { "french": "La gencive", "spanish": "La encía" },
-    { "french": "Le dos", "spanish": "La espalda" },
-    { "french": "L'épine dorsale", "spanish": "La espina dorsal" },
-    { "french": "L'estomac", "spanish": "El estómago" },
-    { "french": "Le front", "spanish": "La frente" },
-    { "french": "Les organes génitaux", "spanish": "Los genitales" },
-    { "french": "Le foie", "spanish": "El hígado" },
-    { "french": "L'épaule", "spanish": "El hombro" },
-    { "french": "L'os", "spanish": "El hueso" },
-    { "french": "La lèvre", "spanish": "El labio" },
-    { "french": "La mâchoire", "spanish": "La mandíbula" },
-    { "french": "La main", "spanish": "La mano" },
-    { "french": "La joue", "spanish": "La mejilla" },
-    { "french": "Le membre", "spanish": "El miembro" },
-    { "french": "Le poignet", "spanish": "La muñeca" },
-    { "french": "Le muscle", "spanish": "El músculo" },
-    { "french": "La cuisse", "spanish": "El muslo" },
-    { "french": "La fesse", "spanish": "La nalga" },
-    { "french": "Le nez", "spanish": "La nariz" },
-    { "french": "Le nerf", "spanish": "El nervio" },
-    { "french": "La paupière", "spanish": "El párpado" },
-    { "french": "Le pied", "spanish": "El pie" },
-    { "french": "La peau", "spanish": "La piel" },
-    { "french": "La jambe", "spanish": "La pierna" },
-    { "french": "Le poumon", "spanish": "El pulmón" },
-    { "french": "Le poing", "spanish": "El puño" },
-    { "french": "Le rein", "spanish": "El riñón" },
-    { "french": "Le genou", "spanish": "La rodilla" },
-    { "french": "Le sang", "spanish": "La sangre" },
-    { "french": "Le talon", "spanish": "El talón" },
-    { "french": "La cheville", "spanish": "El tobillo" },
-    { "french": "L'ongle", "spanish": "La uña" },
-    { "french": "La veine", "spanish": "La vena" },
-    { "french": "La vertèbre", "spanish": "La vértebra" }
+const list =[
+    { "french": "L'agence de voyages", "spanish": "La agencia de viajes" },
+    { "french": "L'agence d'assurances", "spanish": "La agencia de seguros" },
+    { "french": "L'agence immobilière", "spanish": "La agencia inmobiliaria" },
+    { "french": "Le magasin d'alimentation", "spanish": "La alimentación" },
+    { "french": "Le magasin d'antiquités", "spanish": "Las antigüedades" },
+    { "french": "La banque", "spanish": "El banco" },
+    { "french": "Le bar", "spanish": "El bar" },
+    { "french": "La menuiserie", "spanish": "La carpintería (de muebles)" },
+    { "french": "La charpenterie", "spanish": "La carpintería (de tejado)" },
+    { "french": "Le casino", "spanish": "El casino" },
+    { "french": "L'institut de beauté", "spanish": "El centro de belleza" },
+    { "french": "Le centre d'esthétique", "spanish": "El centro de estética" },
+    { "french": "Le cinéma", "spanish": "El cine" },
+    { "french": "La boîte de nuit", "spanish": "La discoteca" },
+    { "french": "La boutique de corsets", "spanish": "La corsetería" },
+    { "french": "La droguerie", "spanish": "La droguería" },
+    { "french": "Le bureau de tabac", "spanish": "El estanco" },
+    { "french": "La quincaillerie", "spanish": "La ferretería" },
+    { "french": "La fruiterie", "spanish": "La frutería" },
+    { "french": "La station-service", "spanish": "La gasolinera" },
+    { "french": "L'hôpital", "spanish": "El hospital" },
+    { "french": "Le magasin de jouets", "spanish": "La juguetería" },
+    { "french": "Le kiosque", "spanish": "El kiosco" },
+    { "french": "La librairie", "spanish": "La librería" },
+    { "french": "La maroquinerie", "spanish": "La marroquinería" },
+    { "french": "Le musée", "spanish": "El museo" },
+    { "french": "La papeterie", "spanish": "La papelería" },
+    { "french": "Le salon de coiffure", "spanish": "La peluquería" },
+    { "french": "La poissonerie", "spanish": "La pescadería" },
+    { "french": "La parfumerie", "spanish": "La perfumería" },
+    { "french": "La boutique de tailleur", "spanish": "La sastrería" }
 ]
-
+const botonMigrar = document.getElementById("boton");
+botonMigrar.addEventListener("click" , insertAdverbs);
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        
+        insertAdverbs(user.uid);
+    }
+});
 // Función para insertar los adverbios en la base de datos
-function insertAdverbs() {
-    const categoryRef = database.ref('users/WcT569oObqhffyalDvrREkeKoT22/categories/Cuerpo Humano');
-
-    adverbs.forEach((adverb, index) => {
-        const newAdverbRef = categoryRef.push(); // Genera una clave única para cada adverbio
-        newAdverbRef.set({
-            french: adverb.french,
-            spanish: adverb.spanish
+function insertAdverbs(userId) {
+    const categoryRef = ref(database, `users/${userId}/categories/Ciudad`);
+    list.forEach((adjetivo, index) => {
+        const newAdverbRef = push(categoryRef); // Genera una clave única
+        set(newAdverbRef, {
+            french: adjetivo.french,
+            spanish: adjetivo.spanish
         })
         .then(() => {
-            console.log(`Adverbio ${index + 1}: ${adverb.french} añadido correctamente.`);
+            console.log(`Adverbio ${index + 1}: ${adjetivo.french} añadido correctamente.`);
         })
         .catch((error) => {
-            console.error(`Error al añadir ${adverb.french}:`, error);
+            console.error(`Error al añadir ${adjetivo.french}:`, error);
         });
     });
 }
-insertAdverbs();

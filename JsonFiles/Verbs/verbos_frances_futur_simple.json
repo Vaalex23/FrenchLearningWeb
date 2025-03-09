@@ -1174,5 +1174,389 @@
             "ils/elles": "partiront"
         },
         "traduccion": "partir"
+    },
+    {
+        "infinitivo": "sembler",
+        "conjugaciones": {
+            "je": "semblerai",
+            "tu": "sembleras",
+            "il/elle/on": "semblera",
+            "nous": "semblerons",
+            "vous": "semblerez",
+            "ils/elles": "sembleront"
+        },
+        "traduccion": "parecer"
+    },
+    {
+        "infinitivo": "utiliser",
+        "conjugaciones": {
+            "je": "utiliserai",
+            "tu": "utiliseras",
+            "il/elle/on": "utilisera",
+            "nous": "utiliserons",
+            "vous": "utiliserez",
+            "ils/elles": "utiliseront"
+        },
+        "traduccion": "usar"
+    },
+    {
+        "infinitivo": "occuper",
+        "conjugaciones": {
+            "je": "occuperai",
+            "tu": "occuperas",
+            "il/elle/on": "occupera",
+            "nous": "occuperons",
+            "vous": "occuperez",
+            "ils/elles": "occuperont"
+        },
+        "traduccion": "ocupar"
+    },
+    {
+        "infinitivo": "offrir",
+        "conjugaciones": {
+            "je": "offrirai",
+            "tu": "offriras",
+            "il/elle/on": "offrira",
+            "nous": "offrirons",
+            "vous": "offrirez",
+            "ils/elles": "offriront"
+        },
+        "traduccion": "ofrecer"
+    },
+    {
+        "infinitivo": "changer",
+        "conjugaciones": {
+            "je": "changerai",
+            "tu": "changeras",
+            "il/elle/on": "changera",
+            "nous": "changerons",
+            "vous": "changerez",
+            "ils/elles": "changeront"
+        },
+        "traduccion": "cambiar"
+    },
+    {
+        "infinitivo": "servir",
+        "conjugaciones": {
+            "je": "servirai",
+            "tu": "serviras",
+            "il/elle/on": "servira",
+            "nous": "servirons",
+            "vous": "servirez",
+            "ils/elles": "serviront"
+        },
+        "traduccion": "servir"
+    },
+    {
+        "infinitivo": "envoyer",
+        "conjugaciones": {
+            "je": "enverrai",
+            "tu": "enverras",
+            "il/elle/on": "enverra",
+            "nous": "enverrons",
+            "vous": "enverrez",
+            "ils/elles": "enverront"
+        },
+        "traduccion": "enviar"
+    },
+    {
+        "infinitivo": "gagner",
+        "conjugaciones": {
+            "je": "gagnerai",
+            "tu": "gagneras",
+            "il/elle/on": "gagnera",
+            "nous": "gagnerons",
+            "vous": "gagnerez",
+            "ils/elles": "gagneront"
+        },
+        "traduccion": "ganar"
+    },
+    {
+        "infinitivo": "empêcher",
+        "conjugaciones": {
+            "je": "empêcherai",
+            "tu": "empêcheras",
+            "il/elle/on": "empêchera",
+            "nous": "empêcherons",
+            "vous": "empêcherez",
+            "ils/elles": "empêcheront"
+        },
+        "traduccion": "impedir"
+    },
+    {
+        "infinitivo": "préparer",
+        "conjugaciones": {
+            "je": "préparerai",
+            "tu": "prépareras",
+            "il/elle/on": "préparera",
+            "nous": "préparerons",
+            "vous": "préparerez",
+            "ils/elles": "prépareront"
+        },
+        "traduccion": "preparar"
+    },
+    {
+        "infinitivo": "ajouter",
+        "conjugaciones": {
+            "je": "ajouterai",
+            "tu": "ajouteras",
+            "il/elle/on": "ajoutera",
+            "nous": "ajouterons",
+            "vous": "ajouterez",
+            "ils/elles": "ajouteront"
+        },
+        "traduccion": "añadir"
+    },
+    {
+        "infinitivo": "réfléchir",
+        "conjugaciones": {
+            "je": "réfléchirai",
+            "tu": "réfléchiras",
+            "il/elle/on": "réfléchira",
+            "nous": "réfléchirons",
+            "vous": "réfléchirez",
+            "ils/elles": "réfléchiront"
+        },
+        "traduccion": "reflexionar"
+    },
+    {
+        "infinitivo": "accepter",
+        "conjugaciones": {
+            "je": "accepterai",
+            "tu": "accepteras",
+            "il/elle/on": "acceptera",
+            "nous": "accepterons",
+            "vous": "accepterez",
+            "ils/elles": "accepteront"
+        },
+        "traduccion": "aceptar"
+    },
+    {
+        "infinitivo": "refuser",
+        "conjugaciones": {
+            "je": "refuserai",
+            "tu": "refuseras",
+            "il/elle/on": "refusera",
+            "nous": "refuserons",
+            "vous": "refuserez",
+            "ils/elles": "refuseront"
+        },
+        "traduccion": "rechazar"
+    },
+    {
+        "infinitivo": "continuer",
+        "conjugaciones": {
+            "je": "continuerai",
+            "tu": "continueras",
+            "il/elle/on": "continuera",
+            "nous": "continuerons",
+            "vous": "continuerez",
+            "ils/elles": "continueront"
+        },
+        "traduccion": "continuar"
+    },
+    {
+        "infinitivo": "proposer",
+        "conjugaciones": {
+            "je": "proposerai",
+            "tu": "proposeras",
+            "il/elle/on": "proposera",
+            "nous": "proposerons",
+            "vous": "proposerez",
+            "ils/elles": "proposeront"
+        },
+        "traduccion": "proponer"
+    },
+    {
+        "infinitivo": "représenter",
+        "conjugaciones": {
+            "je": "représenterai",
+            "tu": "représenteras",
+            "il/elle/on": "représentera",
+            "nous": "représenterons",
+            "vous": "représenterez",
+            "ils/elles": "représenteront"
+        },
+        "traduccion": "representar"
+    },
+    {
+        "infinitivo": "réaliser",
+        "conjugaciones": {
+            "je": "réaliserai",
+            "tu": "réaliseras",
+            "il/elle/on": "réalisera",
+            "nous": "réaliserons",
+            "vous": "réaliserez",
+            "ils/elles": "réaliseront"
+        },
+        "traduccion": "darse cuenta"
+    },
+    {
+        "infinitivo": "supporter",
+        "conjugaciones": {
+            "je": "supporterai",
+            "tu": "supporteras",
+            "il/elle/on": "supportera",
+            "nous": "supporterons",
+            "vous": "supporterez",
+            "ils/elles": "supporteront"
+        },
+        "traduccion": "soportar"
+    },
+    {
+        "infinitivo": "tuer",
+        "conjugaciones": {
+            "je": "tuerai",
+            "tu": "tueras",
+            "il/elle/on": "tuera",
+            "nous": "tuerons",
+            "vous": "tuerez",
+            "ils/elles": "tueront"
+        },
+        "traduccion": "matar"
+    },
+    {
+        "infinitivo": "créer",
+        "conjugaciones": {
+            "je": "créerai",
+            "tu": "créeras",
+            "il/elle/on": "créera",
+            "nous": "créerons",
+            "vous": "créerez",
+            "ils/elles": "créeront"
+        },
+        "traduccion": "crear"
+    },
+    {
+        "infinitivo": "décider",
+        "conjugaciones": {
+            "je": "déciderai",
+            "tu": "décideras",
+            "il/elle/on": "décidera",
+            "nous": "déciderons",
+            "vous": "déciderez",
+            "ils/elles": "décideront"
+        },
+        "traduccion": "decidir"
+    },
+    {
+        "infinitivo": "résoudre",
+        "conjugaciones": {
+            "je": "résoudrai",
+            "tu": "résoudras",
+            "il/elle/on": "résoudra",
+            "nous": "résoudrons",
+            "vous": "résoudrez",
+            "ils/elles": "résoudront"
+        },
+        "traduccion": "resolver"
+    },
+    {
+        "infinitivo": "obtenir",
+        "conjugaciones": {
+            "je": "obtiendrai",
+            "tu": "obtiendras",
+            "il/elle/on": "obtiendra",
+            "nous": "obtiendrons",
+            "vous": "obtiendrez",
+            "ils/elles": "obtiendront"
+        },
+        "traduccion": "obtener"
+    },
+    {
+        "infinitivo": "remplir",
+        "conjugaciones": {
+            "je": "remplirai",
+            "tu": "rempliras",
+            "il/elle/on": "remplira",
+            "nous": "remplirons",
+            "vous": "remplirez",
+            "ils/elles": "rempliront"
+        },
+        "traduccion": "llenar"
+    },
+    {
+        "infinitivo": "fermer",
+        "conjugaciones": {
+            "je": "fermerai",
+            "tu": "fermeras",
+            "il/elle/on": "fermera",
+            "nous": "fermerons",
+            "vous": "fermerez",
+            "ils/elles": "fermeront"
+        },
+        "traduccion": "cerrar"
+    },
+    {
+        "infinitivo": "risquer",
+        "conjugaciones": {
+            "je": "risquerai",
+            "tu": "risqueras",
+            "il/elle/on": "risquera",
+            "nous": "risquerons",
+            "vous": "risquerez",
+            "ils/elles": "risqueront"
+        },
+        "traduccion": "arriesgar"
+    },
+    {
+        "infinitivo": "rentrer (à)",
+        "conjugaciones": {
+            "je": "rentrerai",
+            "tu": "rentreras",
+            "il/elle/on": "rentrera",
+            "nous": "rentrerons",
+            "vous": "rentrerez",
+            "ils/elles": "rentreront"
+        },
+        "traduccion": "volver a"
+    },
+    {
+        "infinitivo": "monter (dans)",
+        "conjugaciones": {
+            "je": "monterai",
+            "tu": "monteras",
+            "il/elle/on": "montera",
+            "nous": "monterons",
+            "vous": "monterez",
+            "ils/elles": "monteront"
+        },
+        "traduccion": "subir o entrar en"
+    },
+    {
+        "infinitivo": "retourner",
+        "conjugaciones": {
+            "je": "retournerai",
+            "tu": "retourneras",
+            "il/elle/on": "retournera",
+            "nous": "retournerons",
+            "vous": "retournerez",
+            "ils/elles": "retourneront"
+        },
+        "traduccion": "volver"
+    },
+    {
+        "infinitivo": "naître",
+        "conjugaciones": {
+            "je": "naîtrai",
+            "tu": "naîtras",
+            "il/elle/on": "naîtra",
+            "nous": "naîtrons",
+            "vous": "naîtrez",
+            "ils/elles": "naîtront"
+        },
+        "traduccion": "nacer"
+    },
+    {
+        "infinitivo": "tomber",
+        "conjugaciones": {
+            "je": "tomberai",
+            "tu": "tomberas",
+            "il/elle/on": "tombera",
+            "nous": "tomberons",
+            "vous": "tomberez",
+            "ils/elles": "tomberont"
+        },
+        "traduccion": "caer"
     }
 ]

@@ -465,6 +465,8 @@ function updateViewedCounter() {
         `${viewedCards.size}/${currentCards.length}${currentCategory ? ` (${currentCategory})` : ''}`;
 }
 
+// Variables de estado adicionales
+let cardHistory = []; // Almacena el historial de cartas mostradas
 
 // Función showCard actualizada
 function showCard(index) {
@@ -480,17 +482,18 @@ function showCard(index) {
     }
 
     const cardData = currentCards[index];
-    
+
     // Actualizar contenido de la tarjeta
     const [frontText, backText] = isInverted ? 
         [cardData.spanish, cardData.french] : 
         [cardData.french, cardData.spanish];
-    
+
     document.getElementById("card-front-text").textContent = frontText;
     document.getElementById("card-back-text").textContent = backText;
 
-    // Marcar como vista
+    // Marcar como vista y agregar al historial
     viewedCards.add(cardData.id);
+    cardHistory.push(cardData.id); // Agregar al historial
     updateViewedCounter();
 }
 
@@ -532,8 +535,17 @@ function getNextCard() {
     }
 
     setTimeout(() => {
-        if (isShuffled) {
-            const remainingCards = currentCards.filter(card => !viewedCards.has(card.id));
+        const remainingCards = currentCards.filter(card => !viewedCards.has(card.id));
+        
+        if(remainingCards.length === 0){
+            handleAllCardsViewed();
+        }else if(isShuffled){
+            const randomCard = remainingCards[Math.floor(Math.random() * remainingCards.length)];
+                cardIndex = currentCards.findIndex(c => c.id === randomCard.id);
+        }else{
+            cardIndex = (cardIndex + 1) % currentCards.length;
+        }
+        /*if (isShuffled) {
             if (remainingCards.length === 0) {
                 handleAllCardsViewed();
             } else {
@@ -542,30 +554,32 @@ function getNextCard() {
             }
         } else {
             cardIndex = (cardIndex + 1) % currentCards.length;
-        }
-        
+        }*/
+
         showCard(cardIndex);
     }, 250);
 }
 
 // Función para obtener la carta anterior (actualizada)
 function getPreviousCard() {
-    const currentCards = currentCategory ? filteredCards : cardArray;
+    if (cardHistory.length <= 1) return; // No hay cartas anteriores
 
-    if (isShuffled) {
-        const remainingCards = currentCards.filter(card => !viewedCards.has(card.id));
-        if (remainingCards.length > 0) {
-            const randomCard = remainingCards[Math.floor(Math.random() * remainingCards.length)];
-            cardIndex = currentCards.findIndex(c => c.id === randomCard.id);
-        }
-    } else {
-        cardIndex = (cardIndex - 1 + currentCards.length) % currentCards.length;
+    // Eliminar la carta actual del historial
+    cardHistory.pop();
+
+    // Obtener la carta anterior del historial
+    const previousCardId = cardHistory[cardHistory.length - 1];
+    const currentCards = currentCategory ? filteredCards : cardArray;
+    const previousCardIndex = currentCards.findIndex(c => c.id === previousCardId);
+
+    if (previousCardIndex !== -1) {
+        cardIndex = previousCardIndex;
+        showCard(cardIndex);
     }
-    
-    showCard(cardIndex);
 }
 function invertText(){
     isInverted = !isInverted;
+    getNextCard();
 }
 // Eventos para los botones de siguiente, anterior, e inversión
 nextButton.addEventListener("click", getNextCard);
@@ -577,12 +591,13 @@ shuffleButton.addEventListener("click", () => {
     shuffleButton.textContent = isShuffled ? "Modo Normal" : "Modo Aleatorio";
     viewedCards.clear();
     
+
     if (isShuffled) {
         cardIndex = Math.floor(Math.random() * filteredCards.length);
     } else {
         cardIndex = 0;
     }
-    
+
     showCard(cardIndex);
 });
 
@@ -590,4 +605,20 @@ shuffleButton.addEventListener("click", () => {
 document.getElementById("card").addEventListener("click", () => {
     document.querySelector(".card-inner").classList.toggle("flipped");
     
+});
+// Configurar el evento de teclado para activar "verificar" o "nextVerb" con "Enter"
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        console.log("hola estoh aqui");
+        const flipCard = document.querySelector(".card-inner");
+        if (flipCard.classList.contains("flipped")) {
+            console.log("siguiente carta");
+           getNextCard();
+        } else {
+            console.log("voltea");
+
+            document.querySelector(".card-inner").classList.toggle("flipped");
+           
+        }
+    }
 });
